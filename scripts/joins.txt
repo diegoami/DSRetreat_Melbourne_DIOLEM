@@ -1,0 +1,17 @@
+JOIN Conditions
+The main table is the tbl_applications, please indicate the join conditions for all other tables
+
+externals 1:1
+main LEFT JOIN ON main.id=externals.id
+
+roles 1:n
+main LEFT JOIN ON main.id=roles.id
+
+persons_fix n:1
+roles LEFT JOIN ON roles.person_id = persons.person_id
+
+person_var 
+main LEFT JOIN ON main.date = person_var.date
+AND
+roles LEFT JOIN ON roles.person_id = person_var.person_id
+
