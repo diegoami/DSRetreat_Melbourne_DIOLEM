@@ -2,14 +2,6 @@ import numpy as np
 import pandas as pd
 import os.path
 
-
-
-
-
-
-
-
-
 def main():
     #column renaming dictionary
     ren = {'Grant.Application.ID': 'id',

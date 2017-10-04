@@ -31,6 +31,9 @@ def replace_grant_values(apps):
     apps['grant_value'] = apps['grant_value'].str.strip()
     apps['grant_value'].replace(rep, inplace=True)
 
+def fill_nans(apps):
+    
+    pass
 
 def process(dataset = 'train',):
     base = '../data/'
