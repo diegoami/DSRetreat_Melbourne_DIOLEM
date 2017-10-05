@@ -65,7 +65,7 @@ def process(input_type = 'train'):
         raise(ValueError, 'lines with missing Person IDs after removing externals')
 
     # we can now continue with the person table
-    # we make all categorial variables to strings
+    # we make all categorical variables to strings
     # numerics are first converted to integers, otherwise we will have .0 at the end
     df_p[['Person.ID']] = df_p[['Person.ID']].astype(int).astype(str)
     df_p[['Dept.No.','Faculty.No.']] = df_p[['Dept.No.','Faculty.No.']].astype(str)
@@ -101,7 +101,7 @@ def process(input_type = 'train'):
     df_p_dyn.to_csv(  '../data/'+ input_type + '_person_dyn_raw.csv',index = False)
 
     #we extract the roles and save them to a csv file
-    roles = df_p.loc[:, ['id', 'Person.ID', 'Roles']]
+    roles = df_p.loc[:, ['id', 'Person.ID', 'Role']]
 
     roles.to_csv(  '../data/'+ input_type + '_roles_raw.csv',index = False)
     print('processed split_person on {}'.format(input_type))
