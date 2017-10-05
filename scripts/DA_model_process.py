@@ -17,6 +17,8 @@ def extract(df):
         df[cat_column] = df[cat_column].astype('category')
         df[cat_column] = df[cat_column].cat.codes
     df = df.drop('date', axis=1)
+    df.fillna(0, inplace=True)
+
     relevant_columns = [x for x in df.columns if x not in ['id', 'granted']]
     X = df[relevant_columns]
     y = df[['granted']]
@@ -59,8 +61,8 @@ def test_with_classif(classifier, df_train, df_test):
 
 if __name__ == "__main__":
 
-    df_train = pd.read_csv('../data/train_apps_rfcd_seo_mod.csv', parse_dates=True)
-    df_test = pd.read_csv('../data/test_apps_rfcd_seo_mod.csv', parse_dates=True)
+    df_train = pd.read_csv('../data/train_ml.csv', parse_dates=True)
+    df_test = pd.read_csv('../data/test_ml.csv', parse_dates=True)
 
     test_with_classif(get_regressor_xgboost2(), df_train, df_test)
 
