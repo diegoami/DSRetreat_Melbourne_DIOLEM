@@ -4,6 +4,13 @@ from scripts.o_create_apps_raw import process as apps_process
 from scripts.o_process_apps import process as apps_mod_process
 from scripts.split_persons import process as split_person_process
 from scripts.e_mod_persons_dyn import process as person_dyn_process
+from scripts.DA_convert_person_static import convert_static_person_to_mod as convert_static_person_to_mod
+from scripts.DA_Melt_Rfcd import generate_rfcd_files_mod  as rfcd_mod_process
+from scripts.DA_Melt_Rfcd import generate_rfcd_files_raw  as rfcd_raw_process
+from scripts.DA_Melt_SEO import generate_seo_files_mod  as seo_mod_process
+from scripts.DA_Melt_SEO import generate_seo_files_raw  as seo_raw_process
+
+
 
 
 def main():
@@ -27,12 +34,25 @@ def main():
     person_dyn_process(trainf)
     person_dyn_process(testf, merge_with=trainf)
 
-    #Diego ToDo:
-    #add person_static_raw => person_static_mod
+    # person_static_raw => person_static_mod
+    convert_static_person_to_mod(trainf)
+    convert_static_person_to_mod(testf)
+
+    # generation of RFCD_raw
+    rfcd_raw_process(trainf)
+    rfcd_raw_process(testf)
+
+    # add generation of RFCD_mod
+    rfcd_mod_process(trainf)
+    rfcd_mod_process(testf)
+
     #add generation of SEO_raw
+    seo_raw_process(trainf)
+    seo_raw_process(testf)
+
     #add generation of SEO_mod
-    #add generation of RFCD_raw
-    #add generation of RFCD_mod
+    seo_mod_process(trainf)
+    seo_mod_process(testf)
 
     print('Finished generating all raw and mod tables !!!')
 

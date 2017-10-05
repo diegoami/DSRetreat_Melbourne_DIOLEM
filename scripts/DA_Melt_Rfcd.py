@@ -1,7 +1,7 @@
 # Generate the RAW Files
 
 import pandas as pd
-df = pd.read_csv('../data/unimelb_training.csv')
+
 
 def get_melted(rfcds, id='Grant.Application.ID'):
     rcd1 = rfcds.melt(id_vars=[id, 'RFCD.Code.1'], value_vars=['RFCD.Percentage.1']).rename(
@@ -16,13 +16,10 @@ def get_melted(rfcds, id='Grant.Application.ID'):
     rdmelted = rdcn.loc[rdcn['value'] > 0].reset_index(drop=True)
     return rdmelted
 
-
-rfcds = pd.concat([df.iloc[:, 0], df.iloc[:, 6:16]], axis=1)
-rdmelted = get_melted(rfcds)
-rdmelted.to_csv('../data/rtcd_raw.csv')
-
-df_train = pd.read_csv('../data/train.csv')
-df_test = pd.read_csv('../data/test.csv')
+def generate_by_substring(df, n):
+    df['RFCD.Code'] = df[['RFCD.Code']].applymap(str)
+    mdgs = df.groupby(['id', df['RFCD.Code'].str[:n]]).sum()
+    return mdgs
 
 
 def post_process(df):
@@ -34,27 +31,38 @@ def post_process(df):
     mdf = mdf.set_index(['id', 'RFCD.Code']).sort_index()
     return mdf
 
+def generate_rfcd_files_raw(input_type):
+    df = pd.read_csv('../data/'+input_type+'.csv')
+    mdf = post_process(df)
+    mdf.to_csv('../data/'+input_type+'_rfcd_raw.csv')
+
+def generate_rfcd_files_mod(input_type):
+
+    mdf = pd.read_csv('../data/'+input_type+'_rfcd_raw.csv', index_col=None)
+    mdgs = generate_by_substring(mdf, 2)
+    mdgs.to_csv('../data/'+input_type+'_rfcd_mod.csv')
+
+
+if __name__ == '__main__':
+    generate_rfcd_files_raw('train')
+    generate_rfcd_files_mod('train')
+
+    generate_rfcd_files_raw('test')
+    generate_rfcd_files_mod('test')
+
+"""df_train = pd.read_csv('../data/train.csv')
 mdf_train = post_process(df_train)
 mdf_train.to_csv('../data/train_rfcd_raw.csv')
-
-mdf_test = post_process(df_train)
-mdf_test.to_csv('../data/test_rfcd_raw.csv')
-
-
 mdf_train = pd.read_csv('../data/train_rfcd_raw.csv', index_col=None)
-mdf_test = pd.read_csv('../data/test_rfcd_raw.csv', index_col=None)
-
-
-def generate_by_substring(df, n):
-    df['RFCD.Code'] = df[['RFCD.Code']].applymap(str)
-    mdgs = df.groupby(['id', df['RFCD.Code'].str[:n]]).sum()
-    return mdgs
-
-
 mdgs_train = generate_by_substring(mdf_train, 2)
 mdgs_train.to_csv('../data/train_rfcd_mod.csv')
+
+df_test = pd.read_csv('../data/test.csv')
+mdf_test = post_process(df_train)
+mdf_test.to_csv('../data/test_rfcd_raw.csv')
+mdf_test = pd.read_csv('../data/test_rfcd_raw.csv', index_col=None)
 mdgs_test = generate_by_substring(mdf_test, 2)
-mdgs_test.to_csv('../data/test_rfcd_mod.csv')
+mdgs_test.to_csv('../data/test_rfcd_mod.csv')"""
 
 
 # In[ ]:
