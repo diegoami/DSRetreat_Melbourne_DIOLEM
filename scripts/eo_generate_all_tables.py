@@ -3,21 +3,29 @@ import os.path
 from scripts.o_create_apps_raw import process as apps_process
 from scripts.o_process_apps import process as apps_mod_process
 from scripts.split_persons import process as split_person_process
+from scripts.e_mod_persons_dyn import process as person_dyn_process
 
 
 def main():
     base = '../data/'
-    trainf = 'train.csv'
-    testf  = 'test.csv'
+    trainf = 'train'
+    testf  = 'test'
 
-    apps_process('train')
-    apps_process('test', createDist=False)
+    #generates _apps_raw
+    apps_process(trainf)
+    apps_process(testf, createDist=False)
+    # generates _apps_mod
+    apps_mod_process(trainf)
+    apps_mod_process(testf)
 
-    apps_mod_process('train')
-    apps_mod_process('test')
+    # generated _externals_raw, roles_raw persons static_raw person dynamic_raw
+    split_person_process(trainf)
+    split_person_process(testf)
 
-    split_person_process('train')
+    person_dyn_process(trainf)
+    person_dyn_process(testf, merge_with=trainf)
 
+    
 
 
 if __name__ == '__main__':
