@@ -33,8 +33,10 @@ def add_seo_code(main_table, seo):
     # main_table.set_index('id', inplace=True)
     return main_table
 
-def add_externals(ext,main_table):
-    return main_table.merge(ext, on='id', how='left')
+def add_externals(main_table, ext):
+    main_table = main_table.merge(ext, on='id', how='left')
+    main_table.fillna(0, inplace=True)
+    return main_table
 
 
 def main(dataset='train'):
