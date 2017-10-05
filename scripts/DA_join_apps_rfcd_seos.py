@@ -1,6 +1,8 @@
 import pandas as pd
 import os.path
 
+#TODO
+#smarter way to deal with external
 
 def add_rfcd_code(main_table, rfcd):
     # Prepare rfcd and SEO tables for merger
@@ -24,12 +26,15 @@ def add_seo_code(main_table, seo):
         index='id', columns='SEO.Code', values='SEO.Percentage').fillna(0)
     seo_pivoted.rename(columns=lambda x: "SEO_"+str(x), inplace=True)
     seo_pivoted.reset_index(drop=False, inplace=True)
-    main_table = main_table.merge(seo_pivoted, how='left', on='id').fillna(0)
 
+    main_table = main_table.merge(seo_pivoted, how='left', on='id').fillna(0)
     main_table['SEO_OTHER'] = 100-main_table[
         [x for x in main_table.columns if x.startswith('SEO') ]].sum(axis=1)
     # main_table.set_index('id', inplace=True)
     return main_table
+
+def add_externals(ext,main_table):
+    return main_table.merge(ext, on='id', how='left')
 
 
 def main(dataset='train'):
@@ -38,19 +43,25 @@ def main(dataset='train'):
     seof = dataset + '_seo_mod.csv'
     rfcdf = dataset + '_rfcd_mod.csv'
     appsf = dataset + '_apps_mod.csv'
+    extf   = dataset + '_externals_raw.csv'
 
     writefile = dataset+'_ml.csv'
 
     # load tables
     seo = pd.read_csv(os.path.join(base, seof))
     rfcd = pd.read_csv(os.path.join(base, rfcdf))
+    ext = pd.read_csv(os.path.join(base, extf))
+
     main_table = pd.read_csv(os.path.join(base, appsf))
+
 
     #add rfcd
     main_table = add_rfcd_code(main_table, rfcd)
-
     #add seo
     main_table = add_seo_code(main_table, seo)
+
+    #add ext
+    main_table = add_externals(main_table, ext)
 
     # write to file
     main_table.to_csv(os.path.join(base,writefile))
@@ -59,3 +70,4 @@ def main(dataset='train'):
 
 if __name__ == '__main__':
     main()
+    # main(dataset='test')
