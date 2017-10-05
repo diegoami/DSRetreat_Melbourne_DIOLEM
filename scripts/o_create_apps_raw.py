@@ -31,11 +31,8 @@ def replace_grant_values(apps):
     apps['grant_value'] = apps['grant_value'].str.strip()
     apps['grant_value'].replace(rep, inplace=True)
 
-def fill_nans(apps):
-    
-    pass
 
-def process(dataset = 'train',):
+def process(dataset = 'train'):
     base = '../data/'
     readfile = dataset+'.csv'
     writefile = dataset + '_apps_raw.csv'
@@ -43,6 +40,7 @@ def process(dataset = 'train',):
     df = pd.read_csv(os.path.join(base, readfile), low_memory=False)
     apps = create_apps(df)
     apps.to_csv(os.path.join(base, writefile), index=False)
+    print('File {} generated.'.format(writefile))
 
 
 if __name__ == '__main__':
