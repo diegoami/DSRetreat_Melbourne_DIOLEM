@@ -9,7 +9,7 @@ from scripts.DA_Melt_Rfcd import generate_rfcd_files_mod  as rfcd_mod_process
 from scripts.DA_Melt_Rfcd import generate_rfcd_files_raw  as rfcd_raw_process
 from scripts.DA_Melt_SEO import generate_seo_files_mod  as seo_mod_process
 from scripts.DA_Melt_SEO import generate_seo_files_raw  as seo_raw_process
-
+from scripts.e_mod_persons_dyn import process  as role_mod_process
 
 
 
@@ -29,6 +29,10 @@ def main():
     # generated _externals_raw, roles_raw persons static_raw person dynamic_raw
     split_person_process(trainf)
     split_person_process(testf)
+
+    #role mod
+    role_mod_process(trainf)
+    role_mod_process(testf)
 
     # person dynamic_mod
     person_dyn_process(trainf)
@@ -55,6 +59,7 @@ def main():
     seo_mod_process(testf)
 
     print('Finished generating all raw and mod tables !!!')
+
 
 if __name__ == '__main__':
     main()
