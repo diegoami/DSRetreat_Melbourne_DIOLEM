@@ -11,24 +11,45 @@ sys.path.append('..')
 import pandas as pd
 
 
-def extract(df):
+def extract(df_train, df_test):
     cat_columns = ['sponsor', 'grant_category']
     for cat_column in cat_columns:
-        df[cat_column] = df[cat_column].astype('category')
-        df[cat_column] = df[cat_column].cat.codes
-    df = df.drop('date', axis=1)
-    df.fillna(0, inplace=True)
+        df_train[cat_column] = df_train[cat_column].astype('category')
+        df_train[cat_column] = df_train[cat_column].cat.codes
+        df_test[cat_column] = df_test[cat_column].astype('category')
+        df_test[cat_column] = df_test[cat_column].cat.codes
 
-    relevant_columns = [x for x in df.columns if x not in ['id', 'granted']]
-    X = df[relevant_columns]
-    y = df[['granted']]
-    return X, y
+
+    df_train = df_train.drop('date', axis=1)
+    df_test = df_test.drop('date', axis=1)
+
+    df_train.fillna(0, inplace=True)
+    df_test.fillna(0, inplace=True)
+
+    relevant_columns = [x for x in set(list(df_train.columns)+list(df_test.columns)) if x not in ['id', 'granted']]
+    print(relevant_columns)
+    missing_train_columns = [x for x in relevant_columns if x not in df_train ]
+
+
+    missing_test_columns = [x for x in relevant_columns if x not in df_test ]
+    print(missing_test_columns)
+
+    df_train.reindex(columns=list(df_train.columns)+missing_train_columns)
+
+    df_test = df_test.reindex(columns=(list(df_test.columns) + missing_test_columns))
+
+    X_train = df_train[relevant_columns]
+    y_train = df_train['granted']
+    X_test = df_test[relevant_columns]
+    y_test = df_test['granted']
+
+    return X_train, y_train, X_test, y_test
 
 def get_random_classifier():
-    return RandomForestClassifier(n_estimators=2000)
+    return RandomForestClassifier(n_estimators=200)
 
 def get_random_regressor():
-    return RandomForestRegressor(n_estimators=2000)
+    return RandomForestRegressor(n_estimators=200)
 
 
 def get_regressor_xgboost():
@@ -48,8 +69,7 @@ def print_best_parameters(classifier):
 
 def test_with_classif(classifier, df_train, df_test):
     print(classifier)
-    X_train, y_train = extract(df_train)
-    X_test, y_test = extract(df_test)
+    X_train, y_train, X_test, y_test  = extract(df_train, df_test)
 
     classifier.fit(X=X_train, y=y_train)
     y_pred = classifier.predict(X_test)
@@ -67,3 +87,4 @@ if __name__ == "__main__":
     test_with_classif(get_regressor_xgboost2(), df_train, df_test)
 
     test_with_classif(get_regressor_xgboost(),df_train, df_test)
+    test_with_classif(get_random_regressor(),df_train, df_test)
