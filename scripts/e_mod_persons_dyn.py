@@ -64,4 +64,4 @@ df_p_dyn_mod = pd.merge(df_p_dyn_mod.loc[:, ~df_p_dyn_mod.columns.isin(apply_max
                         tmp2, how='outer', on=['Person.ID','date'])
 
 # we save the output as a csv
-df_p_dyn_mod.to_csv('../data/' + input_type + '_person_dyn_mod.csv')
+df_p_dyn_mod.to_csv('../data/' + input_type + '_person_dyn_mod.csv',index = False)
