@@ -1,2499 +1,2499 @@
-,Person.ID,Year.of.Birth,Country.of.Birth,Home.Language
-0,357,1960.0,Australia,English
-1,407,1955.0,Australia,English
-2,417,1940.0,Australia,English
-3,462,1960.0,Australia,English
-4,522,1965.0,Australia,English
-5,537,1965.0,Australia,English
-6,547,1960.0,Australia,English
-7,557,1960.0,Australia,English
-8,577,1965.0,Unknown,Unknown
-9,592,1955.0,Australia,English
-10,612,1960.0,Australia,English
-11,647,1965.0,Australia,English
-12,712,1970.0,Great Britain,English
-13,752,1960.0,Australia,English
-14,837,1965.0,Australia,English
-15,842,1975.0,Australia,English
-16,857,1965.0,Australia,English
-17,907,1955.0,Western Europe,Other
-18,917,1960.0,Australia,English
-19,977,1965.0,Australia,English
-20,987,1945.0,Australia,English
-21,1012,1945.0,Australia,English
-22,1052,1975.0,Unknown,Unknown
-23,1117,1955.0,Australia,English
-24,1162,1970.0,Middle East and Africa,Unknown
-25,1192,1965.0,Australia,English
-26,1217,1960.0,Australia,English
-27,1222,1965.0,Western Europe,Other
-28,1232,1950.0,Australia,English
-29,1277,1955.0,Australia,English
-30,1302,1970.0,Australia,English
-31,1307,1960.0,Unknown,Unknown
-32,1367,1945.0,North America,English
-33,1382,1975.0,Australia,English
-34,1387,1945.0,Australia,English
-35,1562,1970.0,Unknown,Unknown
-36,1582,1970.0,Australia,English
-37,1617,1965.0,Australia,English
-38,1642,1965.0,Australia,English
-39,1687,1960.0,Great Britain,English
-40,1697,1965.0,Unknown,Unknown
-41,1737,1965.0,Australia,English
-42,1752,1970.0,Australia,English
-43,1757,1950.0,Asia Pacific,Other
-44,1797,1960.0,North America,English
-45,1812,1955.0,Australia,English
-46,1862,1950.0,Great Britain,English
-47,1882,1970.0,Unknown,Unknown
-48,1937,1970.0,Australia,English
-49,1952,1955.0,Australia,English
-50,1982,1960.0,Australia,English
-51,2002,1950.0,South Africa,English
-52,2022,1965.0,Australia,English
-53,2052,1960.0,Australia,English
-54,2087,1960.0,Australia,English
-55,2107,1960.0,Australia,English
-56,2117,1970.0,Australia,English
-57,2192,1970.0,Australia,English
-58,2232,1955.0,Australia,English
-59,2252,1960.0,Australia,English
-60,2262,1970.0,Australia,English
-61,2277,1960.0,Australia,English
-62,2317,1955.0,Australia,English
-63,2367,1970.0,Asia Pacific,English
-64,2427,1960.0,North America,English
-65,2477,1965.0,Australia,English
-66,2507,1950.0,Australia,English
-67,2557,1935.0,Unknown,Unknown
-68,2577,1950.0,Australia,English
-69,2697,1955.0,Eastern Europe,Other
-70,2712,1965.0,Australia,English
-71,2832,1960.0,Unknown,Unknown
-72,2907,1970.0,Australia,English
-73,2982,1950.0,Eastern Europe,Other
-74,3062,1960.0,Western Europe,Other
-75,3067,1950.0,Unknown,Unknown
-76,3167,1950.0,Australia,English
-77,3182,1965.0,Australia,English
-78,3207,1970.0,Australia,English
-79,3292,1945.0,Australia,English
-80,3327,1950.0,Australia,English
-81,3362,1970.0,Australia,English
-82,3597,1960.0,Australia,English
-83,3637,1960.0,New Zealand,English
-84,3692,1945.0,Australia,English
-85,3762,1960.0,Australia,English
-86,3812,1960.0,Australia,English
-87,3867,1940.0,Australia,English
-88,4082,1960.0,Australia,English
-89,4102,1955.0,Australia,English
-90,4167,1955.0,Australia,English
-91,4192,1965.0,Unknown,Unknown
-92,4222,1960.0,Australia,English
-93,4247,1950.0,Australia,English
-94,4302,1965.0,Australia,English
-95,4387,1955.0,Australia,English
-96,4492,1950.0,Australia,English
-97,4502,1955.0,Australia,English
-98,4572,1955.0,Australia,English
-99,4702,1960.0,Australia,English
-100,4717,1965.0,Unknown,Unknown
-101,4747,1960.0,Unknown,Unknown
-102,4757,1945.0,Unknown,Unknown
-103,4762,1950.0,Great Britain,English
-104,4797,1965.0,Australia,English
-105,4832,1945.0,Australia,English
-106,4842,1970.0,Asia Pacific,Other
-107,4877,1960.0,Unknown,Unknown
-108,4882,1965.0,Australia,English
-109,4902,1950.0,Australia,English
-110,4987,1965.0,Unknown,Unknown
-111,4992,1960.0,Australia,English
-112,5042,1960.0,Australia,English
-113,5092,1960.0,Australia,English
-114,5107,1960.0,Asia Pacific,Other
-115,5117,1960.0,Australia,English
-116,5137,1960.0,Unknown,Unknown
-117,5142,1960.0,Australia,English
-118,5162,1940.0,Australia,English
-119,5222,1940.0,Australia,English
-120,5232,1955.0,Australia,English
-121,5242,1945.0,Australia,English
-122,5267,1975.0,Australia,English
-123,5287,1960.0,Australia,English
-124,5302,1970.0,Australia,English
-125,5382,1965.0,Asia Pacific,Other
-126,5427,1965.0,Unknown,Unknown
-127,5442,1975.0,Unknown,Unknown
-128,5552,1955.0,Australia,English
-129,5582,1960.0,Australia,English
-130,5672,1965.0,Australia,English
-131,5702,1940.0,Australia,English
-132,5737,1975.0,Australia,English
-133,5777,1970.0,Australia,English
-134,5807,1950.0,Unknown,Unknown
-135,5812,1965.0,North America,English
-136,5882,1955.0,Australia,English
-137,5927,1965.0,Australia,English
-138,5967,1955.0,Australia,English
-139,6012,1955.0,Australia,English
-140,6077,1955.0,Australia,English
-141,6117,1950.0,Asia Pacific,Other
-142,6232,1965.0,Australia,English
-143,6242,1955.0,Asia Pacific,Other
-144,6282,1980.0,Australia,English
-145,6292,1965.0,Western Europe,Other
-146,6332,1945.0,Australia,English
-147,6377,1965.0,Great Britain,English
-148,6392,1970.0,Australia,English
-149,6397,1960.0,Great Britain,English
-150,6502,1940.0,Australia,English
-151,6562,1955.0,South Africa,English
-152,6712,1950.0,Australia,English
-153,6742,1940.0,Australia,English
-154,6747,1955.0,Australia,English
-155,6807,1950.0,Australia,English
-156,6942,1960.0,Unknown,Unknown
-157,6977,1955.0,Unknown,Unknown
-158,7037,1970.0,Australia,English
-159,7047,1960.0,Australia,English
-160,7087,1970.0,Australia,English
-161,7252,1960.0,Australia,English
-162,7302,1960.0,Unknown,Unknown
-163,7342,1965.0,Great Britain,English
-164,7347,1960.0,Australia,English
-165,7362,1970.0,Western Europe,Other
-166,7387,1955.0,Great Britain,English
-167,7442,1965.0,North America,English
-168,7452,1960.0,North America,English
-169,7482,1940.0,Australia,English
-170,7512,1960.0,Australia,English
-171,7527,1955.0,Australia,English
-172,7587,1955.0,Australia,English
-173,7597,1955.0,Eastern Europe,English
-174,7607,1955.0,Australia,English
-175,7637,1970.0,Unknown,Unknown
-176,7662,1960.0,Australia,English
-177,7747,1975.0,Australia,English
-178,7792,1960.0,Unknown,Unknown
-179,7842,1960.0,Asia Pacific,Other
-180,7862,1965.0,Australia,English
-181,7917,1945.0,Australia,English
-182,7942,1955.0,Australia,English
-183,7947,1960.0,Asia Pacific,Other
-184,7952,1965.0,Australia,English
-185,7992,1970.0,Australia,English
-186,8002,1975.0,Australia,English
-187,8012,1960.0,Western Europe,Other
-188,8042,1975.0,Australia,English
-189,8047,1950.0,Australia,English
-190,8062,1960.0,Australia,English
-191,8067,1960.0,Western Europe,Other
-192,8142,1970.0,Unknown,Unknown
-193,8152,1965.0,Australia,English
-194,8312,1970.0,Australia,English
-195,8317,1975.0,Unknown,Unknown
-196,8327,1955.0,Asia Pacific,Other
-197,8377,1955.0,Great Britain,English
-198,8462,1950.0,Australia,English
-199,8532,1970.0,Australia,English
-200,8542,1960.0,Western Europe,Other
-201,8642,1960.0,Unknown,Unknown
-202,8667,1965.0,Australia,English
-203,8732,1965.0,Australia,English
-204,8772,1965.0,Australia,English
-205,8842,1960.0,Australia,English
-206,8867,1960.0,Australia,English
-207,8877,1955.0,Unknown,Unknown
-208,9042,1960.0,Australia,English
-209,9067,1960.0,Australia,English
-210,9107,1965.0,Australia,English
-211,9217,1945.0,Australia,English
-212,9227,1970.0,Australia,English
-213,9312,1975.0,Australia,English
-214,9337,1965.0,Australia,English
-215,9342,1950.0,Unknown,Unknown
-216,9402,1965.0,Unknown,Unknown
-217,9412,1970.0,Australia,English
-218,9417,1950.0,Australia,English
-219,9497,1955.0,Australia,English
-220,9502,1950.0,South Africa,English
-221,9527,1955.0,Middle East and Africa,Unknown
-222,9542,1975.0,Australia,English
-223,9602,1970.0,Australia,English
-224,9657,1965.0,Australia,English
-225,9672,1950.0,Unknown,Unknown
-226,9712,1945.0,Australia,English
-227,9732,1960.0,Australia,English
-228,9757,1960.0,Australia,English
-229,9857,1960.0,Asia Pacific,Other
-230,9912,1970.0,Australia,English
-231,9982,1955.0,Australia,English
-232,10002,1950.0,Unknown,Unknown
-233,10052,1955.0,Australia,English
-234,10072,1965.0,Unknown,Unknown
-235,10127,1970.0,Australia,English
-236,10147,1965.0,Australia,English
-237,10157,1955.0,Unknown,Unknown
-238,10182,1950.0,Australia,English
-239,10267,1935.0,Australia,English
-240,10352,1975.0,Australia,English
-241,10377,1975.0,Australia,English
-242,10387,1950.0,Australia,English
-243,10402,1970.0,Australia,English
-244,10407,1950.0,Australia,English
-245,10447,1970.0,Australia,English
-246,10472,1970.0,Australia,English
-247,10477,1960.0,Australia,English
-248,10497,1965.0,Unknown,Unknown
-249,10512,1955.0,Australia,English
-250,10522,1965.0,Eastern Europe,Other
-251,10577,1960.0,Australia,English
-252,10592,1960.0,Australia,English
-253,10602,1970.0,Unknown,Unknown
-254,10662,1955.0,Australia,English
-255,10737,1970.0,Australia,English
-256,10842,1955.0,Australia,English
-257,10867,1960.0,Australia,English
-258,10987,1950.0,Australia,English
-259,10997,1950.0,Australia,English
-260,11102,1965.0,Unknown,Unknown
-261,11142,1955.0,Unknown,Unknown
-262,11247,1960.0,Australia,English
-263,11282,1945.0,Eastern Europe,Other
-264,11287,1965.0,Australia,English
-265,11302,1970.0,Australia,English
-266,11327,1960.0,Australia,English
-267,11342,1965.0,Australia,English
-268,11372,1950.0,South Africa,English
-269,11382,1970.0,Unknown,Unknown
-270,11397,1970.0,Unknown,Unknown
-271,11427,1960.0,New Zealand,English
-272,11507,1945.0,Australia,English
-273,11552,1955.0,Asia Pacific,Other
-274,11597,1975.0,Australia,English
-275,11602,1955.0,Western Europe,Other
-276,11612,1960.0,Australia,English
-277,11617,1965.0,Australia,English
-278,11657,1955.0,Australia,English
-279,11667,1950.0,Australia,English
-280,11747,1960.0,Australia,English
-281,11812,1945.0,Australia,English
-282,11837,1950.0,Australia,English
-283,11842,1960.0,Australia,English
-284,11947,1950.0,Australia,English
-285,12002,1945.0,Australia,English
-286,12177,1960.0,Unknown,Unknown
-287,12282,1965.0,Unknown,Unknown
-288,12467,1955.0,Unknown,Unknown
-289,12527,1945.0,Great Britain,English
-290,12542,1965.0,Unknown,Unknown
-291,12677,1965.0,Australia,English
-292,12862,1955.0,Australia,English
-293,12887,1960.0,Australia,English
-294,12892,1965.0,Australia,English
-295,12917,1955.0,Australia,English
-296,12932,1975.0,Australia,English
-297,12957,1965.0,Great Britain,English
-298,13042,1965.0,Western Europe,Other
-299,13102,1975.0,Australia,English
-300,13187,1965.0,Australia,English
-301,13192,1960.0,Western Europe,Other
-302,13352,1955.0,Unknown,Unknown
-303,13392,1970.0,Australia,English
-304,13397,1960.0,Middle East and Africa,English
-305,13512,1960.0,Australia,English
-306,13522,1965.0,Australia,English
-307,13527,1965.0,Unknown,Unknown
-308,13552,1955.0,Asia Pacific,Other
-309,13612,1965.0,Australia,English
-310,13682,1965.0,Western Europe,English
-311,13687,1970.0,Australia,English
-312,13697,1940.0,South Africa,English
-313,13712,1965.0,Unknown,Unknown
-314,13807,1970.0,Australia,English
-315,13812,1975.0,Australia,English
-316,13817,1965.0,Australia,English
-317,13867,1950.0,Australia,English
-318,13887,1970.0,Unknown,Unknown
-319,14082,1975.0,Australia,English
-320,14112,1975.0,Australia,English
-321,14152,1975.0,Australia,English
-322,14182,1965.0,Australia,English
-323,14187,1955.0,Australia,English
-324,14212,1970.0,Australia,English
-325,14262,1960.0,Australia,English
-326,14267,1960.0,Asia Pacific,Other
-327,14277,1940.0,Australia,English
-328,14322,1970.0,Unknown,Unknown
-329,14417,1960.0,Middle East and Africa,Unknown
-330,14482,1975.0,Unknown,Unknown
-331,14487,1945.0,Australia,English
-332,14507,1960.0,Australia,English
-333,14532,1970.0,Australia,English
-334,14612,1950.0,Australia,English
-335,14647,1950.0,Australia,English
-336,14737,1975.0,Australia,English
-337,14757,1975.0,Australia,English
-338,14777,1970.0,Australia,English
-339,14782,1955.0,Great Britain,English
-340,14832,1975.0,Australia,English
-341,14842,1960.0,Australia,English
-342,14957,1975.0,Australia,English
-343,15047,1965.0,Unknown,Unknown
-344,15162,1965.0,Australia,English
-345,15187,1960.0,Australia,English
-346,15222,1980.0,Australia,English
-347,15242,1980.0,Asia Pacific,Other
-348,15282,1965.0,Australia,English
-349,15287,1970.0,North America,English
-350,15437,1955.0,Unknown,Unknown
-351,15467,1955.0,Australia,English
-352,15512,1960.0,Australia,English
-353,15532,1960.0,Unknown,Unknown
-354,15632,1965.0,Unknown,Unknown
-355,15667,1960.0,Unknown,Unknown
-356,15757,1950.0,Australia,English
-357,15767,1965.0,Australia,English
-358,15777,1950.0,Australia,English
-359,15927,1960.0,Australia,English
-360,15977,1960.0,Great Britain,English
-361,15987,1960.0,Australia,English
-362,16012,1960.0,North America,English
-363,16062,1965.0,Eastern Europe,Other
-364,16137,1950.0,Australia,English
-365,16207,1955.0,Unknown,Unknown
-366,16227,1960.0,Great Britain,English
-367,16302,1960.0,Australia,English
-368,16332,1955.0,Unknown,Unknown
-369,16442,1965.0,Unknown,Unknown
-370,16452,1935.0,Unknown,Unknown
-371,16532,1955.0,Australia,English
-372,16582,1960.0,Australia,English
-373,16632,1955.0,Australia,English
-374,16642,1965.0,Australia,English
-375,16647,1965.0,Asia Pacific,Other
-376,16652,1960.0,Unknown,Unknown
-377,16737,1945.0,Australia,English
-378,16757,1950.0,Australia,English
-379,16892,1965.0,Australia,English
-380,16987,1965.0,Australia,English
-381,17282,1955.0,Great Britain,English
-382,17342,1960.0,Australia,English
-383,17367,1960.0,Asia Pacific,Other
-384,17427,1970.0,Australia,English
-385,17512,1940.0,Unknown,Unknown
-386,17617,1965.0,North America,English
-387,17622,1955.0,Australia,English
-388,17647,1960.0,Australia,English
-389,17657,1965.0,Asia Pacific,Other
-390,17707,1965.0,Australia,English
-391,17747,1970.0,Australia,English
-392,17762,1965.0,Australia,English
-393,17772,1955.0,Australia,English
-394,17782,1975.0,Australia,English
-395,17857,1970.0,Asia Pacific,Other
-396,17877,1965.0,Unknown,Unknown
-397,17907,1955.0,Australia,English
-398,17947,1975.0,Australia,English
-399,18067,1950.0,Australia,English
-400,18237,1940.0,Australia,English
-401,18362,1950.0,Australia,English
-402,18377,1960.0,Australia,English
-403,18412,1960.0,Australia,English
-404,18562,1950.0,Australia,English
-405,18567,1950.0,Australia,English
-406,18592,1960.0,Australia,English
-407,18732,1970.0,Asia Pacific,English
-408,18752,1965.0,Australia,English
-409,18817,1950.0,Australia,English
-410,18832,1975.0,Great Britain,English
-411,18862,1955.0,Unknown,Unknown
-412,19037,1975.0,Australia,English
-413,19082,1970.0,Australia,English
-414,19127,1970.0,Australia,English
-415,19262,1955.0,Great Britain,English
-416,19287,1950.0,Australia,English
-417,19347,1950.0,Australia,English
-418,19362,1955.0,Australia,English
-419,19517,1965.0,Australia,English
-420,19602,1945.0,Australia,English
-421,19627,1950.0,Great Britain,English
-422,19662,1965.0,Australia,English
-423,19752,1975.0,Unknown,Unknown
-424,19832,1975.0,Asia Pacific,Other
-425,19897,1970.0,Australia,English
-426,19922,1960.0,Australia,English
-427,19952,1955.0,Great Britain,English
-428,19962,1940.0,Australia,English
-429,19967,1955.0,Australia,English
-430,19997,1960.0,Australia,English
-431,20007,1955.0,Australia,English
-432,20012,1935.0,Australia,English
-433,20072,1960.0,Australia,English
-434,20117,1970.0,Australia,English
-435,20122,1965.0,Great Britain,English
-436,20202,1965.0,South Africa,English
-437,20247,1945.0,Great Britain,English
-438,20292,1955.0,Unknown,Unknown
-439,20342,1940.0,Australia,English
-440,20357,1965.0,The Americas,English
-441,20472,1970.0,Australia,English
-442,20497,1965.0,Middle East and Africa,Other
-443,20657,1960.0,Australia,English
-444,20722,1965.0,Australia,English
-445,20782,1965.0,Australia,English
-446,20792,1955.0,Australia,English
-447,20892,1970.0,Australia,English
-448,20907,1975.0,Australia,English
-449,20927,1965.0,Australia,English
-450,20937,1970.0,Australia,English
-451,21017,1950.0,Unknown,Unknown
-452,21132,1960.0,Australia,English
-453,21137,1970.0,Australia,English
-454,21612,1950.0,Australia,English
-455,21732,1965.0,Australia,English
-456,21872,1975.0,Australia,English
-457,21877,1965.0,Australia,English
-458,22002,1975.0,Australia,English
-459,22077,1955.0,Western Europe,Other
-460,22097,1960.0,Australia,English
-461,22112,1975.0,Unknown,Unknown
-462,22117,1970.0,Australia,English
-463,22202,1970.0,Australia,English
-464,22292,1970.0,New Zealand,English
-465,22297,1950.0,Australia,English
-466,22322,1955.0,Western Europe,Other
-467,22352,1965.0,Australia,English
-468,22362,1960.0,Unknown,Unknown
-469,22422,1960.0,Unknown,Unknown
-470,22582,1975.0,Australia,English
-471,22622,1965.0,Unknown,Unknown
-472,22672,1965.0,Australia,English
-473,22707,1965.0,Unknown,Unknown
-474,22752,1980.0,Unknown,Unknown
-475,22767,1975.0,Australia,English
-476,22792,1955.0,Australia,English
-477,22807,1955.0,Australia,English
-478,22812,1965.0,Australia,English
-479,22847,1980.0,Australia,English
-480,22857,1960.0,Unknown,Unknown
-481,22917,1960.0,Australia,English
-482,22972,1965.0,Australia,English
-483,22982,1960.0,Australia,English
-484,22987,1965.0,Australia,English
-485,23032,1975.0,Unknown,Unknown
-486,23042,1965.0,South Africa,English
-487,23237,1975.0,Australia,English
-488,23302,1960.0,Unknown,Unknown
-489,23342,1960.0,Australia,English
-490,23357,1960.0,Australia,English
-491,23412,1975.0,Unknown,Unknown
-492,23417,1975.0,Australia,English
-493,23437,1960.0,Australia,English
-494,23442,1970.0,Australia,English
-495,23452,1970.0,The Americas,English
-496,23512,1945.0,Australia,English
-497,23697,1970.0,Asia Pacific,Other
-498,23797,1960.0,Unknown,Unknown
-499,23872,1975.0,Australia,English
-500,23912,1965.0,Australia,English
-501,23927,1980.0,Australia,English
-502,23972,1950.0,Australia,English
-503,23997,1965.0,Australia,English
-504,24017,1970.0,Australia,English
-505,24087,1955.0,Australia,English
-506,24227,1960.0,Australia,English
-507,24252,1960.0,Australia,English
-508,24257,1955.0,Asia Pacific,Other
-509,24267,1970.0,Australia,English
-510,24352,1965.0,Australia,English
-511,24392,1960.0,Australia,English
-512,24542,1955.0,Unknown,Unknown
-513,24552,1970.0,Australia,English
-514,24572,1960.0,Australia,English
-515,24577,1965.0,Australia,English
-516,24627,1965.0,Asia Pacific,Other
-517,24632,1970.0,Australia,English
-518,24697,1975.0,Unknown,Unknown
-519,24892,1965.0,Australia,English
-520,24897,1960.0,Australia,English
-521,25052,1955.0,Australia,English
-522,25117,1970.0,Australia,English
-523,25137,1960.0,Unknown,Unknown
-524,25207,1970.0,Australia,English
-525,25217,1965.0,Great Britain,English
-526,25247,1960.0,Unknown,Unknown
-527,25267,1965.0,Australia,English
-528,25272,1960.0,Great Britain,English
-529,25342,1965.0,Great Britain,English
-530,25537,1960.0,Australia,English
-531,25597,1955.0,Australia,English
-532,25612,1955.0,Unknown,Unknown
-533,25662,1975.0,Australia,English
-534,25677,1975.0,Unknown,Unknown
-535,25762,1965.0,North America,English
-536,25947,1960.0,Australia,English
-537,26107,1970.0,Australia,English
-538,26117,1970.0,Australia,English
-539,26337,1980.0,Unknown,Unknown
-540,26352,1975.0,Eastern Europe,Other
-541,26367,1975.0,Australia,English
-542,26502,1965.0,Australia,Other
-543,26517,1965.0,Unknown,Unknown
-544,26597,1975.0,Australia,English
-545,26857,1965.0,Australia,English
-546,26862,1945.0,Australia,English
-547,26877,1935.0,Australia,English
-548,26882,1950.0,Australia,English
-549,26887,1970.0,Australia,English
-550,26962,1970.0,Great Britain,English
-551,27102,1955.0,Eastern Europe,English
-552,27142,1965.0,Australia,English
-553,27157,1970.0,Asia Pacific,Other
-554,27192,1970.0,Australia,English
-555,27282,1970.0,Great Britain,English
-556,27307,1950.0,Australia,English
-557,27317,1965.0,Australia,English
-558,27352,1960.0,Great Britain,English
-559,27372,1960.0,Australia,English
-560,27502,1960.0,Great Britain,English
-561,27527,1950.0,Australia,English
-562,27572,1970.0,Australia,English
-563,27632,1945.0,Australia,English
-564,27707,1970.0,Asia Pacific,Other
-565,27752,1955.0,New Zealand,English
-566,27757,1960.0,Australia,English
-567,27782,1965.0,Australia,English
-568,27942,1975.0,Asia Pacific,Other
-569,28082,1965.0,Unknown,Unknown
-570,28232,1965.0,Australia,English
-571,28262,1960.0,Australia,English
-572,28342,1960.0,Australia,English
-573,28362,1975.0,Australia,English
-574,28387,1965.0,Australia,English
-575,28412,1960.0,Australia,English
-576,28442,1960.0,Australia,English
-577,28502,1970.0,New Zealand,English
-578,28572,1955.0,Australia,English
-579,28607,1965.0,Great Britain,English
-580,28622,1960.0,Australia,English
-581,28682,1975.0,Australia,English
-582,28797,1970.0,Australia,English
-583,28832,1950.0,Unknown,Unknown
-584,28902,1965.0,Unknown,Unknown
-585,29032,1965.0,Australia,English
-586,29087,1950.0,Australia,English
-587,29317,1970.0,Australia,English
-588,29357,1980.0,Australia,English
-589,29462,1975.0,Australia,English
-590,29497,1965.0,Unknown,Unknown
-591,29512,1970.0,North America,English
-592,29562,1970.0,Australia,English
-593,29637,1960.0,Australia,English
-594,29797,1975.0,Australia,English
-595,29817,1975.0,Australia,English
-596,29962,1975.0,Australia,English
-597,30017,1960.0,Australia,English
-598,30047,1965.0,Eastern Europe,Other
-599,30072,1960.0,Australia,English
-600,30422,1955.0,Great Britain,English
-601,30437,1975.0,Australia,English
-602,30457,1955.0,Asia Pacific,Other
-603,30467,1955.0,Australia,English
-604,30527,1960.0,Australia,English
-605,30582,1960.0,Australia,English
-606,30612,1955.0,Australia,English
-607,30632,1955.0,Unknown,Unknown
-608,30707,1965.0,Middle East and Africa,Unknown
-609,30772,1970.0,Australia,English
-610,30777,1955.0,Australia,English
-611,30782,1960.0,Australia,English
-612,30827,1950.0,Unknown,Unknown
-613,30962,1950.0,Australia,English
-614,30977,1950.0,Great Britain,English
-615,30987,1965.0,Australia,English
-616,30997,1950.0,Australia,English
-617,31012,1980.0,Australia,English
-618,31067,1960.0,Great Britain,English
-619,31182,1975.0,Australia,English
-620,31237,1965.0,Australia,English
-621,31322,1975.0,Australia,English
-622,31377,1965.0,Australia,English
-623,31457,1970.0,Australia,English
-624,31512,1965.0,Middle East and Africa,Unknown
-625,31592,1960.0,Australia,English
-626,31607,1975.0,Australia,English
-627,31672,1965.0,Australia,English
-628,31697,1965.0,Unknown,Unknown
-629,31707,1965.0,Australia,English
-630,31722,1970.0,Australia,English
-631,31967,1970.0,Australia,English
-632,31972,1960.0,Australia,English
-633,32052,1975.0,Australia,English
-634,32172,1965.0,Australia,English
-635,32257,1950.0,Australia,English
-636,32357,1970.0,Australia,English
-637,32422,1970.0,Australia,English
-638,32457,1975.0,Australia,English
-639,32522,1970.0,Australia,English
-640,32592,1975.0,Australia,English
-641,32667,1965.0,Western Europe,Other
-642,32672,1975.0,Asia Pacific,Other
-643,32717,1980.0,Australia,English
-644,32822,1960.0,Australia,English
-645,32857,1955.0,Australia,English
-646,32892,1975.0,Australia,English
-647,32907,1965.0,Western Europe,Other
-648,32912,1970.0,Australia,English
-649,32952,1970.0,Australia,English
-650,33097,1975.0,Australia,English
-651,33152,1950.0,Australia,English
-652,33167,1960.0,Australia,English
-653,33202,1965.0,Unknown,Unknown
-654,33247,1950.0,Great Britain,English
-655,33312,1965.0,Australia,English
-656,33337,1975.0,Australia,English
-657,33502,1965.0,Australia,English
-658,33542,1980.0,Great Britain,English
-659,33557,1955.0,Australia,English
-660,33582,1975.0,Australia,English
-661,33752,1960.0,Australia,English
-662,33802,1975.0,Australia,English
-663,33812,1965.0,Great Britain,English
-664,33852,1970.0,Unknown,Unknown
-665,33977,1965.0,Australia,English
-666,34037,1960.0,Australia,English
-667,34177,1960.0,North America,English
-668,34182,1965.0,Australia,English
-669,34217,1965.0,Unknown,Unknown
-670,34347,1970.0,Australia,English
-671,34417,1970.0,Australia,English
-672,34447,1970.0,Australia,English
-673,34502,1970.0,Australia,English
-674,34617,1955.0,Australia,English
-675,34652,1955.0,Unknown,Unknown
-676,34677,1955.0,North America,English
-677,34737,1970.0,North America,English
-678,34782,1970.0,Australia,English
-679,34817,1970.0,Australia,English
-680,34852,1965.0,Asia Pacific,Other
-681,35087,1965.0,Australia,English
-682,35132,1970.0,Australia,English
-683,35137,1970.0,Australia,English
-684,35357,1965.0,Australia,English
-685,35382,1970.0,Australia,English
-686,35422,1975.0,Australia,English
-687,35507,1970.0,Australia,English
-688,35547,1960.0,Asia Pacific,Other
-689,35562,1960.0,Australia,English
-690,35602,1965.0,Australia,English
-691,35672,1975.0,Australia,English
-692,35837,1955.0,Great Britain,English
-693,35867,1960.0,Australia,English
-694,35962,1970.0,The Americas,Unknown
-695,36042,1970.0,Australia,English
-696,36047,1970.0,Australia,English
-697,36177,1960.0,Unknown,Unknown
-698,36187,1960.0,Australia,English
-699,36217,1980.0,Asia Pacific,Other
-700,36242,1965.0,Australia,English
-701,36252,1960.0,Australia,English
-702,36472,1955.0,Australia,English
-703,36527,1955.0,Australia,English
-704,36652,1950.0,Australia,English
-705,36737,1980.0,Australia,English
-706,36827,1970.0,Unknown,Unknown
-707,36832,1960.0,Unknown,Unknown
-708,36857,1965.0,Australia,English
-709,37137,1980.0,Australia,English
-710,37242,1955.0,Great Britain,English
-711,37302,1965.0,Australia,English
-712,37502,1975.0,Australia,English
-713,37662,1960.0,Australia,English
-714,37947,1950.0,Australia,English
-715,38292,1980.0,Australia,English
-716,38457,1970.0,Australia,English
-717,38492,1980.0,Australia,English
-718,38502,1970.0,Australia,English
-719,38562,1975.0,Unknown,Unknown
-720,38697,1960.0,Australia,English
-721,38882,1970.0,Australia,English
-722,38997,1960.0,Unknown,Unknown
-723,39202,1960.0,Australia,English
-724,39212,1960.0,Australia,English
-725,39272,1965.0,Australia,English
-726,39277,1950.0,Asia Pacific,English
-727,39392,1980.0,Asia Pacific,Other
-728,39407,1980.0,Australia,English
-729,39457,1960.0,Australia,English
-730,39562,1945.0,Great Britain,English
-731,39632,1975.0,Great Britain,English
-732,39637,1975.0,Australia,English
-733,39647,1970.0,Australia,English
-734,39677,1975.0,Unknown,Unknown
-735,39812,1950.0,Australia,English
-736,39817,1955.0,Australia,English
-737,39832,1975.0,Australia,English
-738,39967,1965.0,Western Europe,Other
-739,40342,1980.0,Australia,English
-740,40492,1980.0,Australia,English
-741,40572,1965.0,Asia Pacific,Other
-742,40607,1960.0,Australia,English
-743,40677,1965.0,Unknown,Unknown
-744,40697,1965.0,Great Britain,English
-745,40797,1960.0,Australia,English
-746,40847,1980.0,Australia,English
-747,40862,1965.0,Unknown,Unknown
-748,40947,1965.0,Australia,English
-749,41012,1955.0,Australia,English
-750,41032,1975.0,Australia,English
-751,41202,1960.0,Unknown,Unknown
-752,41267,1975.0,Unknown,Unknown
-753,41657,1965.0,Asia Pacific,Other
-754,41732,1965.0,Australia,English
-755,41782,1970.0,Unknown,Unknown
-756,41912,1960.0,Eastern Europe,Other
-757,42107,1975.0,Australia,English
-758,42262,1970.0,Unknown,Unknown
-759,42322,1945.0,Australia,English
-760,42932,1960.0,New Zealand,English
-761,43002,1975.0,North America,English
-762,43222,1960.0,Unknown,Unknown
-763,43352,1960.0,Australia,English
-764,43562,1975.0,Australia,English
-765,43587,1960.0,North America,English
-766,43597,1965.0,South Africa,English
-767,43612,1960.0,Australia,English
-768,43757,1930.0,Unknown,Unknown
-769,43852,1975.0,Australia,English
-770,43857,1960.0,South Africa,English
-771,43882,1975.0,Australia,English
-772,44022,1965.0,Australia,English
-773,44097,1955.0,Australia,English
-774,44162,1970.0,North America,English
-775,44252,1960.0,Australia,English
-776,44697,1965.0,Australia,English
-777,44732,1965.0,Unknown,Unknown
-778,44737,1965.0,Australia,English
-779,44777,1965.0,Unknown,Unknown
-780,44782,1955.0,Western Europe,Other
-781,44852,1965.0,Australia,English
-782,44907,1970.0,Australia,English
-783,45032,1975.0,Australia,English
-784,45187,1980.0,Australia,English
-785,45227,1950.0,Australia,English
-786,45317,1975.0,Australia,English
-787,45447,1970.0,Australia,English
-788,45462,1945.0,Australia,English
-789,45552,1975.0,Australia,English
-790,45587,1955.0,North America,English
-791,45847,1975.0,Australia,English
-792,45952,1975.0,Australia,English
-793,45967,1975.0,Australia,English
-794,45972,1970.0,Western Europe,Other
-795,45997,1960.0,Australia,English
-796,46127,1955.0,Great Britain,English
-797,46132,1975.0,Australia,English
-798,46182,1955.0,Australia,English
-799,46237,1945.0,Unknown,Unknown
-800,46377,1970.0,Australia,English
-801,46587,1980.0,Australia,English
-802,46682,1960.0,Australia,English
-803,46687,1950.0,Australia,English
-804,46697,1980.0,Australia,English
-805,46772,1970.0,Australia,English
-806,46852,1970.0,Unknown,Unknown
-807,46922,1965.0,Australia,English
-808,47057,1955.0,Australia,English
-809,47257,1975.0,Australia,English
-810,47362,1975.0,Unknown,Unknown
-811,47442,1980.0,Australia,English
-812,47467,1975.0,Australia,English
-813,47482,1970.0,Asia Pacific,Other
-814,47517,1970.0,Australia,English
-815,47947,1955.0,Australia,English
-816,48017,1970.0,Australia,English
-817,48152,1945.0,Unknown,Unknown
-818,48497,1950.0,Unknown,Unknown
-819,48632,1955.0,New Zealand,English
-820,48817,1965.0,Unknown,Unknown
-821,48892,1980.0,Australia,English
-822,49017,1970.0,Australia,English
-823,49097,1980.0,Australia,English
-824,49227,1970.0,Eastern Europe,Other
-825,49277,1965.0,Australia,English
-826,49532,1970.0,Australia,English
-827,49592,1955.0,Australia,English
-828,49762,1970.0,Unknown,Unknown
-829,49922,1980.0,Great Britain,English
-830,49972,1970.0,Australia,English
-831,50027,1955.0,Australia,English
-832,50032,1965.0,Australia,English
-833,50052,1970.0,Australia,English
-834,50092,1975.0,Australia,English
-835,50952,1970.0,Australia,English
-836,51027,1960.0,Unknown,Unknown
-837,51362,1980.0,Australia,English
-838,51367,1955.0,Australia,English
-839,51377,1980.0,Australia,English
-840,51502,1975.0,Middle East and Africa,Unknown
-841,51677,1980.0,Australia,English
-842,51842,1970.0,Australia,English
-843,52337,1970.0,Australia,English
-844,52602,1975.0,Australia,English
-845,52802,1960.0,Unknown,Unknown
-846,53027,1975.0,Australia,English
-847,53202,1975.0,Australia,English
-848,53237,1970.0,Australia,English
-849,53352,1965.0,Australia,English
-850,53587,1970.0,Western Europe,Other
-851,54302,1965.0,Unknown,Unknown
-852,54322,1960.0,Eastern Europe,Other
-853,54487,1965.0,Australia,English
-854,54737,1975.0,Australia,English
-855,54922,1970.0,Australia,English
-856,55127,1965.0,Australia,English
-857,55137,1975.0,Australia,English
-858,55272,1970.0,Unknown,Unknown
-859,55337,1975.0,Australia,English
-860,55347,1980.0,Unknown,Unknown
-861,55437,1940.0,Great Britain,English
-862,55532,1970.0,Australia,English
-863,55552,1975.0,Australia,English
-864,55677,1980.0,Australia,English
-865,56097,1965.0,Australia,English
-866,56317,1970.0,Australia,English
-867,56387,1960.0,Australia,English
-868,56447,1965.0,Australia,English
-869,56842,1950.0,Unknown,Unknown
-870,56907,1970.0,Unknown,Unknown
-871,57192,1980.0,Australia,English
-872,57272,1975.0,North America,English
-873,57672,1955.0,Unknown,Unknown
-874,57822,1975.0,Great Britain,English
-875,58382,1960.0,Unknown,Unknown
-876,58457,1965.0,Australia,English
-877,58647,1975.0,Australia,English
-878,58747,1980.0,Australia,English
-879,58792,1970.0,Australia,English
-880,59127,1980.0,Australia,English
-881,59402,1980.0,Australia,English
-882,59447,1970.0,Australia,English
-883,60082,1970.0,Australia,English
-884,60517,1965.0,Australia,English
-885,60697,1970.0,Australia,English
-886,61242,1975.0,Unknown,Unknown
-887,61672,1960.0,Great Britain,English
-888,62022,1980.0,Unknown,Unknown
-889,62492,1950.0,Australia,English
-890,62872,1950.0,Great Britain,English
-891,62902,1950.0,North America,English
-892,62937,1960.0,Australia,English
-893,62952,1935.0,Australia,English
-894,62967,1950.0,Australia,English
-895,63047,1945.0,Unknown,Unknown
-896,63117,1955.0,Australia,English
-897,63137,1945.0,Australia,English
-898,63167,1940.0,New Zealand,English
-899,63172,1945.0,South Africa,English
-900,63177,1960.0,Australia,English
-901,63187,1955.0,Australia,English
-902,63192,1955.0,Australia,English
-903,63207,1945.0,Australia,English
-904,63217,1945.0,Eastern Europe,Other
-905,63222,1950.0,Australia,English
-906,63232,1960.0,Australia,English
-907,63257,1945.0,Australia,English
-908,63277,1955.0,Great Britain,English
-909,63312,1935.0,Australia,English
-910,63377,1955.0,Australia,English
-911,63407,1950.0,Australia,English
-912,63427,1945.0,Australia,English
-913,63437,1940.0,Australia,English
-914,63452,1950.0,Great Britain,English
-915,63462,1960.0,Australia,English
-916,63492,1945.0,Australia,English
-917,63507,1950.0,Australia,English
-918,63517,1945.0,Australia,English
-919,63527,1955.0,Australia,English
-920,63537,1960.0,Australia,English
-921,63542,1940.0,Australia,English
-922,63547,1945.0,Australia,English
-923,63552,1945.0,Australia,English
-924,63562,1940.0,Australia,English
-925,63667,1955.0,Australia,English
-926,63687,1945.0,Australia,English
-927,63722,1955.0,Australia,English
-928,63757,1960.0,Great Britain,English
-929,63772,1960.0,Australia,English
-930,63782,1950.0,Australia,English
-931,63812,1950.0,Great Britain,English
-932,63942,1950.0,Australia,English
-933,63947,1955.0,Unknown,Unknown
-934,63962,1950.0,Australia,English
-935,64077,1945.0,Asia Pacific,Other
-936,64102,1950.0,Eastern Europe,Other
-937,64162,1960.0,Australia,English
-938,64167,1935.0,Unknown,Unknown
-939,64207,1955.0,Unknown,Unknown
-940,64222,1930.0,Australia,English
-941,64232,1950.0,Asia Pacific,Other
-942,64237,1955.0,Australia,English
-943,64252,1945.0,Great Britain,English
-944,64267,1955.0,Unknown,Unknown
-945,64272,1960.0,Australia,English
-946,64277,1950.0,Australia,English
-947,64307,1950.0,Australia,English
-948,64332,1955.0,Australia,English
-949,64337,1945.0,Australia,English
-950,64342,1950.0,Australia,English
-951,64347,1945.0,Australia,English
-952,64352,1960.0,Australia,English
-953,64357,1965.0,Australia,English
-954,64412,1945.0,Australia,English
-955,64467,1945.0,Great Britain,English
-956,64507,1955.0,Australia,English
-957,64517,1960.0,Australia,English
-958,64522,1955.0,Australia,English
-959,64642,1955.0,Great Britain,English
-960,64657,1940.0,Great Britain,English
-961,64677,1945.0,Australia,English
-962,64702,1930.0,Australia,English
-963,64777,1940.0,Australia,English
-964,64782,1945.0,Unknown,Unknown
-965,64807,1960.0,Australia,English
-966,64842,1960.0,Australia,English
-967,64867,1945.0,Australia,English
-968,64927,1945.0,Australia,English
-969,64942,1965.0,Great Britain,English
-970,64957,1955.0,Australia,English
-971,65017,1950.0,Unknown,Unknown
-972,65027,1955.0,Unknown,Unknown
-973,65067,1945.0,Unknown,Unknown
-974,65072,1960.0,Australia,English
-975,65077,1965.0,Australia,English
-976,65227,1960.0,Unknown,Unknown
-977,65302,1960.0,Australia,English
-978,65307,1960.0,Australia,English
-979,65332,1955.0,Unknown,Unknown
-980,65342,1955.0,Great Britain,English
-981,65387,1965.0,Australia,English
-982,65402,1960.0,Australia,English
-983,65432,1965.0,Australia,English
-984,65437,1965.0,Australia,English
-985,65487,1940.0,Australia,English
-986,65652,1955.0,Australia,English
-987,65657,1955.0,Unknown,Unknown
-988,65667,1955.0,Unknown,Unknown
-989,65712,1950.0,Western Europe,Other
-990,65752,1965.0,Australia,English
-991,65767,1970.0,Australia,English
-992,65782,1950.0,Australia,English
-993,65802,1960.0,Australia,English
-994,65807,1950.0,Australia,English
-995,65812,1945.0,Australia,English
-996,65832,1965.0,Australia,English
-997,65842,1950.0,Australia,English
-998,65942,1955.0,Unknown,Unknown
-999,65957,1950.0,New Zealand,English
-1000,65967,1955.0,Asia Pacific,Other
-1001,65977,1950.0,Australia,English
-1002,65992,1945.0,Unknown,Unknown
-1003,66007,1955.0,Australia,English
-1004,66047,1955.0,Australia,English
-1005,66062,1950.0,Australia,English
-1006,66077,1960.0,Australia,English
-1007,66092,1960.0,Australia,English
-1008,66107,1960.0,New Zealand,English
-1009,66152,1965.0,Australia,English
-1010,66157,1960.0,Asia Pacific,Other
-1011,66187,1965.0,Asia Pacific,Other
-1012,66192,1950.0,Australia,English
-1013,66197,1950.0,Australia,English
-1014,66222,1950.0,Unknown,Unknown
-1015,66312,1950.0,Australia,English
-1016,66322,1955.0,Australia,English
-1017,66352,1950.0,Australia,English
-1018,66437,1950.0,Australia,English
-1019,66462,1955.0,Australia,English
-1020,66482,1960.0,Australia,English
-1021,66487,1960.0,Australia,English
-1022,66607,1955.0,Great Britain,English
-1023,66637,1950.0,Unknown,Unknown
-1024,66657,1965.0,Australia,English
-1025,66672,1960.0,Australia,English
-1026,66717,1960.0,Australia,English
-1027,66722,1960.0,Australia,English
-1028,66732,1970.0,Australia,English
-1029,66737,1955.0,Australia,English
-1030,66752,1965.0,Australia,English
-1031,66767,1940.0,Australia,English
-1032,66772,1945.0,Australia,English
-1033,66782,1955.0,Australia,English
-1034,66877,1955.0,Australia,English
-1035,66887,1955.0,Australia,English
-1036,66897,1945.0,Australia,English
-1037,66902,1945.0,Australia,English
-1038,66917,1960.0,Australia,English
-1039,66922,1965.0,Australia,English
-1040,66932,1940.0,Australia,English
-1041,66957,1940.0,Australia,English
-1042,66977,1965.0,Australia,English
-1043,66987,1970.0,Australia,English
-1044,67007,1965.0,Australia,English
-1045,67037,1950.0,Eastern Europe,Other
-1046,67077,1955.0,Western Europe,Other
-1047,67097,1960.0,Australia,English
-1048,67152,1955.0,New Zealand,English
-1049,67182,1940.0,Australia,English
-1050,67272,1965.0,Australia,English
-1051,67282,1965.0,Australia,English
-1052,67297,1950.0,Australia,English
-1053,67317,1950.0,Australia,English
-1054,67327,1965.0,Unknown,Unknown
-1055,67367,1950.0,Australia,English
-1056,67392,1955.0,North America,English
-1057,67412,1960.0,Asia Pacific,English
-1058,67447,1970.0,Great Britain,English
-1059,67467,1955.0,Australia,English
-1060,67472,1955.0,Australia,English
-1061,67477,1960.0,Australia,English
-1062,67502,1960.0,Australia,English
-1063,67537,1955.0,Australia,English
-1064,67542,1950.0,Unknown,Unknown
-1065,67577,1945.0,Australia,English
-1066,67582,1955.0,Australia,English
-1067,67622,1945.0,North America,English
-1068,67647,1965.0,Australia,English
-1069,67657,1965.0,Australia,English
-1070,67732,1965.0,Australia,English
-1071,67742,1965.0,Unknown,Unknown
-1072,67747,1970.0,Unknown,Unknown
-1073,67787,1945.0,Unknown,Unknown
-1074,67842,1965.0,Australia,English
-1075,67847,1955.0,Great Britain,English
-1076,67852,1950.0,Australia,English
-1077,67857,1955.0,Australia,English
-1078,67862,1950.0,Unknown,Unknown
-1079,67872,1950.0,Asia Pacific,Other
-1080,67932,1960.0,Unknown,Unknown
-1081,67962,1955.0,Unknown,Unknown
-1082,68032,1965.0,Australia,English
-1083,68117,1960.0,Unknown,Unknown
-1084,68202,1935.0,Australia,English
-1085,68232,1955.0,Great Britain,English
-1086,68252,1960.0,Australia,English
-1087,68292,1965.0,Unknown,Unknown
-1088,68317,1960.0,Australia,English
-1089,68377,1955.0,Australia,English
-1090,68432,1955.0,Great Britain,English
-1091,68437,1950.0,The Americas,Unknown
-1092,68467,1950.0,Great Britain,English
-1093,68472,1955.0,Australia,English
-1094,68502,1955.0,Australia,English
-1095,68512,1945.0,Unknown,Unknown
-1096,68517,1945.0,Australia,English
-1097,68567,1970.0,Great Britain,English
-1098,68582,1955.0,Unknown,Unknown
-1099,68587,1955.0,Australia,English
-1100,68622,1955.0,Australia,English
-1101,68692,1950.0,Great Britain,English
-1102,68732,1950.0,North America,English
-1103,68782,1960.0,Australia,English
-1104,68817,1955.0,Australia,English
-1105,68857,1950.0,Great Britain,English
-1106,68902,1965.0,Australia,English
-1107,69012,1965.0,Australia,English
-1108,69032,1965.0,Australia,English
-1109,69142,1950.0,Western Europe,Other
-1110,69147,1960.0,Australia,English
-1111,69152,1960.0,Australia,English
-1112,69187,1965.0,Australia,English
-1113,69212,1940.0,Australia,English
-1114,69222,1965.0,Australia,English
-1115,69262,1960.0,Australia,English
-1116,69337,1965.0,Australia,English
-1117,69352,1945.0,Australia,English
-1118,69392,1960.0,Unknown,Unknown
-1119,69432,1945.0,Great Britain,English
-1120,69457,1960.0,Australia,English
-1121,69482,1965.0,Australia,English
-1122,69497,1930.0,Australia,English
-1123,69517,1950.0,Australia,English
-1124,69612,1965.0,Australia,English
-1125,69657,1955.0,Great Britain,English
-1126,69712,1950.0,Great Britain,English
-1127,69732,1950.0,Australia,English
-1128,69782,1960.0,Australia,English
-1129,69812,1960.0,Australia,English
-1130,69887,1945.0,Australia,English
-1131,69952,1960.0,Australia,English
-1132,69977,1965.0,Australia,English
-1133,70132,1960.0,Unknown,Unknown
-1134,70192,1970.0,Unknown,Unknown
-1135,70212,1940.0,Australia,English
-1136,70227,1960.0,Australia,English
-1137,70272,1960.0,Australia,English
-1138,70322,1945.0,Eastern Europe,Other
-1139,70327,1960.0,Unknown,Unknown
-1140,70362,1955.0,Unknown,Unknown
-1141,70457,1950.0,Australia,English
-1142,70487,1955.0,Australia,English
-1143,70542,1960.0,Australia,English
-1144,70602,1965.0,Australia,English
-1145,70647,1940.0,Unknown,Unknown
-1146,70652,1940.0,Australia,English
-1147,70662,1970.0,Australia,English
-1148,70682,1960.0,Australia,English
-1149,70707,1965.0,Australia,English
-1150,70712,1955.0,Australia,English
-1151,70767,1945.0,Australia,English
-1152,70827,1955.0,Unknown,Unknown
-1153,70832,1955.0,Australia,English
-1154,70897,1970.0,South Africa,English
-1155,70907,1955.0,Unknown,Unknown
-1156,70947,1960.0,Asia Pacific,Other
-1157,70987,1965.0,Australia,English
-1158,71037,1960.0,Australia,English
-1159,71127,1970.0,Australia,English
-1160,71222,1955.0,Unknown,Unknown
-1161,71247,1945.0,Australia,English
-1162,71347,1935.0,Unknown,Unknown
-1163,71402,1960.0,Australia,English
-1164,71432,1955.0,Asia Pacific,Other
-1165,71442,1965.0,Australia,English
-1166,71512,1945.0,Unknown,Unknown
-1167,71712,1955.0,Australia,English
-1168,71727,1955.0,Great Britain,English
-1169,71752,1970.0,Western Europe,English
-1170,71787,1950.0,Unknown,Unknown
-1171,71867,1945.0,Australia,English
-1172,71872,1970.0,Australia,English
-1173,71902,1940.0,Unknown,Unknown
-1174,71917,1955.0,Australia,English
-1175,71932,1955.0,Eastern Europe,English
-1176,71982,1960.0,Australia,English
-1177,72037,1970.0,Australia,English
-1178,72087,1945.0,Unknown,Unknown
-1179,72122,1955.0,Australia,English
-1180,72177,1960.0,Australia,English
-1181,72212,1945.0,Unknown,Unknown
-1182,72222,1950.0,Australia,English
-1183,72267,1960.0,Australia,English
-1184,72312,1960.0,Asia Pacific,Other
-1185,72317,1950.0,Great Britain,English
-1186,72422,1960.0,Australia,English
-1187,72432,1955.0,Australia,English
-1188,72447,1950.0,Australia,English
-1189,72467,1945.0,Australia,English
-1190,72497,1965.0,Australia,English
-1191,72507,1945.0,Unknown,Unknown
-1192,72532,1955.0,Great Britain,English
-1193,72537,1945.0,Australia,English
-1194,72562,1970.0,North America,English
-1195,72622,1935.0,Australia,English
-1196,72652,1940.0,Australia,English
-1197,72672,1945.0,Unknown,Unknown
-1198,72692,1955.0,Unknown,Unknown
-1199,72702,1950.0,Western Europe,Other
-1200,72722,1955.0,Australia,English
-1201,72827,1960.0,Unknown,Unknown
-1202,72847,1955.0,Unknown,Unknown
-1203,72902,1960.0,Unknown,Unknown
-1204,72957,1960.0,New Zealand,English
-1205,72987,1955.0,Australia,English
-1206,73017,1960.0,The Americas,Unknown
-1207,73027,1955.0,Australia,English
-1208,73042,1960.0,Unknown,Unknown
-1209,73082,1955.0,Unknown,Unknown
-1210,73087,1955.0,Australia,English
-1211,73187,1955.0,Australia,English
-1212,73352,1960.0,Australia,English
-1213,73372,1945.0,Australia,English
-1214,73382,1965.0,Australia,English
-1215,73387,1955.0,Australia,English
-1216,73402,1965.0,Great Britain,English
-1217,73417,1960.0,Australia,English
-1218,73422,1960.0,Great Britain,English
-1219,73497,1955.0,Australia,English
-1220,73502,1955.0,Australia,English
-1221,73512,1960.0,Australia,English
-1222,73522,1955.0,Australia,English
-1223,73547,1940.0,Australia,English
-1224,73612,1950.0,Australia,English
-1225,73627,1960.0,Australia,English
-1226,73652,1950.0,Great Britain,English
-1227,73707,1960.0,Australia,English
-1228,73712,1950.0,Unknown,Unknown
-1229,73717,1965.0,Australia,English
-1230,73737,1950.0,Australia,English
-1231,73757,1965.0,Australia,English
-1232,73772,1945.0,Australia,English
-1233,73782,1945.0,Australia,English
-1234,73837,1960.0,Unknown,Unknown
-1235,73842,1965.0,Australia,English
-1236,73862,1960.0,Australia,English
-1237,73882,1960.0,Great Britain,English
-1238,73892,1935.0,Unknown,Unknown
-1239,73902,1955.0,Unknown,Unknown
-1240,73917,1955.0,Australia,English
-1241,73942,1950.0,Australia,English
-1242,73962,1960.0,Australia,English
-1243,74002,1950.0,Australia,English
-1244,74012,1955.0,Australia,English
-1245,74047,1960.0,Great Britain,English
-1246,74077,1955.0,Australia,English
-1247,74127,1950.0,Australia,English
-1248,74142,1970.0,Australia,English
-1249,74162,1970.0,Australia,English
-1250,74192,1965.0,Australia,English
-1251,74202,1950.0,Unknown,Unknown
-1252,74252,1960.0,Asia Pacific,Other
-1253,74277,1955.0,Unknown,Unknown
-1254,74292,1960.0,Australia,English
-1255,74302,1960.0,Australia,English
-1256,74312,1955.0,Australia,English
-1257,74317,1955.0,North America,English
-1258,74322,1960.0,Australia,English
-1259,74372,1955.0,Australia,English
-1260,74407,1965.0,Unknown,Unknown
-1261,74432,1950.0,Australia,English
-1262,74487,1960.0,Australia,English
-1263,74492,1950.0,Australia,English
-1264,74512,1945.0,Australia,English
-1265,74527,1950.0,Australia,English
-1266,74542,1945.0,Australia,English
-1267,74567,1960.0,Australia,English
-1268,74592,1965.0,Australia,English
-1269,74652,1960.0,Unknown,Unknown
-1270,74692,1955.0,Great Britain,English
-1271,74697,1960.0,North America,English
-1272,74702,1955.0,Australia,English
-1273,74717,1965.0,Australia,English
-1274,74722,1960.0,Australia,English
-1275,74772,1955.0,Australia,English
-1276,74822,1950.0,Australia,English
-1277,74827,1955.0,Australia,English
-1278,74832,1965.0,Australia,English
-1279,74877,1950.0,Great Britain,English
-1280,74917,1950.0,Australia,English
-1281,74932,1960.0,Great Britain,English
-1282,74937,1960.0,Unknown,Unknown
-1283,74947,1965.0,Australia,English
-1284,74987,1960.0,Unknown,Unknown
-1285,75037,1960.0,Asia Pacific,Other
-1286,75052,1970.0,North America,English
-1287,75082,1965.0,Australia,English
-1288,75127,1955.0,Australia,English
-1289,75132,1965.0,Western Europe,English
-1290,75142,1960.0,Australia,English
-1291,75377,1955.0,Australia,English
-1292,75382,1945.0,Asia Pacific,Other
-1293,75407,1945.0,Asia Pacific,Other
-1294,75412,1950.0,Western Europe,Other
-1295,75422,1950.0,Australia,English
-1296,75437,1925.0,Australia,English
-1297,75447,1935.0,Australia,English
-1298,75457,1945.0,Australia,English
-1299,75492,1950.0,Middle East and Africa,Unknown
-1300,75557,1935.0,Unknown,Unknown
-1301,75572,1940.0,Australia,English
-1302,75587,1940.0,Great Britain,English
-1303,75647,1955.0,Australia,English
-1304,75652,1955.0,Australia,English
-1305,75662,1950.0,Australia,English
-1306,75747,1970.0,Australia,English
-1307,75772,1970.0,Australia,English
-1308,75792,1970.0,Australia,English
-1309,75827,1970.0,Unknown,Unknown
-1310,75932,1965.0,Unknown,Unknown
-1311,75942,1960.0,Australia,English
-1312,75972,1960.0,Australia,English
-1313,75992,1965.0,Asia Pacific,Other
-1314,76007,1955.0,Australia,English
-1315,76022,1965.0,Australia,English
-1316,76237,1960.0,Great Britain,English
-1317,76297,1960.0,Australia,English
-1318,76307,1950.0,Australia,English
-1319,76312,1955.0,Australia,English
-1320,76352,1965.0,Australia,English
-1321,76432,1960.0,Australia,English
-1322,76627,1970.0,Australia,English
-1323,76682,1970.0,Unknown,Unknown
-1324,76732,1960.0,Australia,English
-1325,76752,1950.0,Australia,English
-1326,76757,1975.0,Australia,English
-1327,76777,1970.0,Australia,English
-1328,76792,1970.0,Australia,English
-1329,76812,1970.0,Australia,English
-1330,76867,1950.0,Unknown,Unknown
-1331,77067,1970.0,Australia,English
-1332,77077,1955.0,Australia,English
-1333,77112,1960.0,Great Britain,English
-1334,77147,1960.0,Australia,English
-1335,77152,1955.0,Australia,English
-1336,77162,1970.0,Australia,English
-1337,77182,1970.0,Australia,English
-1338,77237,1950.0,Australia,English
-1339,77242,1950.0,Australia,English
-1340,77277,1970.0,Australia,English
-1341,77297,1960.0,Australia,English
-1342,77327,1935.0,Australia,English
-1343,77337,1950.0,Australia,English
-1344,77342,1965.0,Australia,English
-1345,77392,1965.0,Australia,English
-1346,77402,1950.0,Middle East and Africa,Unknown
-1347,77407,1965.0,Australia,English
-1348,77457,1955.0,Asia Pacific,Other
-1349,77467,1950.0,Australia,English
-1350,77477,1945.0,Australia,English
-1351,77582,1960.0,Australia,English
-1352,77622,1955.0,Australia,English
-1353,77637,1970.0,Asia Pacific,Other
-1354,77652,1960.0,Australia,English
-1355,77717,1970.0,Australia,English
-1356,77807,1970.0,Australia,English
-1357,77832,1970.0,Australia,English
-1358,77842,1950.0,Australia,English
-1359,77877,1970.0,Australia,English
-1360,77887,1965.0,Australia,English
-1361,77907,1965.0,Australia,English
-1362,77977,1965.0,Australia,English
-1363,77987,1960.0,Australia,English
-1364,78007,1960.0,Unknown,Unknown
-1365,78132,1970.0,Australia,English
-1366,78192,1960.0,Unknown,Unknown
-1367,78222,1970.0,Australia,English
-1368,78282,1960.0,Australia,English
-1369,78312,1955.0,Australia,English
-1370,78327,1955.0,Australia,English
-1371,78342,1965.0,Australia,English
-1372,78487,1945.0,Australia,English
-1373,78537,1945.0,Australia,English
-1374,78562,1955.0,Australia,English
-1375,78572,1955.0,Australia,English
-1376,78587,1950.0,Unknown,Unknown
-1377,78602,1950.0,Great Britain,English
-1378,78607,1945.0,Eastern Europe,Other
-1379,78612,1945.0,South Africa,English
-1380,78637,1950.0,Australia,English
-1381,78727,1950.0,Unknown,Unknown
-1382,78752,1955.0,Western Europe,Other
-1383,78762,1960.0,Australia,English
-1384,78782,1955.0,Australia,English
-1385,78807,1945.0,South Africa,English
-1386,78817,1950.0,Western Europe,Other
-1387,78822,1950.0,Australia,English
-1388,78827,1950.0,Australia,English
-1389,78887,1960.0,Australia,English
-1390,78897,1955.0,Australia,English
-1391,78907,1935.0,Australia,English
-1392,78922,1955.0,Australia,English
-1393,78927,1940.0,Australia,English
-1394,78947,1960.0,Australia,English
-1395,78962,1955.0,Australia,English
-1396,78967,1955.0,Western Europe,Other
-1397,78977,1945.0,Australia,English
-1398,78992,1945.0,Australia,English
-1399,79022,1945.0,Western Europe,Other
-1400,79032,1955.0,Australia,English
-1401,79057,1955.0,Australia,English
-1402,79062,1945.0,Australia,English
-1403,79122,1950.0,Australia,English
-1404,79142,1940.0,Australia,English
-1405,79172,1955.0,Unknown,Unknown
-1406,79182,1950.0,Australia,English
-1407,79192,1950.0,Australia,English
-1408,79217,1955.0,Australia,English
-1409,79227,1945.0,Australia,English
-1410,79232,1940.0,Australia,English
-1411,79242,1945.0,Australia,English
-1412,79247,1950.0,Australia,English
-1413,79277,1945.0,Australia,English
-1414,79327,1945.0,Unknown,Unknown
-1415,79427,1960.0,Australia,English
-1416,79462,1950.0,Australia,English
-1417,79477,1960.0,Unknown,Unknown
-1418,79527,1950.0,Unknown,Unknown
-1419,79532,1950.0,Australia,English
-1420,79562,1955.0,Australia,English
-1421,79567,1955.0,Australia,English
-1422,79602,1950.0,Australia,English
-1423,79607,1935.0,Unknown,Unknown
-1424,79612,1950.0,Unknown,Unknown
-1425,79632,1945.0,Australia,English
-1426,79652,1950.0,Asia Pacific,Other
-1427,79662,1940.0,Unknown,Unknown
-1428,79702,1950.0,Australia,English
-1429,79712,1955.0,Australia,English
-1430,79742,1950.0,Great Britain,English
-1431,79747,1940.0,North America,English
-1432,79787,1945.0,North America,English
-1433,79802,1950.0,Australia,English
-1434,79837,1950.0,Australia,English
-1435,79857,1950.0,Australia,English
-1436,79867,1960.0,Unknown,Unknown
-1437,79907,1960.0,Australia,English
-1438,79917,1935.0,Australia,English
-1439,79972,1925.0,Unknown,Unknown
-1440,79977,1935.0,Australia,English
-1441,80037,1950.0,Australia,English
-1442,80047,1940.0,North America,English
-1443,80057,1950.0,Australia,English
-1444,80062,1950.0,Australia,English
-1445,80072,1960.0,Unknown,Unknown
-1446,80077,1955.0,Australia,English
-1447,80137,1950.0,Australia,English
-1448,80167,1950.0,Australia,English
-1449,80172,1955.0,Australia,English
-1450,80187,1945.0,Australia,English
-1451,80197,1950.0,Australia,English
-1452,80212,1945.0,Australia,English
-1453,80217,1940.0,Australia,English
-1454,80232,1960.0,Australia,English
-1455,80237,1960.0,Australia,English
-1456,80257,1940.0,Australia,English
-1457,80277,1940.0,Australia,English
-1458,80282,1950.0,Unknown,Unknown
-1459,80322,1940.0,Unknown,Unknown
-1460,80332,1930.0,Unknown,Unknown
-1461,80372,1955.0,Australia,English
-1462,80377,1945.0,Australia,English
-1463,80382,1950.0,Australia,English
-1464,80387,1945.0,Great Britain,English
-1465,80392,1945.0,Australia,English
-1466,80397,1945.0,Australia,English
-1467,80407,1940.0,Australia,English
-1468,80412,1955.0,Australia,English
-1469,80437,1955.0,Australia,English
-1470,80457,1940.0,Australia,English
-1471,80477,1950.0,South Africa,English
-1472,80502,1950.0,Australia,English
-1473,80527,1950.0,Australia,English
-1474,80617,1945.0,Australia,English
-1475,80677,1950.0,Australia,English
-1476,80687,1950.0,Australia,English
-1477,80692,1950.0,Australia,English
-1478,80702,1940.0,Australia,English
-1479,80717,1950.0,Australia,English
-1480,80722,1950.0,Australia,English
-1481,80737,1945.0,Australia,English
-1482,80752,1940.0,Australia,English
-1483,80762,1950.0,Australia,English
-1484,80817,1945.0,Unknown,Unknown
-1485,80852,1955.0,Australia,English
-1486,80942,1945.0,Australia,English
-1487,80967,1950.0,Australia,English
-1488,81037,1945.0,Australia,English
-1489,81052,1950.0,Australia,English
-1490,81067,1940.0,Australia,English
-1491,81087,1945.0,Australia,English
-1492,81117,1950.0,Great Britain,English
-1493,81187,1965.0,Australia,English
-1494,81352,1965.0,Australia,English
-1495,81592,1960.0,Great Britain,English
-1496,81647,1950.0,Australia,English
-1497,81702,1955.0,New Zealand,English
-1498,81727,1945.0,Australia,English
-1499,81792,1950.0,Australia,English
-1500,81822,1945.0,Australia,English
-1501,81847,1950.0,Australia,English
-1502,81892,1950.0,Australia,English
-1503,81907,1945.0,Australia,English
-1504,81957,1945.0,Unknown,Unknown
-1505,81992,1950.0,Australia,English
-1506,82007,1950.0,Great Britain,English
-1507,82022,1950.0,Australia,English
-1508,82062,1950.0,Great Britain,English
-1509,82072,1950.0,Australia,English
-1510,82092,1945.0,Australia,English
-1511,82117,1930.0,Australia,English
-1512,82132,1945.0,Australia,English
-1513,82142,1945.0,Australia,English
-1514,82172,1950.0,Great Britain,English
-1515,82227,1955.0,Unknown,Unknown
-1516,82312,1950.0,Australia,English
-1517,82347,1950.0,Unknown,Unknown
-1518,82377,1950.0,New Zealand,English
-1519,82427,1955.0,Australia,English
-1520,82432,1960.0,Australia,English
-1521,82442,1955.0,Australia,English
-1522,82452,1960.0,North America,English
-1523,82467,1950.0,Australia,English
-1524,82482,1955.0,Unknown,Unknown
-1525,82487,1955.0,Australia,Other
-1526,82497,1960.0,Australia,English
-1527,82502,1960.0,Australia,English
-1528,82507,1960.0,Australia,English
-1529,82512,1955.0,Asia Pacific,Other
-1530,82522,1950.0,Australia,English
-1531,82527,1955.0,Australia,English
-1532,82537,1950.0,Australia,English
-1533,82542,1955.0,Australia,English
-1534,82547,1955.0,Australia,English
-1535,82557,1960.0,Australia,English
-1536,82567,1955.0,Australia,English
-1537,82597,1950.0,Australia,English
-1538,82602,1960.0,Australia,English
-1539,82612,1955.0,Australia,English
-1540,82697,1975.0,Australia,English
-1541,82722,1970.0,Australia,English
-1542,82792,1950.0,Australia,English
-1543,82797,1965.0,Great Britain,English
-1544,82837,1965.0,Western Europe,Other
-1545,82892,1970.0,Western Europe,Other
-1546,82907,1965.0,Australia,English
-1547,82962,1965.0,Australia,English
-1548,83157,1980.0,Australia,English
-1549,83367,1980.0,Unknown,Unknown
-1550,83552,1980.0,Australia,English
-1551,84487,1965.0,Unknown,Unknown
-1552,84622,1955.0,Australia,English
-1553,84627,1960.0,Australia,English
-1554,85007,1945.0,Australia,English
-1555,85082,1965.0,Australia,English
-1556,85347,1980.0,Unknown,Unknown
-1557,85642,1955.0,Australia,English
-1558,85707,1970.0,Australia,English
-1559,85862,1950.0,Western Europe,Other
-1560,85907,1950.0,Unknown,Unknown
-1561,85917,1965.0,Australia,English
-1562,86082,1960.0,The Americas,Other
-1563,86212,1975.0,Australia,English
-1564,86302,1970.0,Australia,English
-1565,86337,1955.0,Unknown,Unknown
-1566,86672,1975.0,Australia,English
-1567,87087,1950.0,Asia Pacific,Other
-1568,87147,1970.0,Australia,English
-1569,87192,1970.0,Australia,English
-1570,87202,1950.0,Australia,English
-1571,87472,1950.0,Unknown,Unknown
-1572,87537,1980.0,Australia,English
-1573,87542,1975.0,Asia Pacific,Other
-1574,87917,1970.0,Great Britain,English
-1575,88087,1975.0,Unknown,Unknown
-1576,88557,1975.0,Australia,English
-1577,89127,1970.0,Australia,English
-1578,89232,1945.0,Australia,English
-1579,89257,1955.0,Australia,English
-1580,89462,1930.0,Unknown,Unknown
-1581,89467,1960.0,New Zealand,English
-1582,89472,1970.0,Australia,English
-1583,89487,1970.0,Australia,English
-1584,89492,1945.0,Australia,English
-1585,89582,1970.0,South Africa,English
-1586,89627,1975.0,Australia,English
-1587,89637,1955.0,Australia,English
-1588,89652,1960.0,Unknown,Unknown
-1589,89742,1975.0,Australia,English
-1590,89777,1970.0,Australia,English
-1591,89787,1970.0,Australia,English
-1592,89902,1960.0,Australia,English
-1593,90132,1970.0,Middle East and Africa,Unknown
-1594,90352,1970.0,Australia,English
-1595,90532,1965.0,Australia,English
-1596,90542,1970.0,Australia,English
-1597,90572,1965.0,Australia,English
-1598,90602,1965.0,Australia,English
-1599,90947,1965.0,Unknown,Unknown
-1600,91092,1965.0,Australia,English
-1601,91182,1965.0,Australia,English
-1602,91257,1955.0,South Africa,English
-1603,91387,1960.0,Australia,English
-1604,91832,1965.0,Unknown,Unknown
-1605,92037,1965.0,Australia,English
-1606,92047,1950.0,Australia,English
-1607,92172,1970.0,Australia,English
-1608,92307,1960.0,Australia,English
-1609,92362,1965.0,Western Europe,Other
-1610,92447,1960.0,Unknown,Unknown
-1611,92457,1965.0,Asia Pacific,Other
-1612,92492,1965.0,Australia,English
-1613,92582,1945.0,Unknown,Unknown
-1614,92682,1965.0,Australia,English
-1615,92927,1965.0,Middle East and Africa,Unknown
-1616,93007,1970.0,Australia,English
-1617,93072,1955.0,Australia,English
-1618,93342,1950.0,Great Britain,English
-1619,93362,1965.0,Australia,English
-1620,93647,1960.0,Australia,English
-1621,93802,1970.0,Australia,English
-1622,93892,1970.0,Australia,English
-1623,93907,1960.0,Great Britain,English
-1624,94102,1970.0,Australia,English
-1625,94187,1975.0,Australia,English
-1626,94237,1975.0,Australia,English
-1627,94537,1975.0,Great Britain,English
-1628,94732,1960.0,Australia,English
-1629,95047,1975.0,Western Europe,Other
-1630,95202,1970.0,Great Britain,English
-1631,95762,1970.0,Unknown,Unknown
-1632,95772,1970.0,Unknown,Unknown
-1633,95862,1975.0,Australia,English
-1634,95867,1965.0,Australia,English
-1635,95892,1960.0,Australia,English
-1636,95932,1970.0,Asia Pacific,Other
-1637,95962,1955.0,Unknown,Unknown
-1638,96312,1975.0,Australia,English
-1639,96717,1955.0,Australia,English
-1640,96872,1970.0,Australia,English
-1641,97072,1975.0,Australia,English
-1642,97182,1955.0,Australia,English
-1643,97532,1970.0,Australia,English
-1644,97577,1980.0,Australia,English
-1645,97962,1975.0,Australia,English
-1646,98112,1955.0,Australia,English
-1647,98187,1950.0,Australia,English
-1648,98197,1950.0,Australia,English
-1649,98212,1965.0,Australia,English
-1650,98217,1960.0,Unknown,Unknown
-1651,98222,1965.0,Australia,English
-1652,98232,1965.0,Unknown,Unknown
-1653,98257,1965.0,Australia,English
-1654,98432,1975.0,Australia,English
-1655,98732,1980.0,Australia,English
-1656,98757,1970.0,Australia,English
-1657,98987,1975.0,Australia,English
-1658,99052,1970.0,Australia,English
-1659,99072,1960.0,Australia,English
-1660,99617,1980.0,Unknown,Unknown
-1661,99877,1965.0,Australia,English
-1662,100062,1975.0,Unknown,Unknown
-1663,100772,1965.0,Great Britain,English
-1664,101042,1940.0,Australia,English
-1665,101532,1960.0,Australia,English
-1666,101582,1980.0,Australia,English
-1667,101802,1955.0,Unknown,Unknown
-1668,102012,1975.0,Australia,English
-1669,102337,1970.0,Australia,English
-1670,102402,1980.0,Australia,English
-1671,102562,1955.0,Australia,English
-1672,102602,1975.0,Unknown,Unknown
-1673,102762,1970.0,Australia,English
-1674,103002,1965.0,Australia,English
-1675,103187,1940.0,Unknown,Unknown
-1676,103432,1945.0,Australia,English
-1677,103512,1975.0,Australia,English
-1678,103677,1970.0,Asia Pacific,Other
-1679,103747,1970.0,Unknown,Unknown
-1680,103787,1970.0,Western Europe,Other
-1681,103852,1950.0,Australia,English
-1682,104057,1975.0,Australia,English
-1683,104707,1975.0,Australia,English
-1684,105337,1950.0,Australia,English
-1685,105342,1965.0,Australia,English
-1686,105837,1960.0,Unknown,Unknown
-1687,106227,1955.0,Australia,English
-1688,106252,1970.0,Australia,English
-1689,106282,1965.0,Asia Pacific,English
-1690,106357,1950.0,Australia,English
-1691,106802,1975.0,The Americas,Unknown
-1692,107242,1970.0,Great Britain,English
-1693,107262,1970.0,Australia,English
-1694,107567,1965.0,Unknown,Unknown
-1695,107602,1970.0,Australia,English
-1696,107667,1955.0,Australia,English
-1697,107842,1970.0,North America,English
-1698,107862,1975.0,Australia,English
-1699,107987,1960.0,Australia,English
-1700,108162,1975.0,Australia,English
-1701,108502,1975.0,Australia,English
-1702,108847,1945.0,Australia,English
-1703,108962,1950.0,Australia,English
-1704,109052,1980.0,Australia,English
-1705,109207,1970.0,Australia,English
-1706,109222,1950.0,Australia,English
-1707,109672,1950.0,Unknown,Unknown
-1708,110177,1975.0,Australia,English
-1709,110202,1970.0,Australia,English
-1710,110437,1975.0,Australia,English
-1711,110457,1960.0,Australia,English
-1712,110472,1965.0,Australia,English
-1713,110517,1980.0,Australia,English
-1714,110607,1960.0,Unknown,Unknown
-1715,110612,1960.0,Unknown,Unknown
-1716,111122,1970.0,Australia,English
-1717,111192,1965.0,Western Europe,Other
-1718,111197,1970.0,Western Europe,Other
-1719,111402,1965.0,Australia,English
-1720,111407,1945.0,Unknown,Unknown
-1721,111537,1960.0,Western Europe,Other
-1722,111787,1980.0,Australia,English
-1723,112162,1970.0,Australia,English
-1724,112337,1945.0,Australia,English
-1725,112562,1970.0,Australia,English
-1726,112582,1945.0,Unknown,Unknown
-1727,113027,1955.0,Australia,English
-1728,113052,1955.0,Australia,English
-1729,113192,1965.0,Asia Pacific,Other
-1730,113607,1970.0,Great Britain,English
-1731,113732,1950.0,Unknown,Unknown
-1732,113942,1965.0,North America,English
-1733,114202,1980.0,Australia,English
-1734,114227,1975.0,Australia,English
-1735,114547,1965.0,Australia,English
-1736,114552,1955.0,North America,English
-1737,114842,1970.0,Australia,English
-1738,114862,1965.0,Unknown,Unknown
-1739,115007,1970.0,Australia,English
-1740,115217,1975.0,Australia,English
-1741,115247,1960.0,Australia,English
-1742,115252,1950.0,Great Britain,English
-1743,115407,1970.0,Asia Pacific,Other
-1744,115417,1965.0,Western Europe,Other
-1745,115842,1965.0,Unknown,Unknown
-1746,115867,1970.0,Australia,English
-1747,116057,1970.0,Australia,English
-1748,116137,1960.0,Eastern Europe,Other
-1749,116157,1950.0,Unknown,Unknown
-1750,116582,1970.0,Unknown,Unknown
-1751,116727,1970.0,Unknown,Unknown
-1752,117317,1965.0,Australia,English
-1753,117422,1975.0,Australia,English
-1754,117442,1965.0,Australia,English
-1755,117462,1965.0,Great Britain,English
-1756,117502,1975.0,Australia,English
-1757,117737,1980.0,Australia,English
-1758,117972,1965.0,Australia,English
-1759,118007,1960.0,Australia,English
-1760,118727,1960.0,Western Europe,Other
-1761,118747,1980.0,Australia,English
-1762,119282,1975.0,Australia,English
-1763,119287,1955.0,Unknown,Unknown
-1764,119312,1965.0,Australia,English
-1765,119322,1970.0,Asia Pacific,Other
-1766,119372,1970.0,Eastern Europe,Other
-1767,119512,1965.0,Unknown,Unknown
-1768,119757,1945.0,Unknown,Unknown
-1769,119767,1945.0,Unknown,Unknown
-1770,119837,1980.0,Australia,English
-1771,119932,1975.0,North America,English
-1772,119982,1970.0,Australia,English
-1773,120047,1960.0,Australia,English
-1774,120397,1975.0,Asia Pacific,Other
-1775,120797,1970.0,Australia,English
-1776,120892,1950.0,Unknown,Unknown
-1777,120997,1975.0,Australia,English
-1778,121822,1965.0,Australia,English
-1779,121892,1965.0,Australia,English
-1780,122022,1980.0,Australia,English
-1781,122307,1970.0,Unknown,Unknown
-1782,122392,1975.0,Australia,English
-1783,123092,1970.0,Western Europe,Other
-1784,123132,1960.0,Australia,English
-1785,123327,1945.0,Australia,English
-1786,123422,1975.0,Australia,English
-1787,123547,1980.0,Australia,English
-1788,124122,1975.0,Australia,English
-1789,124477,1955.0,Australia,English
-1790,124552,1970.0,Unknown,Unknown
-1791,124577,1965.0,Australia,English
-1792,124692,1975.0,Western Europe,Other
-1793,124722,1975.0,Australia,English
-1794,124832,1970.0,North America,English
-1795,124932,1970.0,Australia,English
-1796,125287,1945.0,Australia,English
-1797,125917,1985.0,Unknown,Unknown
-1798,126007,1970.0,Australia,English
-1799,126162,1970.0,Asia Pacific,Other
-1800,126217,1970.0,Australia,English
-1801,126247,1965.0,Unknown,Unknown
-1802,126907,1955.0,Unknown,Unknown
-1803,126917,1975.0,Australia,English
-1804,126927,1965.0,Australia,English
-1805,126982,1965.0,Australia,English
-1806,127112,1975.0,Unknown,Unknown
-1807,127397,1975.0,Australia,English
-1808,127447,1970.0,Australia,English
-1809,127542,1970.0,Australia,English
-1810,129127,1960.0,Australia,English
-1811,129387,1970.0,Unknown,Unknown
-1812,129467,1955.0,Unknown,Unknown
-1813,129492,1945.0,Australia,English
-1814,129622,1965.0,North America,English
-1815,129752,1965.0,Australia,English
-1816,129757,1975.0,Australia,English
-1817,129782,1975.0,Unknown,Unknown
-1818,129807,1960.0,Australia,English
-1819,130047,1960.0,Unknown,Unknown
-1820,130082,1970.0,Australia,English
-1821,130502,1970.0,Australia,English
-1822,130642,1965.0,Australia,English
-1823,130967,1975.0,Great Britain,English
-1824,131112,1970.0,Australia,English
-1825,131257,1980.0,Australia,English
-1826,131372,1950.0,Australia,English
-1827,131432,1965.0,Australia,English
-1828,131502,1965.0,Asia Pacific,Other
-1829,131527,1975.0,Unknown,Unknown
-1830,131812,1970.0,Australia,English
-1831,131877,1970.0,Australia,English
-1832,132222,1965.0,Western Europe,Other
-1833,132232,1975.0,Australia,English
-1834,132247,1960.0,Australia,English
-1835,132312,1975.0,Unknown,Unknown
-1836,132927,1970.0,Australia,English
-1837,132957,1965.0,Australia,English
-1838,133032,1965.0,Unknown,Unknown
-1839,133432,1960.0,Unknown,Unknown
-1840,133557,1970.0,Australia,English
-1841,133772,1975.0,South Africa,English
-1842,134287,1975.0,Australia,English
-1843,134907,1975.0,Australia,English
-1844,135027,1960.0,Asia Pacific,Other
-1845,135457,1975.0,Western Europe,Other
-1846,135472,1965.0,Australia,English
-1847,135652,1965.0,Asia Pacific,Other
-1848,135662,1970.0,Australia,English
-1849,135862,1975.0,New Zealand,English
-1850,136607,1960.0,Australia,English
-1851,136802,1975.0,Australia,English
-1852,136807,,Australia,English
-1853,137272,1965.0,Australia,English
-1854,137427,1970.0,Great Britain,English
-1855,137507,1965.0,Australia,English
-1856,138547,1980.0,Australia,English
-1857,138567,1980.0,Australia,English
-1858,139212,1980.0,Australia,English
-1859,139532,1950.0,Australia,English
-1860,139852,1965.0,Unknown,Unknown
-1861,139962,1970.0,Australia,English
-1862,140282,1955.0,Australia,English
-1863,140292,1940.0,Australia,English
-1864,140307,1965.0,Western Europe,Other
-1865,140382,1940.0,Australia,English
-1866,140397,1965.0,Unknown,Unknown
-1867,140417,1965.0,Australia,English
-1868,140442,1960.0,Australia,English
-1869,140882,1965.0,Australia,English
-1870,140997,1980.0,Australia,English
-1871,141012,1970.0,Asia Pacific,Other
-1872,141552,1945.0,Unknown,Unknown
-1873,141572,1975.0,Unknown,Unknown
-1874,142182,1970.0,Australia,English
-1875,142352,1980.0,Asia Pacific,Other
-1876,142457,1970.0,Australia,English
-1877,143042,1960.0,Australia,English
-1878,143357,1965.0,Asia Pacific,Other
-1879,143452,1965.0,Australia,English
-1880,143802,1965.0,Australia,English
-1881,143992,1970.0,Australia,English
-1882,144177,1970.0,Australia,English
-1883,144267,1970.0,Australia,English
-1884,144462,1965.0,Australia,English
-1885,144472,1975.0,Asia Pacific,Other
-1886,144477,1965.0,Great Britain,English
-1887,144632,1960.0,Australia,English
-1888,144652,1955.0,Australia,English
-1889,144767,1970.0,Asia Pacific,Other
-1890,145057,1965.0,Australia,English
-1891,145367,1965.0,Australia,English
-1892,145447,1970.0,Great Britain,English
-1893,145732,1965.0,Unknown,Unknown
-1894,145857,1965.0,Eastern Europe,Other
-1895,145977,1970.0,North America,English
-1896,146262,1975.0,Australia,English
-1897,146697,1965.0,Great Britain,English
-1898,146827,1980.0,Australia,English
-1899,146987,1965.0,Great Britain,English
-1900,146992,1970.0,Unknown,Unknown
-1901,147252,1955.0,Australia,English
-1902,147382,1970.0,Western Europe,Other
-1903,147387,1965.0,Eastern Europe,Other
-1904,147502,1970.0,Great Britain,English
-1905,147602,1960.0,Unknown,Unknown
-1906,147677,1965.0,Australia,English
-1907,147697,1965.0,Unknown,Unknown
-1908,147717,1965.0,Great Britain,English
-1909,147722,1970.0,Great Britain,English
-1910,147827,1950.0,North America,English
-1911,147857,1975.0,Australia,English
-1912,148087,1950.0,Australia,English
-1913,148102,1950.0,Australia,English
-1914,148202,1960.0,Australia,English
-1915,148597,1975.0,The Americas,Unknown
-1916,148677,1945.0,Unknown,Unknown
-1917,148837,1960.0,North America,English
-1918,148842,1965.0,Australia,English
-1919,148997,1940.0,Australia,English
-1920,149052,1965.0,Australia,English
-1921,149107,1975.0,Australia,English
-1922,149767,1975.0,Australia,English
-1923,150877,1950.0,Unknown,Unknown
-1924,151217,1945.0,Australia,English
-1925,153252,1970.0,Australia,English
-1926,153637,1970.0,Australia,English
-1927,156692,1970.0,Australia,English
-1928,158617,1975.0,Australia,English
-1929,159607,1955.0,The Americas,Other
-1930,161817,1945.0,Australia,English
-1931,162462,1970.0,Australia,English
-1932,164977,1960.0,Australia,English
-1933,165032,1960.0,Australia,English
-1934,166802,1970.0,Australia,English
-1935,168282,1970.0,Australia,English
-1936,174352,1945.0,Unknown,Unknown
-1937,175512,1975.0,Australia,English
-1938,176127,1975.0,Australia,English
-1939,178022,1975.0,Australia,English
-1940,178232,1945.0,Great Britain,English
-1941,246732,1970.0,Australia,English
-1942,246837,1975.0,North America,English
-1943,246972,1950.0,Australia,English
-1944,247022,1975.0,North America,English
-1945,247072,1960.0,Unknown,Unknown
-1946,247162,1935.0,Australia,English
-1947,251602,1965.0,Unknown,Unknown
-1948,255582,1975.0,Australia,English
-1949,265752,1970.0,Australia,English
-1950,265767,1965.0,Australia,English
-1951,282232,1960.0,Australia,English
-1952,282422,1965.0,Australia,English
-1953,284257,1960.0,Unknown,Unknown
-1954,289377,1975.0,Australia,English
-1955,289542,1970.0,Australia,English
-1956,290727,1950.0,Australia,English
-1957,291112,1960.0,Australia,English
-1958,293502,1975.0,Australia,English
-1959,295532,1955.0,Unknown,Unknown
-1960,296177,1955.0,Australia,English
-1961,296942,1970.0,Unknown,Unknown
-1962,297087,1965.0,Australia,English
-1963,297092,1970.0,Great Britain,English
-1964,297202,1970.0,Australia,English
-1965,297392,1960.0,Middle East and Africa,Unknown
-1966,301472,1950.0,Australia,English
-1967,303472,1975.0,Australia,English
-1968,313557,1975.0,Australia,English
-1969,314067,1960.0,Unknown,Unknown
-1970,314487,1960.0,Australia,English
-1971,314557,1960.0,Australia,English
-1972,314962,1975.0,Australia,English
-1973,315512,1960.0,Australia,English
-1974,315992,1975.0,Australia,English
-1975,322007,1965.0,Unknown,Unknown
-1976,322527,1975.0,Australia,English
-1977,322697,1970.0,Unknown,Unknown
-1978,322847,1960.0,Unknown,Unknown
-1979,323037,1970.0,Australia,English
-1980,323217,1975.0,Australia,English
-1981,324457,1945.0,Unknown,Unknown
-1982,325112,1975.0,Australia,English
-1983,329757,1950.0,Unknown,Unknown
-1984,330592,1965.0,Australia,English
-1985,332337,1975.0,Australia,English
-1986,333727,1965.0,Australia,English
-1987,335382,1955.0,Australia,English
-1988,342122,1965.0,Australia,English
-1989,343842,1975.0,Australia,English
-1990,348432,1970.0,Western Europe,Other
-1991,348477,1970.0,Australia,English
-1992,350047,1975.0,Australia,English
-1993,351122,1950.0,Australia,English
-1994,353007,1980.0,Australia,Other
-1995,357487,1970.0,Australia,English
-1996,358382,1975.0,Australia,English
-1997,359677,1975.0,Australia,English
-1998,359897,1970.0,Unknown,Unknown
-1999,360207,1955.0,Australia,English
-2000,361647,1955.0,Australia,English
-2001,361922,1970.0,Australia,English
-2002,366782,1975.0,Australia,English
-2003,367942,1980.0,Australia,English
-2004,370587,1975.0,Australia,English
-2005,372082,1980.0,Australia,English
-2006,373802,1970.0,Australia,English
-2007,378437,1970.0,Australia,English
-2008,378492,1950.0,Australia,English
-2009,381032,1950.0,Unknown,Unknown
-2010,381382,1955.0,Australia,English
-2011,389577,1965.0,Unknown,Unknown
-2012,393152,1940.0,Australia,English
-2013,393667,1965.0,Unknown,Unknown
-2014,395462,1950.0,Unknown,Unknown
-2015,395587,1960.0,Australia,English
-2016,396332,1965.0,Australia,English
-2017,396842,1965.0,Unknown,Unknown
-2018,397557,1960.0,Australia,English
-2019,397672,1965.0,Australia,English
-2020,398112,1975.0,Great Britain,English
-2021,404712,1955.0,Unknown,Unknown
-2022,405312,1965.0,Australia,English
-2023,408232,1965.0,Australia,English
-2024,412702,1970.0,Australia,English
-2025,415187,1965.0,Australia,English
-2026,415357,1950.0,Australia,English
-2027,416072,1940.0,Australia,English
-2028,419827,1960.0,Unknown,Unknown
-2029,420282,1970.0,Australia,English
-2030,421337,1955.0,Australia,English
-2031,424692,1970.0,Unknown,Unknown
-2032,424987,1970.0,Unknown,Unknown
-2033,431937,1955.0,Australia,English
-2034,438372,1960.0,Australia,English
-2035,444932,1970.0,Asia Pacific,Other
-2036,447447,1965.0,Australia,English
-2037,448227,1960.0,Australia,English
-2038,448982,1970.0,Unknown,Unknown
-2039,449137,1970.0,Australia,English
-2040,449272,1960.0,Australia,English
-2041,475172,1955.0,Australia,English
-2042,482182,1945.0,Australia,English
-2043,487812,1965.0,Western Europe,Other
-2044,487992,1950.0,Asia Pacific,Other
-2045,488307,1900.0,Unknown,Unknown
-2046,488677,1985.0,Australia,English
-2047,488762,1970.0,North America,Other
-2048,488847,1970.0,Unknown,Unknown
-2049,488852,1980.0,Unknown,Unknown
-2050,488857,1965.0,Great Britain,English
-2051,488862,1975.0,Australia,English
-2052,488942,1975.0,Asia Pacific,Other
-2053,489582,1975.0,Great Britain,English
-2054,489907,1960.0,Unknown,Unknown
-2055,490032,1975.0,Australia,English
-2056,490262,1965.0,Western Europe,Other
-2057,491012,1980.0,Unknown,Unknown
-2058,491027,1900.0,Unknown,Unknown
-2059,491302,1955.0,Australia,English
-2060,491307,1955.0,Australia,English
-2061,491312,1960.0,Australia,English
-2062,491322,1955.0,Australia,English
-2063,491327,1965.0,Australia,English
-2064,491582,1975.0,Asia Pacific,Other
-2065,491602,1965.0,Middle East and Africa,Unknown
-2066,491842,1950.0,Unknown,Unknown
-2067,492057,1965.0,Asia Pacific,Other
-2068,492157,1970.0,Asia Pacific,Other
-2069,492162,1955.0,Unknown,Unknown
-2070,492632,1970.0,North America,English
-2071,492977,1975.0,Asia Pacific,Other
-2072,493292,1975.0,Unknown,Unknown
-2073,493297,1965.0,Australia,English
-2074,493302,1975.0,Australia,English
-2075,493317,1970.0,North America,English
-2076,493407,1965.0,Unknown,Unknown
-2077,493657,1960.0,Unknown,Unknown
-2078,493697,1960.0,Asia Pacific,Other
-2079,493767,1965.0,Australia,English
-2080,494072,1975.0,Unknown,Unknown
-2081,494597,1960.0,Unknown,Unknown
-2082,494752,1980.0,Unknown,Unknown
-2083,494852,1965.0,Australia,English
-2084,495142,1975.0,Eastern Europe,Other
-2085,495207,1975.0,Great Britain,English
-2086,495212,1965.0,Australia,English
-2087,495257,1970.0,Unknown,Unknown
-2088,495452,1975.0,Australia,English
-2089,495842,1965.0,Australia,English
-2090,495867,1970.0,Australia,English
-2091,495877,1970.0,Unknown,Unknown
-2092,496437,1950.0,Australia,English
-2093,496907,1965.0,Unknown,Unknown
-2094,497302,1965.0,Australia,English
-2095,497457,1975.0,Asia Pacific,Other
-2096,497677,1980.0,Australia,English
-2097,497802,1955.0,Unknown,Unknown
-2098,497807,1965.0,Unknown,Unknown
-2099,497897,1965.0,Unknown,Unknown
-2100,497907,1970.0,Australia,English
-2101,498357,1970.0,Unknown,Unknown
-2102,498427,1970.0,Great Britain,English
-2103,498647,1970.0,Unknown,Unknown
-2104,498962,1970.0,Unknown,English
-2105,499542,1980.0,Unknown,Unknown
-2106,499572,1960.0,Unknown,Unknown
-2107,499667,1975.0,Western Europe,Other
-2108,500007,1975.0,Asia Pacific,Other
-2109,500012,1975.0,Australia,English
-2110,500027,1975.0,Unknown,English
-2111,500137,1975.0,North America,English
-2112,500142,1975.0,Australia,English
-2113,500157,1970.0,Australia,English
-2114,500167,1955.0,Australia,English
-2115,500177,1980.0,Australia,English
-2116,500182,1970.0,Unknown,Unknown
-2117,500192,1975.0,Unknown,Unknown
-2118,500197,1970.0,Asia Pacific,Other
-2119,500202,1965.0,Unknown,Other
-2120,500247,1970.0,Asia Pacific,Other
-2121,500252,1965.0,Unknown,Other
-2122,500257,1970.0,Unknown,Unknown
-2123,500272,1970.0,Unknown,Unknown
-2124,500307,1960.0,Unknown,Unknown
-2125,500332,1970.0,Asia Pacific,Other
-2126,500367,1965.0,Western Europe,Other
-2127,500382,1970.0,Unknown,Unknown
-2128,500387,1965.0,Unknown,Unknown
-2129,500392,1975.0,Unknown,Unknown
-2130,500412,1970.0,Asia Pacific,Other
-2131,500417,1970.0,Australia,English
-2132,500442,1955.0,Australia,English
-2133,500447,1955.0,Western Europe,Other
-2134,500457,1950.0,Unknown,Unknown
-2135,500462,1975.0,Unknown,Unknown
-2136,500472,1970.0,Western Europe,Other
-2137,573352,1965.0,Unknown,Other
-2138,574367,1960.0,Great Britain,English
-2139,575052,1965.0,Unknown,Unknown
-2140,575977,1960.0,Australia,English
-2141,578662,1980.0,Australia,English
-2142,582352,1970.0,Unknown,Unknown
-2143,584022,1955.0,Australia,English
-2144,585767,1975.0,Australia,English
-2145,585877,1975.0,Western Europe,Other
-2146,585892,1975.0,Unknown,Unknown
-2147,586442,1970.0,Western Europe,Other
-2148,588387,1970.0,Unknown,Unknown
-2149,588877,1970.0,Unknown,Unknown
-2150,589517,1950.0,Unknown,Unknown
-2151,589572,1975.0,Unknown,Unknown
-2152,592577,1975.0,Unknown,Unknown
-2153,592662,1970.0,Unknown,Unknown
-2154,593217,1970.0,Australia,English
-2155,593492,1970.0,Unknown,Unknown
-2156,594827,1975.0,Great Britain,English
-2157,595642,1975.0,Unknown,Unknown
-2158,595677,1960.0,South Africa,English
-2159,595792,1975.0,Unknown,Unknown
-2160,597367,1980.0,Unknown,Unknown
-2161,597827,1965.0,Australia,English
-2162,599277,1975.0,Western Europe,Other
-2163,602087,1975.0,Australia,English
-2164,604692,1975.0,Unknown,Unknown
-2165,605207,1940.0,Great Britain,English
-2166,606322,1975.0,Unknown,Unknown
-2167,606707,1980.0,Unknown,Unknown
-2168,607102,1975.0,Asia Pacific,Other
-2169,608447,1965.0,Unknown,Unknown
-2170,610622,1975.0,Unknown,Unknown
-2171,610882,1975.0,Unknown,Unknown
-2172,612292,1950.0,Unknown,Unknown
-2173,613297,1975.0,Australia,English
-2174,613502,1955.0,Unknown,Unknown
-2175,614142,1980.0,Unknown,Unknown
-2176,615302,1950.0,Unknown,Unknown
-2177,615307,1950.0,Australia,English
-2178,615312,1975.0,Australia,English
-2179,620807,1965.0,North America,English
-2180,621897,1950.0,Unknown,Unknown
-2181,622587,1980.0,Australia,English
-2182,623052,1980.0,Unknown,Unknown
-2183,624752,1970.0,Unknown,Unknown
-2184,625537,1950.0,Unknown,Unknown
-2185,626187,1980.0,Western Europe,Other
-2186,631447,1970.0,Unknown,Unknown
-2187,633697,1975.0,Unknown,Unknown
-2188,633777,1980.0,Unknown,Unknown
-2189,636257,1980.0,Unknown,Unknown
-2190,636347,1975.0,Unknown,Unknown
-2191,636677,1980.0,Australia,English
-2192,636757,1975.0,Australia,English
-2193,636867,1950.0,Australia,English
-2194,636917,1960.0,Unknown,Unknown
-2195,636972,1960.0,Unknown,Unknown
-2196,637272,1960.0,Unknown,Unknown
-2197,637532,1975.0,Unknown,Unknown
-2198,638122,1970.0,Unknown,Unknown
-2199,639457,1975.0,Unknown,Unknown
-2200,639557,1960.0,North America,English
-2201,640757,1950.0,Unknown,Unknown
-2202,641012,1975.0,Unknown,Unknown
-2203,641022,1975.0,Australia,English
-2204,642632,1975.0,Unknown,Unknown
-2205,643862,1980.0,Australia,English
-2206,646977,1980.0,Great Britain,English
-2207,649042,1975.0,Australia,English
-2208,650672,1955.0,Unknown,Unknown
-2209,651722,1970.0,Unknown,Unknown
-2210,651957,1970.0,Unknown,Unknown
-2211,653802,1980.0,Unknown,Unknown
-2212,655457,1970.0,Australia,English
-2213,656157,1945.0,Eastern Europe,Other
-2214,656912,1955.0,Unknown,Unknown
-2215,657727,1955.0,Unknown,Unknown
-2216,657802,1975.0,Unknown,Unknown
-2217,658177,1980.0,Unknown,Unknown
-2218,659387,1950.0,North America,English
-2219,659392,1965.0,Unknown,Unknown
-2220,659757,1960.0,Australia,English
-2221,662597,1970.0,Great Britain,English
-2222,663197,1955.0,Unknown,Unknown
-2223,663347,1955.0,North America,English
-2224,663742,1975.0,Western Europe,Other
-2225,664052,1970.0,Unknown,Unknown
-2226,665642,1960.0,Western Europe,Other
-2227,667512,1975.0,Unknown,Unknown
-2228,668387,1975.0,Western Europe,Other
-2229,670332,1980.0,Unknown,Unknown
-2230,671847,1945.0,Unknown,Unknown
-2231,672142,1965.0,Unknown,Unknown
-2232,675742,1970.0,Unknown,Unknown
-2233,679242,1975.0,Unknown,Unknown
-2234,679342,1975.0,Unknown,Unknown
-2235,680542,1960.0,Unknown,Unknown
-2236,680642,1980.0,Unknown,Unknown
-2237,681742,1970.0,Asia Pacific,Other
-2238,682242,1955.0,Unknown,Unknown
-2239,682342,1960.0,Unknown,Unknown
-2240,682967,1960.0,Unknown,Unknown
-2241,683352,1960.0,Unknown,Unknown
-2242,683547,1945.0,Unknown,Unknown
-2243,683982,1965.0,Asia Pacific,Other
-2244,685327,1970.0,Unknown,Unknown
-2245,685762,1970.0,South Africa,English
-2246,686272,1975.0,Unknown,Unknown
-2247,686402,1975.0,Unknown,Unknown
-2248,686852,1970.0,Unknown,Unknown
-2249,687442,1975.0,Australia,English
-2250,688372,1975.0,Unknown,Unknown
-2251,689337,1975.0,Unknown,Unknown
-2252,690307,1980.0,Great Britain,English
-2253,691177,1970.0,Australia,English
-2254,692407,1960.0,Unknown,Unknown
-2255,693892,1945.0,The Americas,Unknown
-2256,694317,1980.0,Unknown,Unknown
-2257,696062,1980.0,Unknown,Unknown
-2258,696127,1975.0,Unknown,Unknown
-2259,697707,1970.0,Western Europe,Other
-2260,697842,1975.0,Unknown,Unknown
-2261,698007,1940.0,Unknown,Unknown
-2262,699007,1980.0,Unknown,Unknown
-2263,699612,1965.0,Unknown,Unknown
-2264,700027,1970.0,Great Britain,English
-2265,700037,1975.0,Asia Pacific,Other
-2266,700267,1970.0,Unknown,Unknown
-2267,701397,1975.0,Middle East and Africa,Unknown
-2268,701802,1975.0,Australia,English
-2269,703262,1965.0,Asia Pacific,Other
-2270,704062,1945.0,Australia,English
-2271,705382,1975.0,Australia,English
-2272,705672,1975.0,Unknown,Unknown
-2273,708537,1965.0,Unknown,Unknown
-2274,709877,1965.0,Unknown,Other
-2275,710372,1975.0,Unknown,Unknown
-2276,711192,1970.0,Unknown,Unknown
-2277,711207,1970.0,Unknown,Unknown
-2278,712437,1965.0,Asia Pacific,Other
-2279,713112,1975.0,Unknown,Unknown
-2280,713202,1970.0,Unknown,Unknown
-2281,713237,1980.0,Great Britain,English
-2282,713417,1955.0,Unknown,Unknown
-2283,714027,1975.0,Unknown,Unknown
-2284,714712,1970.0,Asia Pacific,Other
-2285,715307,1965.0,Unknown,Unknown
-2286,716572,1980.0,Unknown,Unknown
-2287,717402,1980.0,Asia Pacific,Other
-2288,717907,1980.0,Unknown,Unknown
-2289,717912,1975.0,Unknown,Unknown
-2290,718607,1975.0,The Americas,Other
-2291,719232,1965.0,Unknown,Unknown
-2292,719882,1970.0,Unknown,Unknown
-2293,720017,1960.0,Unknown,Unknown
-2294,720202,1945.0,Australia,English
-2295,720302,1980.0,Unknown,Unknown
-2296,720822,1970.0,New Zealand,English
-2297,722802,1965.0,Asia Pacific,Other
-2298,722852,1975.0,Unknown,Unknown
-2299,723132,1975.0,Unknown,Unknown
-2300,723197,1980.0,Unknown,Unknown
-2301,723252,1985.0,Unknown,Unknown
-2302,724202,1980.0,Unknown,Unknown
-2303,726557,1980.0,Unknown,Unknown
-2304,726582,1980.0,Unknown,Unknown
-2305,726602,1970.0,Unknown,Unknown
-2306,726807,1965.0,Unknown,Unknown
-2307,726872,1950.0,Unknown,Unknown
-2308,727002,1970.0,Unknown,Unknown
-2309,727732,1960.0,Unknown,Unknown
-2310,728002,1975.0,Unknown,Unknown
-2311,729002,1975.0,Asia Pacific,Other
-2312,729307,1975.0,Unknown,Unknown
-2313,730052,1965.0,Unknown,Unknown
-2314,730082,1975.0,Unknown,Unknown
-2315,730092,1975.0,Unknown,Unknown
-2316,730127,1980.0,Australia,English
-2317,730217,1970.0,Unknown,Unknown
-2318,730227,1975.0,Unknown,Unknown
-2319,730232,1970.0,Unknown,Unknown
-2320,730412,1975.0,Western Europe,Other
-2321,730882,1970.0,Unknown,Unknown
-2322,731667,1975.0,Unknown,Unknown
-2323,733502,1975.0,Unknown,Unknown
-2324,733922,1965.0,Unknown,Unknown
-2325,734192,1985.0,Unknown,Unknown
-2326,734322,1965.0,Unknown,Unknown
-2327,734762,1975.0,Unknown,Unknown
-2328,735097,1970.0,Asia Pacific,Other
-2329,735257,1960.0,Australia,English
-2330,735967,1965.0,Western Europe,Other
-2331,736497,1975.0,Unknown,Unknown
-2332,736707,1975.0,Unknown,Unknown
-2333,737247,1975.0,Unknown,Unknown
-2334,738222,1975.0,Unknown,Unknown
-2335,739412,1970.0,Unknown,Unknown
-2336,741312,1950.0,Australia,English
-2337,741512,1975.0,Unknown,Unknown
-2338,741582,1975.0,Great Britain,English
-2339,741847,1975.0,Australia,English
-2340,742402,1975.0,Unknown,Unknown
-2341,744787,1975.0,Unknown,Unknown
-2342,744982,1980.0,Western Europe,Other
-2343,745187,1960.0,Unknown,Unknown
-2344,746152,1950.0,Australia,English
-2345,747267,1965.0,Unknown,Unknown
-2346,748317,1970.0,Unknown,Unknown
-2347,748607,1975.0,Unknown,Unknown
-2348,748657,1970.0,Western Europe,Other
-2349,748777,1975.0,Unknown,Unknown
-2350,749057,1970.0,Unknown,Unknown
-2351,749572,1975.0,Australia,English
-2352,750412,1985.0,Unknown,Unknown
-2353,754067,1975.0,Unknown,Unknown
-2354,754097,1980.0,Unknown,Unknown
-2355,754347,1965.0,Unknown,Unknown
-2356,755517,1975.0,Western Europe,Other
-2357,755897,1970.0,Unknown,Unknown
-2358,758317,1975.0,Unknown,Unknown
-2359,763997,1970.0,Middle East and Africa,Unknown
-2360,764597,1965.0,Unknown,Unknown
-2361,765297,1980.0,Unknown,Unknown
-2362,765697,1980.0,Unknown,Unknown
-2363,766222,1955.0,Australia,English
-2364,770507,1945.0,Unknown,Unknown
-2365,771797,1980.0,Great Britain,English
-2366,772017,1980.0,Unknown,Unknown
-2367,772197,1975.0,Unknown,Unknown
-2368,772497,1970.0,North America,English
-2369,774572,1970.0,Unknown,Unknown
-2370,775402,1975.0,Western Europe,Other
-2371,775597,1975.0,Australia,English
-2372,776122,1975.0,Unknown,Unknown
-2373,778532,1945.0,Unknown,Unknown
-2374,778842,1975.0,Asia Pacific,Other
-2375,779002,1970.0,Unknown,Unknown
-2376,779697,1965.0,Great Britain,English
-2377,780002,1970.0,Unknown,Unknown
-2378,780507,1975.0,Asia Pacific,Other
-2379,781517,1960.0,Unknown,Unknown
-2380,782002,1965.0,Western Europe,Other
-2381,782987,1960.0,Unknown,Unknown
-2382,783297,1975.0,Unknown,Unknown
-2383,783507,1950.0,Unknown,Unknown
-2384,786207,1975.0,Unknown,Unknown
-2385,786382,1980.0,Australia,English
-2386,786512,1950.0,Unknown,Unknown
-2387,786607,1955.0,Australia,English
-2388,789907,1950.0,Unknown,Unknown
-2389,790507,1970.0,Australia,English
-2390,793007,1970.0,Unknown,Unknown
-2391,796792,1955.0,Unknown,Unknown
-2392,799007,1950.0,Unknown,Unknown
-2393,801752,1965.0,Unknown,Unknown
-2394,802167,1975.0,Unknown,Unknown
-2395,803052,1970.0,Unknown,Unknown
-2396,803057,1970.0,Unknown,Unknown
-2397,805252,1975.0,Unknown,Unknown
-2398,805262,1965.0,Unknown,Unknown
-2399,806407,1965.0,Unknown,Unknown
-2400,807667,1965.0,Unknown,Unknown
-2401,808267,1975.0,Australia,English
-2402,808557,1980.0,Unknown,Unknown
-2403,809657,1975.0,Unknown,Unknown
-2404,809672,1965.0,Great Britain,English
-2405,810057,1965.0,Unknown,Unknown
-2406,811982,1960.0,Unknown,Unknown
-2407,812817,1970.0,Unknown,Unknown
-2408,813567,1970.0,Unknown,Unknown
-2409,817367,1980.0,Unknown,Unknown
-2410,820082,1960.0,Unknown,Unknown
-2411,827967,1975.0,Unknown,Unknown
-2412,828772,1950.0,Unknown,Unknown
-2413,836667,1975.0,Unknown,Unknown
-2414,846267,,Unknown,Unknown
-2415,852692,1975.0,Australia,English
-2416,860357,1970.0,Great Britain,English
-2417,862167,1970.0,Unknown,Unknown
-2418,862277,1945.0,Unknown,Unknown
-2419,862297,1960.0,North America,English
-2420,865067,1975.0,Australia,English
-2421,865267,1970.0,Unknown,Unknown
-2422,867367,1980.0,Australia,English
-2423,867827,1960.0,Australia,English
-2424,868722,1965.0,Australia,English
-2425,869497,1975.0,Asia Pacific,Other
-2426,869977,1980.0,Unknown,Unknown
-2427,870077,1980.0,Australia,English
-2428,871907,1975.0,Unknown,Unknown
-2429,872417,1955.0,Unknown,Unknown
-2430,873877,1970.0,Unknown,Unknown
-2431,874432,1955.0,Unknown,Unknown
-2432,874467,1945.0,Unknown,Unknown
-2433,874497,1975.0,Western Europe,Other
-2434,875187,1975.0,Asia Pacific,Other
-2435,876222,1955.0,Asia Pacific,Other
-2436,876787,1970.0,Unknown,Unknown
-2437,877377,1975.0,Unknown,Unknown
-2438,877532,1975.0,Unknown,Unknown
-2439,877652,1980.0,Unknown,Unknown
-2440,877722,1975.0,Unknown,Unknown
-2441,878457,1960.0,Unknown,Unknown
-2442,880477,1950.0,Unknown,Unknown
-2443,882167,1965.0,Unknown,Unknown
-2444,882242,1980.0,Unknown,Unknown
-2445,882472,1970.0,Eastern Europe,Other
-2446,882767,1975.0,Australia,English
-2447,884547,1970.0,Western Europe,Other
-2448,884597,1975.0,Unknown,Unknown
-2449,885372,1975.0,Unknown,Unknown
-2450,885632,1960.0,Australia,English
-2451,885652,1965.0,Great Britain,English
-2452,885657,1975.0,Australia,English
-2453,886577,1970.0,Unknown,Unknown
-2454,887022,1955.0,Unknown,Unknown
-2455,887317,1970.0,Unknown,Unknown
-2456,887552,1960.0,New Zealand,English
-2457,887717,1960.0,Unknown,Unknown
-2458,888547,1945.0,Unknown,Unknown
-2459,888697,1975.0,Great Britain,English
-2460,888932,1980.0,Australia,English
-2461,889197,1975.0,Great Britain,English
-2462,889232,1975.0,Unknown,Unknown
-2463,890212,1945.0,Unknown,Unknown
-2464,890227,1980.0,Unknown,Unknown
-2465,892942,1970.0,Unknown,Unknown
-2466,893852,1970.0,Asia Pacific,Other
-2467,897272,1980.0,Australia,English
-2468,902867,1950.0,Unknown,Unknown
-2469,903612,1955.0,Unknown,Unknown
-2470,904237,1980.0,Western Europe,Other
-2471,905277,1975.0,Unknown,Unknown
-2472,906612,1975.0,Asia Pacific,Other
-2473,906962,1975.0,Unknown,Unknown
-2474,907352,1955.0,Australia,English
-2475,909427,1980.0,The Americas,Unknown
-2476,910772,1970.0,Australia,English
-2477,915007,1955.0,Unknown,Unknown
-2478,915117,1965.0,Unknown,Unknown
-2479,917012,1975.0,Australia,English
-2480,918922,1975.0,Australia,English
-2481,923187,1980.0,Australia,English
-2482,924722,1965.0,North America,English
-2483,928167,1975.0,Unknown,Unknown
-2484,929987,1980.0,Australia,English
-2485,933782,1980.0,Australia,English
-2486,936352,1980.0,Unknown,Unknown
-2487,937957,1975.0,Australia,English
-2488,938787,1970.0,Asia Pacific,Other
-2489,939962,1980.0,Australia,English
-2490,939972,1965.0,Australia,English
-2491,941027,1960.0,Australia,English
-2492,945297,1970.0,Australia,English
-2493,948642,1975.0,Unknown,Unknown
-2494,964887,1975.0,Unknown,Unknown
-2495,996927,1985.0,Unknown,Unknown
-2496,1048967,1960.0,Unknown,Unknown
-2497,1387892,1955.0,Unknown,Unknown
+Person.ID,Year.of.Birth,Country.of.Birth,Home.Language
+357,1960.0,Australia,English
+407,1955.0,Australia,English
+417,1940.0,Australia,English
+462,1960.0,Australia,English
+522,1965.0,Australia,English
+537,1965.0,Australia,English
+547,1960.0,Australia,English
+557,1960.0,Australia,English
+577,1965.0,Unknown,Unknown
+592,1955.0,Australia,English
+612,1960.0,Australia,English
+647,1965.0,Australia,English
+712,1970.0,Great Britain,English
+752,1960.0,Australia,English
+837,1965.0,Australia,English
+842,1975.0,Australia,English
+857,1965.0,Australia,English
+907,1955.0,Western Europe,Other
+917,1960.0,Australia,English
+977,1965.0,Australia,English
+987,1945.0,Australia,English
+1012,1945.0,Australia,English
+1052,1975.0,Unknown,Unknown
+1117,1955.0,Australia,English
+1162,1970.0,Middle East and Africa,Unknown
+1192,1965.0,Australia,English
+1217,1960.0,Australia,English
+1222,1965.0,Western Europe,Other
+1232,1950.0,Australia,English
+1277,1955.0,Australia,English
+1302,1970.0,Australia,English
+1307,1960.0,Unknown,Unknown
+1367,1945.0,North America,English
+1382,1975.0,Australia,English
+1387,1945.0,Australia,English
+1562,1970.0,Unknown,Unknown
+1582,1970.0,Australia,English
+1617,1965.0,Australia,English
+1642,1965.0,Australia,English
+1687,1960.0,Great Britain,English
+1697,1965.0,Unknown,Unknown
+1737,1965.0,Australia,English
+1752,1970.0,Australia,English
+1757,1950.0,Asia Pacific,Other
+1797,1960.0,North America,English
+1812,1955.0,Australia,English
+1862,1950.0,Great Britain,English
+1882,1970.0,Unknown,Unknown
+1937,1970.0,Australia,English
+1952,1955.0,Australia,English
+1982,1960.0,Australia,English
+2002,1950.0,South Africa,English
+2022,1965.0,Australia,English
+2052,1960.0,Australia,English
+2087,1960.0,Australia,English
+2107,1960.0,Australia,English
+2117,1970.0,Australia,English
+2192,1970.0,Australia,English
+2232,1955.0,Australia,English
+2252,1960.0,Australia,English
+2262,1970.0,Australia,English
+2277,1960.0,Australia,English
+2317,1955.0,Australia,English
+2367,1970.0,Asia Pacific,English
+2427,1960.0,North America,English
+2477,1965.0,Australia,English
+2507,1950.0,Australia,English
+2557,1935.0,Unknown,Unknown
+2577,1950.0,Australia,English
+2697,1955.0,Eastern Europe,Other
+2712,1965.0,Australia,English
+2832,1960.0,Unknown,Unknown
+2907,1970.0,Australia,English
+2982,1950.0,Eastern Europe,Other
+3062,1960.0,Western Europe,Other
+3067,1950.0,Unknown,Unknown
+3167,1950.0,Australia,English
+3182,1965.0,Australia,English
+3207,1970.0,Australia,English
+3292,1945.0,Australia,English
+3327,1950.0,Australia,English
+3362,1970.0,Australia,English
+3597,1960.0,Australia,English
+3637,1960.0,New Zealand,English
+3692,1945.0,Australia,English
+3762,1960.0,Australia,English
+3812,1960.0,Australia,English
+3867,1940.0,Australia,English
+4082,1960.0,Australia,English
+4102,1955.0,Australia,English
+4167,1955.0,Australia,English
+4192,1965.0,Unknown,Unknown
+4222,1960.0,Australia,English
+4247,1950.0,Australia,English
+4302,1965.0,Australia,English
+4387,1955.0,Australia,English
+4492,1950.0,Australia,English
+4502,1955.0,Australia,English
+4572,1955.0,Australia,English
+4702,1960.0,Australia,English
+4717,1965.0,Unknown,Unknown
+4747,1960.0,Unknown,Unknown
+4757,1945.0,Unknown,Unknown
+4762,1950.0,Great Britain,English
+4797,1965.0,Australia,English
+4832,1945.0,Australia,English
+4842,1970.0,Asia Pacific,Other
+4877,1960.0,Unknown,Unknown
+4882,1965.0,Australia,English
+4902,1950.0,Australia,English
+4987,1965.0,Unknown,Unknown
+4992,1960.0,Australia,English
+5042,1960.0,Australia,English
+5092,1960.0,Australia,English
+5107,1960.0,Asia Pacific,Other
+5117,1960.0,Australia,English
+5137,1960.0,Unknown,Unknown
+5142,1960.0,Australia,English
+5162,1940.0,Australia,English
+5222,1940.0,Australia,English
+5232,1955.0,Australia,English
+5242,1945.0,Australia,English
+5267,1975.0,Australia,English
+5287,1960.0,Australia,English
+5302,1970.0,Australia,English
+5382,1965.0,Asia Pacific,Other
+5427,1965.0,Unknown,Unknown
+5442,1975.0,Unknown,Unknown
+5552,1955.0,Australia,English
+5582,1960.0,Australia,English
+5672,1965.0,Australia,English
+5702,1940.0,Australia,English
+5737,1975.0,Australia,English
+5777,1970.0,Australia,English
+5807,1950.0,Unknown,Unknown
+5812,1965.0,North America,English
+5882,1955.0,Australia,English
+5927,1965.0,Australia,English
+5967,1955.0,Australia,English
+6012,1955.0,Australia,English
+6077,1955.0,Australia,English
+6117,1950.0,Asia Pacific,Other
+6232,1965.0,Australia,English
+6242,1955.0,Asia Pacific,Other
+6282,1980.0,Australia,English
+6292,1965.0,Western Europe,Other
+6332,1945.0,Australia,English
+6377,1965.0,Great Britain,English
+6392,1970.0,Australia,English
+6397,1960.0,Great Britain,English
+6502,1940.0,Australia,English
+6562,1955.0,South Africa,English
+6712,1950.0,Australia,English
+6742,1940.0,Australia,English
+6747,1955.0,Australia,English
+6807,1950.0,Australia,English
+6942,1960.0,Unknown,Unknown
+6977,1955.0,Unknown,Unknown
+7037,1970.0,Australia,English
+7047,1960.0,Australia,English
+7087,1970.0,Australia,English
+7252,1960.0,Australia,English
+7302,1960.0,Unknown,Unknown
+7342,1965.0,Great Britain,English
+7347,1960.0,Australia,English
+7362,1970.0,Western Europe,Other
+7387,1955.0,Great Britain,English
+7442,1965.0,North America,English
+7452,1960.0,North America,English
+7482,1940.0,Australia,English
+7512,1960.0,Australia,English
+7527,1955.0,Australia,English
+7587,1955.0,Australia,English
+7597,1955.0,Eastern Europe,English
+7607,1955.0,Australia,English
+7637,1970.0,Unknown,Unknown
+7662,1960.0,Australia,English
+7747,1975.0,Australia,English
+7792,1960.0,Unknown,Unknown
+7842,1960.0,Asia Pacific,Other
+7862,1965.0,Australia,English
+7917,1945.0,Australia,English
+7942,1955.0,Australia,English
+7947,1960.0,Asia Pacific,Other
+7952,1965.0,Australia,English
+7992,1970.0,Australia,English
+8002,1975.0,Australia,English
+8012,1960.0,Western Europe,Other
+8042,1975.0,Australia,English
+8047,1950.0,Australia,English
+8062,1960.0,Australia,English
+8067,1960.0,Western Europe,Other
+8142,1970.0,Unknown,Unknown
+8152,1965.0,Australia,English
+8312,1970.0,Australia,English
+8317,1975.0,Unknown,Unknown
+8327,1955.0,Asia Pacific,Other
+8377,1955.0,Great Britain,English
+8462,1950.0,Australia,English
+8532,1970.0,Australia,English
+8542,1960.0,Western Europe,Other
+8642,1960.0,Unknown,Unknown
+8667,1965.0,Australia,English
+8732,1965.0,Australia,English
+8772,1965.0,Australia,English
+8842,1960.0,Australia,English
+8867,1960.0,Australia,English
+8877,1955.0,Unknown,Unknown
+9042,1960.0,Australia,English
+9067,1960.0,Australia,English
+9107,1965.0,Australia,English
+9217,1945.0,Australia,English
+9227,1970.0,Australia,English
+9312,1975.0,Australia,English
+9337,1965.0,Australia,English
+9342,1950.0,Unknown,Unknown
+9402,1965.0,Unknown,Unknown
+9412,1970.0,Australia,English
+9417,1950.0,Australia,English
+9497,1955.0,Australia,English
+9502,1950.0,South Africa,English
+9527,1955.0,Middle East and Africa,Unknown
+9542,1975.0,Australia,English
+9602,1970.0,Australia,English
+9657,1965.0,Australia,English
+9672,1950.0,Unknown,Unknown
+9712,1945.0,Australia,English
+9732,1960.0,Australia,English
+9757,1960.0,Australia,English
+9857,1960.0,Asia Pacific,Other
+9912,1970.0,Australia,English
+9982,1955.0,Australia,English
+10002,1950.0,Unknown,Unknown
+10052,1955.0,Australia,English
+10072,1965.0,Unknown,Unknown
+10127,1970.0,Australia,English
+10147,1965.0,Australia,English
+10157,1955.0,Unknown,Unknown
+10182,1950.0,Australia,English
+10267,1935.0,Australia,English
+10352,1975.0,Australia,English
+10377,1975.0,Australia,English
+10387,1950.0,Australia,English
+10402,1970.0,Australia,English
+10407,1950.0,Australia,English
+10447,1970.0,Australia,English
+10472,1970.0,Australia,English
+10477,1960.0,Australia,English
+10497,1965.0,Unknown,Unknown
+10512,1955.0,Australia,English
+10522,1965.0,Eastern Europe,Other
+10577,1960.0,Australia,English
+10592,1960.0,Australia,English
+10602,1970.0,Unknown,Unknown
+10662,1955.0,Australia,English
+10737,1970.0,Australia,English
+10842,1955.0,Australia,English
+10867,1960.0,Australia,English
+10987,1950.0,Australia,English
+10997,1950.0,Australia,English
+11102,1965.0,Unknown,Unknown
+11142,1955.0,Unknown,Unknown
+11247,1960.0,Australia,English
+11282,1945.0,Eastern Europe,Other
+11287,1965.0,Australia,English
+11302,1970.0,Australia,English
+11327,1960.0,Australia,English
+11342,1965.0,Australia,English
+11372,1950.0,South Africa,English
+11382,1970.0,Unknown,Unknown
+11397,1970.0,Unknown,Unknown
+11427,1960.0,New Zealand,English
+11507,1945.0,Australia,English
+11552,1955.0,Asia Pacific,Other
+11597,1975.0,Australia,English
+11602,1955.0,Western Europe,Other
+11612,1960.0,Australia,English
+11617,1965.0,Australia,English
+11657,1955.0,Australia,English
+11667,1950.0,Australia,English
+11747,1960.0,Australia,English
+11812,1945.0,Australia,English
+11837,1950.0,Australia,English
+11842,1960.0,Australia,English
+11947,1950.0,Australia,English
+12002,1945.0,Australia,English
+12177,1960.0,Unknown,Unknown
+12282,1965.0,Unknown,Unknown
+12467,1955.0,Unknown,Unknown
+12527,1945.0,Great Britain,English
+12542,1965.0,Unknown,Unknown
+12677,1965.0,Australia,English
+12862,1955.0,Australia,English
+12887,1960.0,Australia,English
+12892,1965.0,Australia,English
+12917,1955.0,Australia,English
+12932,1975.0,Australia,English
+12957,1965.0,Great Britain,English
+13042,1965.0,Western Europe,Other
+13102,1975.0,Australia,English
+13187,1965.0,Australia,English
+13192,1960.0,Western Europe,Other
+13352,1955.0,Unknown,Unknown
+13392,1970.0,Australia,English
+13397,1960.0,Middle East and Africa,English
+13512,1960.0,Australia,English
+13522,1965.0,Australia,English
+13527,1965.0,Unknown,Unknown
+13552,1955.0,Asia Pacific,Other
+13612,1965.0,Australia,English
+13682,1965.0,Western Europe,English
+13687,1970.0,Australia,English
+13697,1940.0,South Africa,English
+13712,1965.0,Unknown,Unknown
+13807,1970.0,Australia,English
+13812,1975.0,Australia,English
+13817,1965.0,Australia,English
+13867,1950.0,Australia,English
+13887,1970.0,Unknown,Unknown
+14082,1975.0,Australia,English
+14112,1975.0,Australia,English
+14152,1975.0,Australia,English
+14182,1965.0,Australia,English
+14187,1955.0,Australia,English
+14212,1970.0,Australia,English
+14262,1960.0,Australia,English
+14267,1960.0,Asia Pacific,Other
+14277,1940.0,Australia,English
+14322,1970.0,Unknown,Unknown
+14417,1960.0,Middle East and Africa,Unknown
+14482,1975.0,Unknown,Unknown
+14487,1945.0,Australia,English
+14507,1960.0,Australia,English
+14532,1970.0,Australia,English
+14612,1950.0,Australia,English
+14647,1950.0,Australia,English
+14737,1975.0,Australia,English
+14757,1975.0,Australia,English
+14777,1970.0,Australia,English
+14782,1955.0,Great Britain,English
+14832,1975.0,Australia,English
+14842,1960.0,Australia,English
+14957,1975.0,Australia,English
+15047,1965.0,Unknown,Unknown
+15162,1965.0,Australia,English
+15187,1960.0,Australia,English
+15222,1980.0,Australia,English
+15242,1980.0,Asia Pacific,Other
+15282,1965.0,Australia,English
+15287,1970.0,North America,English
+15437,1955.0,Unknown,Unknown
+15467,1955.0,Australia,English
+15512,1960.0,Australia,English
+15532,1960.0,Unknown,Unknown
+15632,1965.0,Unknown,Unknown
+15667,1960.0,Unknown,Unknown
+15757,1950.0,Australia,English
+15767,1965.0,Australia,English
+15777,1950.0,Australia,English
+15927,1960.0,Australia,English
+15977,1960.0,Great Britain,English
+15987,1960.0,Australia,English
+16012,1960.0,North America,English
+16062,1965.0,Eastern Europe,Other
+16137,1950.0,Australia,English
+16207,1955.0,Unknown,Unknown
+16227,1960.0,Great Britain,English
+16302,1960.0,Australia,English
+16332,1955.0,Unknown,Unknown
+16442,1965.0,Unknown,Unknown
+16452,1935.0,Unknown,Unknown
+16532,1955.0,Australia,English
+16582,1960.0,Australia,English
+16632,1955.0,Australia,English
+16642,1965.0,Australia,English
+16647,1965.0,Asia Pacific,Other
+16652,1960.0,Unknown,Unknown
+16737,1945.0,Australia,English
+16757,1950.0,Australia,English
+16892,1965.0,Australia,English
+16987,1965.0,Australia,English
+17282,1955.0,Great Britain,English
+17342,1960.0,Australia,English
+17367,1960.0,Asia Pacific,Other
+17427,1970.0,Australia,English
+17512,1940.0,Unknown,Unknown
+17617,1965.0,North America,English
+17622,1955.0,Australia,English
+17647,1960.0,Australia,English
+17657,1965.0,Asia Pacific,Other
+17707,1965.0,Australia,English
+17747,1970.0,Australia,English
+17762,1965.0,Australia,English
+17772,1955.0,Australia,English
+17782,1975.0,Australia,English
+17857,1970.0,Asia Pacific,Other
+17877,1965.0,Unknown,Unknown
+17907,1955.0,Australia,English
+17947,1975.0,Australia,English
+18067,1950.0,Australia,English
+18237,1940.0,Australia,English
+18362,1950.0,Australia,English
+18377,1960.0,Australia,English
+18412,1960.0,Australia,English
+18562,1950.0,Australia,English
+18567,1950.0,Australia,English
+18592,1960.0,Australia,English
+18732,1970.0,Asia Pacific,English
+18752,1965.0,Australia,English
+18817,1950.0,Australia,English
+18832,1975.0,Great Britain,English
+18862,1955.0,Unknown,Unknown
+19037,1975.0,Australia,English
+19082,1970.0,Australia,English
+19127,1970.0,Australia,English
+19262,1955.0,Great Britain,English
+19287,1950.0,Australia,English
+19347,1950.0,Australia,English
+19362,1955.0,Australia,English
+19517,1965.0,Australia,English
+19602,1945.0,Australia,English
+19627,1950.0,Great Britain,English
+19662,1965.0,Australia,English
+19752,1975.0,Unknown,Unknown
+19832,1975.0,Asia Pacific,Other
+19897,1970.0,Australia,English
+19922,1960.0,Australia,English
+19952,1955.0,Great Britain,English
+19962,1940.0,Australia,English
+19967,1955.0,Australia,English
+19997,1960.0,Australia,English
+20007,1955.0,Australia,English
+20012,1935.0,Australia,English
+20072,1960.0,Australia,English
+20117,1970.0,Australia,English
+20122,1965.0,Great Britain,English
+20202,1965.0,South Africa,English
+20247,1945.0,Great Britain,English
+20292,1955.0,Unknown,Unknown
+20342,1940.0,Australia,English
+20357,1965.0,The Americas,English
+20472,1970.0,Australia,English
+20497,1965.0,Middle East and Africa,Other
+20657,1960.0,Australia,English
+20722,1965.0,Australia,English
+20782,1965.0,Australia,English
+20792,1955.0,Australia,English
+20892,1970.0,Australia,English
+20907,1975.0,Australia,English
+20927,1965.0,Australia,English
+20937,1970.0,Australia,English
+21017,1950.0,Unknown,Unknown
+21132,1960.0,Australia,English
+21137,1970.0,Australia,English
+21612,1950.0,Australia,English
+21732,1965.0,Australia,English
+21872,1975.0,Australia,English
+21877,1965.0,Australia,English
+22002,1975.0,Australia,English
+22077,1955.0,Western Europe,Other
+22097,1960.0,Australia,English
+22112,1975.0,Unknown,Unknown
+22117,1970.0,Australia,English
+22202,1970.0,Australia,English
+22292,1970.0,New Zealand,English
+22297,1950.0,Australia,English
+22322,1955.0,Western Europe,Other
+22352,1965.0,Australia,English
+22362,1960.0,Unknown,Unknown
+22422,1960.0,Unknown,Unknown
+22582,1975.0,Australia,English
+22622,1965.0,Unknown,Unknown
+22672,1965.0,Australia,English
+22707,1965.0,Unknown,Unknown
+22752,1980.0,Unknown,Unknown
+22767,1975.0,Australia,English
+22792,1955.0,Australia,English
+22807,1955.0,Australia,English
+22812,1965.0,Australia,English
+22847,1980.0,Australia,English
+22857,1960.0,Unknown,Unknown
+22917,1960.0,Australia,English
+22972,1965.0,Australia,English
+22982,1960.0,Australia,English
+22987,1965.0,Australia,English
+23032,1975.0,Unknown,Unknown
+23042,1965.0,South Africa,English
+23237,1975.0,Australia,English
+23302,1960.0,Unknown,Unknown
+23342,1960.0,Australia,English
+23357,1960.0,Australia,English
+23412,1975.0,Unknown,Unknown
+23417,1975.0,Australia,English
+23437,1960.0,Australia,English
+23442,1970.0,Australia,English
+23452,1970.0,The Americas,English
+23512,1945.0,Australia,English
+23697,1970.0,Asia Pacific,Other
+23797,1960.0,Unknown,Unknown
+23872,1975.0,Australia,English
+23912,1965.0,Australia,English
+23927,1980.0,Australia,English
+23972,1950.0,Australia,English
+23997,1965.0,Australia,English
+24017,1970.0,Australia,English
+24087,1955.0,Australia,English
+24227,1960.0,Australia,English
+24252,1960.0,Australia,English
+24257,1955.0,Asia Pacific,Other
+24267,1970.0,Australia,English
+24352,1965.0,Australia,English
+24392,1960.0,Australia,English
+24542,1955.0,Unknown,Unknown
+24552,1970.0,Australia,English
+24572,1960.0,Australia,English
+24577,1965.0,Australia,English
+24627,1965.0,Asia Pacific,Other
+24632,1970.0,Australia,English
+24697,1975.0,Unknown,Unknown
+24892,1965.0,Australia,English
+24897,1960.0,Australia,English
+25052,1955.0,Australia,English
+25117,1970.0,Australia,English
+25137,1960.0,Unknown,Unknown
+25207,1970.0,Australia,English
+25217,1965.0,Great Britain,English
+25247,1960.0,Unknown,Unknown
+25267,1965.0,Australia,English
+25272,1960.0,Great Britain,English
+25342,1965.0,Great Britain,English
+25537,1960.0,Australia,English
+25597,1955.0,Australia,English
+25612,1955.0,Unknown,Unknown
+25662,1975.0,Australia,English
+25677,1975.0,Unknown,Unknown
+25762,1965.0,North America,English
+25947,1960.0,Australia,English
+26107,1970.0,Australia,English
+26117,1970.0,Australia,English
+26337,1980.0,Unknown,Unknown
+26352,1975.0,Eastern Europe,Other
+26367,1975.0,Australia,English
+26502,1965.0,Australia,Other
+26517,1965.0,Unknown,Unknown
+26597,1975.0,Australia,English
+26857,1965.0,Australia,English
+26862,1945.0,Australia,English
+26877,1935.0,Australia,English
+26882,1950.0,Australia,English
+26887,1970.0,Australia,English
+26962,1970.0,Great Britain,English
+27102,1955.0,Eastern Europe,English
+27142,1965.0,Australia,English
+27157,1970.0,Asia Pacific,Other
+27192,1970.0,Australia,English
+27282,1970.0,Great Britain,English
+27307,1950.0,Australia,English
+27317,1965.0,Australia,English
+27352,1960.0,Great Britain,English
+27372,1960.0,Australia,English
+27502,1960.0,Great Britain,English
+27527,1950.0,Australia,English
+27572,1970.0,Australia,English
+27632,1945.0,Australia,English
+27707,1970.0,Asia Pacific,Other
+27752,1955.0,New Zealand,English
+27757,1960.0,Australia,English
+27782,1965.0,Australia,English
+27942,1975.0,Asia Pacific,Other
+28082,1965.0,Unknown,Unknown
+28232,1965.0,Australia,English
+28262,1960.0,Australia,English
+28342,1960.0,Australia,English
+28362,1975.0,Australia,English
+28387,1965.0,Australia,English
+28412,1960.0,Australia,English
+28442,1960.0,Australia,English
+28502,1970.0,New Zealand,English
+28572,1955.0,Australia,English
+28607,1965.0,Great Britain,English
+28622,1960.0,Australia,English
+28682,1975.0,Australia,English
+28797,1970.0,Australia,English
+28832,1950.0,Unknown,Unknown
+28902,1965.0,Unknown,Unknown
+29032,1965.0,Australia,English
+29087,1950.0,Australia,English
+29317,1970.0,Australia,English
+29357,1980.0,Australia,English
+29462,1975.0,Australia,English
+29497,1965.0,Unknown,Unknown
+29512,1970.0,North America,English
+29562,1970.0,Australia,English
+29637,1960.0,Australia,English
+29797,1975.0,Australia,English
+29817,1975.0,Australia,English
+29962,1975.0,Australia,English
+30017,1960.0,Australia,English
+30047,1965.0,Eastern Europe,Other
+30072,1960.0,Australia,English
+30422,1955.0,Great Britain,English
+30437,1975.0,Australia,English
+30457,1955.0,Asia Pacific,Other
+30467,1955.0,Australia,English
+30527,1960.0,Australia,English
+30582,1960.0,Australia,English
+30612,1955.0,Australia,English
+30632,1955.0,Unknown,Unknown
+30707,1965.0,Middle East and Africa,Unknown
+30772,1970.0,Australia,English
+30777,1955.0,Australia,English
+30782,1960.0,Australia,English
+30827,1950.0,Unknown,Unknown
+30962,1950.0,Australia,English
+30977,1950.0,Great Britain,English
+30987,1965.0,Australia,English
+30997,1950.0,Australia,English
+31012,1980.0,Australia,English
+31067,1960.0,Great Britain,English
+31182,1975.0,Australia,English
+31237,1965.0,Australia,English
+31322,1975.0,Australia,English
+31377,1965.0,Australia,English
+31457,1970.0,Australia,English
+31512,1965.0,Middle East and Africa,Unknown
+31592,1960.0,Australia,English
+31607,1975.0,Australia,English
+31672,1965.0,Australia,English
+31697,1965.0,Unknown,Unknown
+31707,1965.0,Australia,English
+31722,1970.0,Australia,English
+31967,1970.0,Australia,English
+31972,1960.0,Australia,English
+32052,1975.0,Australia,English
+32172,1965.0,Australia,English
+32257,1950.0,Australia,English
+32357,1970.0,Australia,English
+32422,1970.0,Australia,English
+32457,1975.0,Australia,English
+32522,1970.0,Australia,English
+32592,1975.0,Australia,English
+32667,1965.0,Western Europe,Other
+32672,1975.0,Asia Pacific,Other
+32717,1980.0,Australia,English
+32822,1960.0,Australia,English
+32857,1955.0,Australia,English
+32892,1975.0,Australia,English
+32907,1965.0,Western Europe,Other
+32912,1970.0,Australia,English
+32952,1970.0,Australia,English
+33097,1975.0,Australia,English
+33152,1950.0,Australia,English
+33167,1960.0,Australia,English
+33202,1965.0,Unknown,Unknown
+33247,1950.0,Great Britain,English
+33312,1965.0,Australia,English
+33337,1975.0,Australia,English
+33502,1965.0,Australia,English
+33542,1980.0,Great Britain,English
+33557,1955.0,Australia,English
+33582,1975.0,Australia,English
+33752,1960.0,Australia,English
+33802,1975.0,Australia,English
+33812,1965.0,Great Britain,English
+33852,1970.0,Unknown,Unknown
+33977,1965.0,Australia,English
+34037,1960.0,Australia,English
+34177,1960.0,North America,English
+34182,1965.0,Australia,English
+34217,1965.0,Unknown,Unknown
+34347,1970.0,Australia,English
+34417,1970.0,Australia,English
+34447,1970.0,Australia,English
+34502,1970.0,Australia,English
+34617,1955.0,Australia,English
+34652,1955.0,Unknown,Unknown
+34677,1955.0,North America,English
+34737,1970.0,North America,English
+34782,1970.0,Australia,English
+34817,1970.0,Australia,English
+34852,1965.0,Asia Pacific,Other
+35087,1965.0,Australia,English
+35132,1970.0,Australia,English
+35137,1970.0,Australia,English
+35357,1965.0,Australia,English
+35382,1970.0,Australia,English
+35422,1975.0,Australia,English
+35507,1970.0,Australia,English
+35547,1960.0,Asia Pacific,Other
+35562,1960.0,Australia,English
+35602,1965.0,Australia,English
+35672,1975.0,Australia,English
+35837,1955.0,Great Britain,English
+35867,1960.0,Australia,English
+35962,1970.0,The Americas,Unknown
+36042,1970.0,Australia,English
+36047,1970.0,Australia,English
+36177,1960.0,Unknown,Unknown
+36187,1960.0,Australia,English
+36217,1980.0,Asia Pacific,Other
+36242,1965.0,Australia,English
+36252,1960.0,Australia,English
+36472,1955.0,Australia,English
+36527,1955.0,Australia,English
+36652,1950.0,Australia,English
+36737,1980.0,Australia,English
+36827,1970.0,Unknown,Unknown
+36832,1960.0,Unknown,Unknown
+36857,1965.0,Australia,English
+37137,1980.0,Australia,English
+37242,1955.0,Great Britain,English
+37302,1965.0,Australia,English
+37502,1975.0,Australia,English
+37662,1960.0,Australia,English
+37947,1950.0,Australia,English
+38292,1980.0,Australia,English
+38457,1970.0,Australia,English
+38492,1980.0,Australia,English
+38502,1970.0,Australia,English
+38562,1975.0,Unknown,Unknown
+38697,1960.0,Australia,English
+38882,1970.0,Australia,English
+38997,1960.0,Unknown,Unknown
+39202,1960.0,Australia,English
+39212,1960.0,Australia,English
+39272,1965.0,Australia,English
+39277,1950.0,Asia Pacific,English
+39392,1980.0,Asia Pacific,Other
+39407,1980.0,Australia,English
+39457,1960.0,Australia,English
+39562,1945.0,Great Britain,English
+39632,1975.0,Great Britain,English
+39637,1975.0,Australia,English
+39647,1970.0,Australia,English
+39677,1975.0,Unknown,Unknown
+39812,1950.0,Australia,English
+39817,1955.0,Australia,English
+39832,1975.0,Australia,English
+39967,1965.0,Western Europe,Other
+40342,1980.0,Australia,English
+40492,1980.0,Australia,English
+40572,1965.0,Asia Pacific,Other
+40607,1960.0,Australia,English
+40677,1965.0,Unknown,Unknown
+40697,1965.0,Great Britain,English
+40797,1960.0,Australia,English
+40847,1980.0,Australia,English
+40862,1965.0,Unknown,Unknown
+40947,1965.0,Australia,English
+41012,1955.0,Australia,English
+41032,1975.0,Australia,English
+41202,1960.0,Unknown,Unknown
+41267,1975.0,Unknown,Unknown
+41657,1965.0,Asia Pacific,Other
+41732,1965.0,Australia,English
+41782,1970.0,Unknown,Unknown
+41912,1960.0,Eastern Europe,Other
+42107,1975.0,Australia,English
+42262,1970.0,Unknown,Unknown
+42322,1945.0,Australia,English
+42932,1960.0,New Zealand,English
+43002,1975.0,North America,English
+43222,1960.0,Unknown,Unknown
+43352,1960.0,Australia,English
+43562,1975.0,Australia,English
+43587,1960.0,North America,English
+43597,1965.0,South Africa,English
+43612,1960.0,Australia,English
+43757,1930.0,Unknown,Unknown
+43852,1975.0,Australia,English
+43857,1960.0,South Africa,English
+43882,1975.0,Australia,English
+44022,1965.0,Australia,English
+44097,1955.0,Australia,English
+44162,1970.0,North America,English
+44252,1960.0,Australia,English
+44697,1965.0,Australia,English
+44732,1965.0,Unknown,Unknown
+44737,1965.0,Australia,English
+44777,1965.0,Unknown,Unknown
+44782,1955.0,Western Europe,Other
+44852,1965.0,Australia,English
+44907,1970.0,Australia,English
+45032,1975.0,Australia,English
+45187,1980.0,Australia,English
+45227,1950.0,Australia,English
+45317,1975.0,Australia,English
+45447,1970.0,Australia,English
+45462,1945.0,Australia,English
+45552,1975.0,Australia,English
+45587,1955.0,North America,English
+45847,1975.0,Australia,English
+45952,1975.0,Australia,English
+45967,1975.0,Australia,English
+45972,1970.0,Western Europe,Other
+45997,1960.0,Australia,English
+46127,1955.0,Great Britain,English
+46132,1975.0,Australia,English
+46182,1955.0,Australia,English
+46237,1945.0,Unknown,Unknown
+46377,1970.0,Australia,English
+46587,1980.0,Australia,English
+46682,1960.0,Australia,English
+46687,1950.0,Australia,English
+46697,1980.0,Australia,English
+46772,1970.0,Australia,English
+46852,1970.0,Unknown,Unknown
+46922,1965.0,Australia,English
+47057,1955.0,Australia,English
+47257,1975.0,Australia,English
+47362,1975.0,Unknown,Unknown
+47442,1980.0,Australia,English
+47467,1975.0,Australia,English
+47482,1970.0,Asia Pacific,Other
+47517,1970.0,Australia,English
+47947,1955.0,Australia,English
+48017,1970.0,Australia,English
+48152,1945.0,Unknown,Unknown
+48497,1950.0,Unknown,Unknown
+48632,1955.0,New Zealand,English
+48817,1965.0,Unknown,Unknown
+48892,1980.0,Australia,English
+49017,1970.0,Australia,English
+49097,1980.0,Australia,English
+49227,1970.0,Eastern Europe,Other
+49277,1965.0,Australia,English
+49532,1970.0,Australia,English
+49592,1955.0,Australia,English
+49762,1970.0,Unknown,Unknown
+49922,1980.0,Great Britain,English
+49972,1970.0,Australia,English
+50027,1955.0,Australia,English
+50032,1965.0,Australia,English
+50052,1970.0,Australia,English
+50092,1975.0,Australia,English
+50952,1970.0,Australia,English
+51027,1960.0,Unknown,Unknown
+51362,1980.0,Australia,English
+51367,1955.0,Australia,English
+51377,1980.0,Australia,English
+51502,1975.0,Middle East and Africa,Unknown
+51677,1980.0,Australia,English
+51842,1970.0,Australia,English
+52337,1970.0,Australia,English
+52602,1975.0,Australia,English
+52802,1960.0,Unknown,Unknown
+53027,1975.0,Australia,English
+53202,1975.0,Australia,English
+53237,1970.0,Australia,English
+53352,1965.0,Australia,English
+53587,1970.0,Western Europe,Other
+54302,1965.0,Unknown,Unknown
+54322,1960.0,Eastern Europe,Other
+54487,1965.0,Australia,English
+54737,1975.0,Australia,English
+54922,1970.0,Australia,English
+55127,1965.0,Australia,English
+55137,1975.0,Australia,English
+55272,1970.0,Unknown,Unknown
+55337,1975.0,Australia,English
+55347,1980.0,Unknown,Unknown
+55437,1940.0,Great Britain,English
+55532,1970.0,Australia,English
+55552,1975.0,Australia,English
+55677,1980.0,Australia,English
+56097,1965.0,Australia,English
+56317,1970.0,Australia,English
+56387,1960.0,Australia,English
+56447,1965.0,Australia,English
+56842,1950.0,Unknown,Unknown
+56907,1970.0,Unknown,Unknown
+57192,1980.0,Australia,English
+57272,1975.0,North America,English
+57672,1955.0,Unknown,Unknown
+57822,1975.0,Great Britain,English
+58382,1960.0,Unknown,Unknown
+58457,1965.0,Australia,English
+58647,1975.0,Australia,English
+58747,1980.0,Australia,English
+58792,1970.0,Australia,English
+59127,1980.0,Australia,English
+59402,1980.0,Australia,English
+59447,1970.0,Australia,English
+60082,1970.0,Australia,English
+60517,1965.0,Australia,English
+60697,1970.0,Australia,English
+61242,1975.0,Unknown,Unknown
+61672,1960.0,Great Britain,English
+62022,1980.0,Unknown,Unknown
+62492,1950.0,Australia,English
+62872,1950.0,Great Britain,English
+62902,1950.0,North America,English
+62937,1960.0,Australia,English
+62952,1935.0,Australia,English
+62967,1950.0,Australia,English
+63047,1945.0,Unknown,Unknown
+63117,1955.0,Australia,English
+63137,1945.0,Australia,English
+63167,1940.0,New Zealand,English
+63172,1945.0,South Africa,English
+63177,1960.0,Australia,English
+63187,1955.0,Australia,English
+63192,1955.0,Australia,English
+63207,1945.0,Australia,English
+63217,1945.0,Eastern Europe,Other
+63222,1950.0,Australia,English
+63232,1960.0,Australia,English
+63257,1945.0,Australia,English
+63277,1955.0,Great Britain,English
+63312,1935.0,Australia,English
+63377,1955.0,Australia,English
+63407,1950.0,Australia,English
+63427,1945.0,Australia,English
+63437,1940.0,Australia,English
+63452,1950.0,Great Britain,English
+63462,1960.0,Australia,English
+63492,1945.0,Australia,English
+63507,1950.0,Australia,English
+63517,1945.0,Australia,English
+63527,1955.0,Australia,English
+63537,1960.0,Australia,English
+63542,1940.0,Australia,English
+63547,1945.0,Australia,English
+63552,1945.0,Australia,English
+63562,1940.0,Australia,English
+63667,1955.0,Australia,English
+63687,1945.0,Australia,English
+63722,1955.0,Australia,English
+63757,1960.0,Great Britain,English
+63772,1960.0,Australia,English
+63782,1950.0,Australia,English
+63812,1950.0,Great Britain,English
+63942,1950.0,Australia,English
+63947,1955.0,Unknown,Unknown
+63962,1950.0,Australia,English
+64077,1945.0,Asia Pacific,Other
+64102,1950.0,Eastern Europe,Other
+64162,1960.0,Australia,English
+64167,1935.0,Unknown,Unknown
+64207,1955.0,Unknown,Unknown
+64222,1930.0,Australia,English
+64232,1950.0,Asia Pacific,Other
+64237,1955.0,Australia,English
+64252,1945.0,Great Britain,English
+64267,1955.0,Unknown,Unknown
+64272,1960.0,Australia,English
+64277,1950.0,Australia,English
+64307,1950.0,Australia,English
+64332,1955.0,Australia,English
+64337,1945.0,Australia,English
+64342,1950.0,Australia,English
+64347,1945.0,Australia,English
+64352,1960.0,Australia,English
+64357,1965.0,Australia,English
+64412,1945.0,Australia,English
+64467,1945.0,Great Britain,English
+64507,1955.0,Australia,English
+64517,1960.0,Australia,English
+64522,1955.0,Australia,English
+64642,1955.0,Great Britain,English
+64657,1940.0,Great Britain,English
+64677,1945.0,Australia,English
+64702,1930.0,Australia,English
+64777,1940.0,Australia,English
+64782,1945.0,Unknown,Unknown
+64807,1960.0,Australia,English
+64842,1960.0,Australia,English
+64867,1945.0,Australia,English
+64927,1945.0,Australia,English
+64942,1965.0,Great Britain,English
+64957,1955.0,Australia,English
+65017,1950.0,Unknown,Unknown
+65027,1955.0,Unknown,Unknown
+65067,1945.0,Unknown,Unknown
+65072,1960.0,Australia,English
+65077,1965.0,Australia,English
+65227,1960.0,Unknown,Unknown
+65302,1960.0,Australia,English
+65307,1960.0,Australia,English
+65332,1955.0,Unknown,Unknown
+65342,1955.0,Great Britain,English
+65387,1965.0,Australia,English
+65402,1960.0,Australia,English
+65432,1965.0,Australia,English
+65437,1965.0,Australia,English
+65487,1940.0,Australia,English
+65652,1955.0,Australia,English
+65657,1955.0,Unknown,Unknown
+65667,1955.0,Unknown,Unknown
+65712,1950.0,Western Europe,Other
+65752,1965.0,Australia,English
+65767,1970.0,Australia,English
+65782,1950.0,Australia,English
+65802,1960.0,Australia,English
+65807,1950.0,Australia,English
+65812,1945.0,Australia,English
+65832,1965.0,Australia,English
+65842,1950.0,Australia,English
+65942,1955.0,Unknown,Unknown
+65957,1950.0,New Zealand,English
+65967,1955.0,Asia Pacific,Other
+65977,1950.0,Australia,English
+65992,1945.0,Unknown,Unknown
+66007,1955.0,Australia,English
+66047,1955.0,Australia,English
+66062,1950.0,Australia,English
+66077,1960.0,Australia,English
+66092,1960.0,Australia,English
+66107,1960.0,New Zealand,English
+66152,1965.0,Australia,English
+66157,1960.0,Asia Pacific,Other
+66187,1965.0,Asia Pacific,Other
+66192,1950.0,Australia,English
+66197,1950.0,Australia,English
+66222,1950.0,Unknown,Unknown
+66312,1950.0,Australia,English
+66322,1955.0,Australia,English
+66352,1950.0,Australia,English
+66437,1950.0,Australia,English
+66462,1955.0,Australia,English
+66482,1960.0,Australia,English
+66487,1960.0,Australia,English
+66607,1955.0,Great Britain,English
+66637,1950.0,Unknown,Unknown
+66657,1965.0,Australia,English
+66672,1960.0,Australia,English
+66717,1960.0,Australia,English
+66722,1960.0,Australia,English
+66732,1970.0,Australia,English
+66737,1955.0,Australia,English
+66752,1965.0,Australia,English
+66767,1940.0,Australia,English
+66772,1945.0,Australia,English
+66782,1955.0,Australia,English
+66877,1955.0,Australia,English
+66887,1955.0,Australia,English
+66897,1945.0,Australia,English
+66902,1945.0,Australia,English
+66917,1960.0,Australia,English
+66922,1965.0,Australia,English
+66932,1940.0,Australia,English
+66957,1940.0,Australia,English
+66977,1965.0,Australia,English
+66987,1970.0,Australia,English
+67007,1965.0,Australia,English
+67037,1950.0,Eastern Europe,Other
+67077,1955.0,Western Europe,Other
+67097,1960.0,Australia,English
+67152,1955.0,New Zealand,English
+67182,1940.0,Australia,English
+67272,1965.0,Australia,English
+67282,1965.0,Australia,English
+67297,1950.0,Australia,English
+67317,1950.0,Australia,English
+67327,1965.0,Unknown,Unknown
+67367,1950.0,Australia,English
+67392,1955.0,North America,English
+67412,1960.0,Asia Pacific,English
+67447,1970.0,Great Britain,English
+67467,1955.0,Australia,English
+67472,1955.0,Australia,English
+67477,1960.0,Australia,English
+67502,1960.0,Australia,English
+67537,1955.0,Australia,English
+67542,1950.0,Unknown,Unknown
+67577,1945.0,Australia,English
+67582,1955.0,Australia,English
+67622,1945.0,North America,English
+67647,1965.0,Australia,English
+67657,1965.0,Australia,English
+67732,1965.0,Australia,English
+67742,1965.0,Unknown,Unknown
+67747,1970.0,Unknown,Unknown
+67787,1945.0,Unknown,Unknown
+67842,1965.0,Australia,English
+67847,1955.0,Great Britain,English
+67852,1950.0,Australia,English
+67857,1955.0,Australia,English
+67862,1950.0,Unknown,Unknown
+67872,1950.0,Asia Pacific,Other
+67932,1960.0,Unknown,Unknown
+67962,1955.0,Unknown,Unknown
+68032,1965.0,Australia,English
+68117,1960.0,Unknown,Unknown
+68202,1935.0,Australia,English
+68232,1955.0,Great Britain,English
+68252,1960.0,Australia,English
+68292,1965.0,Unknown,Unknown
+68317,1960.0,Australia,English
+68377,1955.0,Australia,English
+68432,1955.0,Great Britain,English
+68437,1950.0,The Americas,Unknown
+68467,1950.0,Great Britain,English
+68472,1955.0,Australia,English
+68502,1955.0,Australia,English
+68512,1945.0,Unknown,Unknown
+68517,1945.0,Australia,English
+68567,1970.0,Great Britain,English
+68582,1955.0,Unknown,Unknown
+68587,1955.0,Australia,English
+68622,1955.0,Australia,English
+68692,1950.0,Great Britain,English
+68732,1950.0,North America,English
+68782,1960.0,Australia,English
+68817,1955.0,Australia,English
+68857,1950.0,Great Britain,English
+68902,1965.0,Australia,English
+69012,1965.0,Australia,English
+69032,1965.0,Australia,English
+69142,1950.0,Western Europe,Other
+69147,1960.0,Australia,English
+69152,1960.0,Australia,English
+69187,1965.0,Australia,English
+69212,1940.0,Australia,English
+69222,1965.0,Australia,English
+69262,1960.0,Australia,English
+69337,1965.0,Australia,English
+69352,1945.0,Australia,English
+69392,1960.0,Unknown,Unknown
+69432,1945.0,Great Britain,English
+69457,1960.0,Australia,English
+69482,1965.0,Australia,English
+69497,1930.0,Australia,English
+69517,1950.0,Australia,English
+69612,1965.0,Australia,English
+69657,1955.0,Great Britain,English
+69712,1950.0,Great Britain,English
+69732,1950.0,Australia,English
+69782,1960.0,Australia,English
+69812,1960.0,Australia,English
+69887,1945.0,Australia,English
+69952,1960.0,Australia,English
+69977,1965.0,Australia,English
+70132,1960.0,Unknown,Unknown
+70192,1970.0,Unknown,Unknown
+70212,1940.0,Australia,English
+70227,1960.0,Australia,English
+70272,1960.0,Australia,English
+70322,1945.0,Eastern Europe,Other
+70327,1960.0,Unknown,Unknown
+70362,1955.0,Unknown,Unknown
+70457,1950.0,Australia,English
+70487,1955.0,Australia,English
+70542,1960.0,Australia,English
+70602,1965.0,Australia,English
+70647,1940.0,Unknown,Unknown
+70652,1940.0,Australia,English
+70662,1970.0,Australia,English
+70682,1960.0,Australia,English
+70707,1965.0,Australia,English
+70712,1955.0,Australia,English
+70767,1945.0,Australia,English
+70827,1955.0,Unknown,Unknown
+70832,1955.0,Australia,English
+70897,1970.0,South Africa,English
+70907,1955.0,Unknown,Unknown
+70947,1960.0,Asia Pacific,Other
+70987,1965.0,Australia,English
+71037,1960.0,Australia,English
+71127,1970.0,Australia,English
+71222,1955.0,Unknown,Unknown
+71247,1945.0,Australia,English
+71347,1935.0,Unknown,Unknown
+71402,1960.0,Australia,English
+71432,1955.0,Asia Pacific,Other
+71442,1965.0,Australia,English
+71512,1945.0,Unknown,Unknown
+71712,1955.0,Australia,English
+71727,1955.0,Great Britain,English
+71752,1970.0,Western Europe,English
+71787,1950.0,Unknown,Unknown
+71867,1945.0,Australia,English
+71872,1970.0,Australia,English
+71902,1940.0,Unknown,Unknown
+71917,1955.0,Australia,English
+71932,1955.0,Eastern Europe,English
+71982,1960.0,Australia,English
+72037,1970.0,Australia,English
+72087,1945.0,Unknown,Unknown
+72122,1955.0,Australia,English
+72177,1960.0,Australia,English
+72212,1945.0,Unknown,Unknown
+72222,1950.0,Australia,English
+72267,1960.0,Australia,English
+72312,1960.0,Asia Pacific,Other
+72317,1950.0,Great Britain,English
+72422,1960.0,Australia,English
+72432,1955.0,Australia,English
+72447,1950.0,Australia,English
+72467,1945.0,Australia,English
+72497,1965.0,Australia,English
+72507,1945.0,Unknown,Unknown
+72532,1955.0,Great Britain,English
+72537,1945.0,Australia,English
+72562,1970.0,North America,English
+72622,1935.0,Australia,English
+72652,1940.0,Australia,English
+72672,1945.0,Unknown,Unknown
+72692,1955.0,Unknown,Unknown
+72702,1950.0,Western Europe,Other
+72722,1955.0,Australia,English
+72827,1960.0,Unknown,Unknown
+72847,1955.0,Unknown,Unknown
+72902,1960.0,Unknown,Unknown
+72957,1960.0,New Zealand,English
+72987,1955.0,Australia,English
+73017,1960.0,The Americas,Unknown
+73027,1955.0,Australia,English
+73042,1960.0,Unknown,Unknown
+73082,1955.0,Unknown,Unknown
+73087,1955.0,Australia,English
+73187,1955.0,Australia,English
+73352,1960.0,Australia,English
+73372,1945.0,Australia,English
+73382,1965.0,Australia,English
+73387,1955.0,Australia,English
+73402,1965.0,Great Britain,English
+73417,1960.0,Australia,English
+73422,1960.0,Great Britain,English
+73497,1955.0,Australia,English
+73502,1955.0,Australia,English
+73512,1960.0,Australia,English
+73522,1955.0,Australia,English
+73547,1940.0,Australia,English
+73612,1950.0,Australia,English
+73627,1960.0,Australia,English
+73652,1950.0,Great Britain,English
+73707,1960.0,Australia,English
+73712,1950.0,Unknown,Unknown
+73717,1965.0,Australia,English
+73737,1950.0,Australia,English
+73757,1965.0,Australia,English
+73772,1945.0,Australia,English
+73782,1945.0,Australia,English
+73837,1960.0,Unknown,Unknown
+73842,1965.0,Australia,English
+73862,1960.0,Australia,English
+73882,1960.0,Great Britain,English
+73892,1935.0,Unknown,Unknown
+73902,1955.0,Unknown,Unknown
+73917,1955.0,Australia,English
+73942,1950.0,Australia,English
+73962,1960.0,Australia,English
+74002,1950.0,Australia,English
+74012,1955.0,Australia,English
+74047,1960.0,Great Britain,English
+74077,1955.0,Australia,English
+74127,1950.0,Australia,English
+74142,1970.0,Australia,English
+74162,1970.0,Australia,English
+74192,1965.0,Australia,English
+74202,1950.0,Unknown,Unknown
+74252,1960.0,Asia Pacific,Other
+74277,1955.0,Unknown,Unknown
+74292,1960.0,Australia,English
+74302,1960.0,Australia,English
+74312,1955.0,Australia,English
+74317,1955.0,North America,English
+74322,1960.0,Australia,English
+74372,1955.0,Australia,English
+74407,1965.0,Unknown,Unknown
+74432,1950.0,Australia,English
+74487,1960.0,Australia,English
+74492,1950.0,Australia,English
+74512,1945.0,Australia,English
+74527,1950.0,Australia,English
+74542,1945.0,Australia,English
+74567,1960.0,Australia,English
+74592,1965.0,Australia,English
+74652,1960.0,Unknown,Unknown
+74692,1955.0,Great Britain,English
+74697,1960.0,North America,English
+74702,1955.0,Australia,English
+74717,1965.0,Australia,English
+74722,1960.0,Australia,English
+74772,1955.0,Australia,English
+74822,1950.0,Australia,English
+74827,1955.0,Australia,English
+74832,1965.0,Australia,English
+74877,1950.0,Great Britain,English
+74917,1950.0,Australia,English
+74932,1960.0,Great Britain,English
+74937,1960.0,Unknown,Unknown
+74947,1965.0,Australia,English
+74987,1960.0,Unknown,Unknown
+75037,1960.0,Asia Pacific,Other
+75052,1970.0,North America,English
+75082,1965.0,Australia,English
+75127,1955.0,Australia,English
+75132,1965.0,Western Europe,English
+75142,1960.0,Australia,English
+75377,1955.0,Australia,English
+75382,1945.0,Asia Pacific,Other
+75407,1945.0,Asia Pacific,Other
+75412,1950.0,Western Europe,Other
+75422,1950.0,Australia,English
+75437,1925.0,Australia,English
+75447,1935.0,Australia,English
+75457,1945.0,Australia,English
+75492,1950.0,Middle East and Africa,Unknown
+75557,1935.0,Unknown,Unknown
+75572,1940.0,Australia,English
+75587,1940.0,Great Britain,English
+75647,1955.0,Australia,English
+75652,1955.0,Australia,English
+75662,1950.0,Australia,English
+75747,1970.0,Australia,English
+75772,1970.0,Australia,English
+75792,1970.0,Australia,English
+75827,1970.0,Unknown,Unknown
+75932,1965.0,Unknown,Unknown
+75942,1960.0,Australia,English
+75972,1960.0,Australia,English
+75992,1965.0,Asia Pacific,Other
+76007,1955.0,Australia,English
+76022,1965.0,Australia,English
+76237,1960.0,Great Britain,English
+76297,1960.0,Australia,English
+76307,1950.0,Australia,English
+76312,1955.0,Australia,English
+76352,1965.0,Australia,English
+76432,1960.0,Australia,English
+76627,1970.0,Australia,English
+76682,1970.0,Unknown,Unknown
+76732,1960.0,Australia,English
+76752,1950.0,Australia,English
+76757,1975.0,Australia,English
+76777,1970.0,Australia,English
+76792,1970.0,Australia,English
+76812,1970.0,Australia,English
+76867,1950.0,Unknown,Unknown
+77067,1970.0,Australia,English
+77077,1955.0,Australia,English
+77112,1960.0,Great Britain,English
+77147,1960.0,Australia,English
+77152,1955.0,Australia,English
+77162,1970.0,Australia,English
+77182,1970.0,Australia,English
+77237,1950.0,Australia,English
+77242,1950.0,Australia,English
+77277,1970.0,Australia,English
+77297,1960.0,Australia,English
+77327,1935.0,Australia,English
+77337,1950.0,Australia,English
+77342,1965.0,Australia,English
+77392,1965.0,Australia,English
+77402,1950.0,Middle East and Africa,Unknown
+77407,1965.0,Australia,English
+77457,1955.0,Asia Pacific,Other
+77467,1950.0,Australia,English
+77477,1945.0,Australia,English
+77582,1960.0,Australia,English
+77622,1955.0,Australia,English
+77637,1970.0,Asia Pacific,Other
+77652,1960.0,Australia,English
+77717,1970.0,Australia,English
+77807,1970.0,Australia,English
+77832,1970.0,Australia,English
+77842,1950.0,Australia,English
+77877,1970.0,Australia,English
+77887,1965.0,Australia,English
+77907,1965.0,Australia,English
+77977,1965.0,Australia,English
+77987,1960.0,Australia,English
+78007,1960.0,Unknown,Unknown
+78132,1970.0,Australia,English
+78192,1960.0,Unknown,Unknown
+78222,1970.0,Australia,English
+78282,1960.0,Australia,English
+78312,1955.0,Australia,English
+78327,1955.0,Australia,English
+78342,1965.0,Australia,English
+78487,1945.0,Australia,English
+78537,1945.0,Australia,English
+78562,1955.0,Australia,English
+78572,1955.0,Australia,English
+78587,1950.0,Unknown,Unknown
+78602,1950.0,Great Britain,English
+78607,1945.0,Eastern Europe,Other
+78612,1945.0,South Africa,English
+78637,1950.0,Australia,English
+78727,1950.0,Unknown,Unknown
+78752,1955.0,Western Europe,Other
+78762,1960.0,Australia,English
+78782,1955.0,Australia,English
+78807,1945.0,South Africa,English
+78817,1950.0,Western Europe,Other
+78822,1950.0,Australia,English
+78827,1950.0,Australia,English
+78887,1960.0,Australia,English
+78897,1955.0,Australia,English
+78907,1935.0,Australia,English
+78922,1955.0,Australia,English
+78927,1940.0,Australia,English
+78947,1960.0,Australia,English
+78962,1955.0,Australia,English
+78967,1955.0,Western Europe,Other
+78977,1945.0,Australia,English
+78992,1945.0,Australia,English
+79022,1945.0,Western Europe,Other
+79032,1955.0,Australia,English
+79057,1955.0,Australia,English
+79062,1945.0,Australia,English
+79122,1950.0,Australia,English
+79142,1940.0,Australia,English
+79172,1955.0,Unknown,Unknown
+79182,1950.0,Australia,English
+79192,1950.0,Australia,English
+79217,1955.0,Australia,English
+79227,1945.0,Australia,English
+79232,1940.0,Australia,English
+79242,1945.0,Australia,English
+79247,1950.0,Australia,English
+79277,1945.0,Australia,English
+79327,1945.0,Unknown,Unknown
+79427,1960.0,Australia,English
+79462,1950.0,Australia,English
+79477,1960.0,Unknown,Unknown
+79527,1950.0,Unknown,Unknown
+79532,1950.0,Australia,English
+79562,1955.0,Australia,English
+79567,1955.0,Australia,English
+79602,1950.0,Australia,English
+79607,1935.0,Unknown,Unknown
+79612,1950.0,Unknown,Unknown
+79632,1945.0,Australia,English
+79652,1950.0,Asia Pacific,Other
+79662,1940.0,Unknown,Unknown
+79702,1950.0,Australia,English
+79712,1955.0,Australia,English
+79742,1950.0,Great Britain,English
+79747,1940.0,North America,English
+79787,1945.0,North America,English
+79802,1950.0,Australia,English
+79837,1950.0,Australia,English
+79857,1950.0,Australia,English
+79867,1960.0,Unknown,Unknown
+79907,1960.0,Australia,English
+79917,1935.0,Australia,English
+79972,1925.0,Unknown,Unknown
+79977,1935.0,Australia,English
+80037,1950.0,Australia,English
+80047,1940.0,North America,English
+80057,1950.0,Australia,English
+80062,1950.0,Australia,English
+80072,1960.0,Unknown,Unknown
+80077,1955.0,Australia,English
+80137,1950.0,Australia,English
+80167,1950.0,Australia,English
+80172,1955.0,Australia,English
+80187,1945.0,Australia,English
+80197,1950.0,Australia,English
+80212,1945.0,Australia,English
+80217,1940.0,Australia,English
+80232,1960.0,Australia,English
+80237,1960.0,Australia,English
+80257,1940.0,Australia,English
+80277,1940.0,Australia,English
+80282,1950.0,Unknown,Unknown
+80322,1940.0,Unknown,Unknown
+80332,1930.0,Unknown,Unknown
+80372,1955.0,Australia,English
+80377,1945.0,Australia,English
+80382,1950.0,Australia,English
+80387,1945.0,Great Britain,English
+80392,1945.0,Australia,English
+80397,1945.0,Australia,English
+80407,1940.0,Australia,English
+80412,1955.0,Australia,English
+80437,1955.0,Australia,English
+80457,1940.0,Australia,English
+80477,1950.0,South Africa,English
+80502,1950.0,Australia,English
+80527,1950.0,Australia,English
+80617,1945.0,Australia,English
+80677,1950.0,Australia,English
+80687,1950.0,Australia,English
+80692,1950.0,Australia,English
+80702,1940.0,Australia,English
+80717,1950.0,Australia,English
+80722,1950.0,Australia,English
+80737,1945.0,Australia,English
+80752,1940.0,Australia,English
+80762,1950.0,Australia,English
+80817,1945.0,Unknown,Unknown
+80852,1955.0,Australia,English
+80942,1945.0,Australia,English
+80967,1950.0,Australia,English
+81037,1945.0,Australia,English
+81052,1950.0,Australia,English
+81067,1940.0,Australia,English
+81087,1945.0,Australia,English
+81117,1950.0,Great Britain,English
+81187,1965.0,Australia,English
+81352,1965.0,Australia,English
+81592,1960.0,Great Britain,English
+81647,1950.0,Australia,English
+81702,1955.0,New Zealand,English
+81727,1945.0,Australia,English
+81792,1950.0,Australia,English
+81822,1945.0,Australia,English
+81847,1950.0,Australia,English
+81892,1950.0,Australia,English
+81907,1945.0,Australia,English
+81957,1945.0,Unknown,Unknown
+81992,1950.0,Australia,English
+82007,1950.0,Great Britain,English
+82022,1950.0,Australia,English
+82062,1950.0,Great Britain,English
+82072,1950.0,Australia,English
+82092,1945.0,Australia,English
+82117,1930.0,Australia,English
+82132,1945.0,Australia,English
+82142,1945.0,Australia,English
+82172,1950.0,Great Britain,English
+82227,1955.0,Unknown,Unknown
+82312,1950.0,Australia,English
+82347,1950.0,Unknown,Unknown
+82377,1950.0,New Zealand,English
+82427,1955.0,Australia,English
+82432,1960.0,Australia,English
+82442,1955.0,Australia,English
+82452,1960.0,North America,English
+82467,1950.0,Australia,English
+82482,1955.0,Unknown,Unknown
+82487,1955.0,Australia,Other
+82497,1960.0,Australia,English
+82502,1960.0,Australia,English
+82507,1960.0,Australia,English
+82512,1955.0,Asia Pacific,Other
+82522,1950.0,Australia,English
+82527,1955.0,Australia,English
+82537,1950.0,Australia,English
+82542,1955.0,Australia,English
+82547,1955.0,Australia,English
+82557,1960.0,Australia,English
+82567,1955.0,Australia,English
+82597,1950.0,Australia,English
+82602,1960.0,Australia,English
+82612,1955.0,Australia,English
+82697,1975.0,Australia,English
+82722,1970.0,Australia,English
+82792,1950.0,Australia,English
+82797,1965.0,Great Britain,English
+82837,1965.0,Western Europe,Other
+82892,1970.0,Western Europe,Other
+82907,1965.0,Australia,English
+82962,1965.0,Australia,English
+83157,1980.0,Australia,English
+83367,1980.0,Unknown,Unknown
+83552,1980.0,Australia,English
+84487,1965.0,Unknown,Unknown
+84622,1955.0,Australia,English
+84627,1960.0,Australia,English
+85007,1945.0,Australia,English
+85082,1965.0,Australia,English
+85347,1980.0,Unknown,Unknown
+85642,1955.0,Australia,English
+85707,1970.0,Australia,English
+85862,1950.0,Western Europe,Other
+85907,1950.0,Unknown,Unknown
+85917,1965.0,Australia,English
+86082,1960.0,The Americas,Other
+86212,1975.0,Australia,English
+86302,1970.0,Australia,English
+86337,1955.0,Unknown,Unknown
+86672,1975.0,Australia,English
+87087,1950.0,Asia Pacific,Other
+87147,1970.0,Australia,English
+87192,1970.0,Australia,English
+87202,1950.0,Australia,English
+87472,1950.0,Unknown,Unknown
+87537,1980.0,Australia,English
+87542,1975.0,Asia Pacific,Other
+87917,1970.0,Great Britain,English
+88087,1975.0,Unknown,Unknown
+88557,1975.0,Australia,English
+89127,1970.0,Australia,English
+89232,1945.0,Australia,English
+89257,1955.0,Australia,English
+89462,1930.0,Unknown,Unknown
+89467,1960.0,New Zealand,English
+89472,1970.0,Australia,English
+89487,1970.0,Australia,English
+89492,1945.0,Australia,English
+89582,1970.0,South Africa,English
+89627,1975.0,Australia,English
+89637,1955.0,Australia,English
+89652,1960.0,Unknown,Unknown
+89742,1975.0,Australia,English
+89777,1970.0,Australia,English
+89787,1970.0,Australia,English
+89902,1960.0,Australia,English
+90132,1970.0,Middle East and Africa,Unknown
+90352,1970.0,Australia,English
+90532,1965.0,Australia,English
+90542,1970.0,Australia,English
+90572,1965.0,Australia,English
+90602,1965.0,Australia,English
+90947,1965.0,Unknown,Unknown
+91092,1965.0,Australia,English
+91182,1965.0,Australia,English
+91257,1955.0,South Africa,English
+91387,1960.0,Australia,English
+91832,1965.0,Unknown,Unknown
+92037,1965.0,Australia,English
+92047,1950.0,Australia,English
+92172,1970.0,Australia,English
+92307,1960.0,Australia,English
+92362,1965.0,Western Europe,Other
+92447,1960.0,Unknown,Unknown
+92457,1965.0,Asia Pacific,Other
+92492,1965.0,Australia,English
+92582,1945.0,Unknown,Unknown
+92682,1965.0,Australia,English
+92927,1965.0,Middle East and Africa,Unknown
+93007,1970.0,Australia,English
+93072,1955.0,Australia,English
+93342,1950.0,Great Britain,English
+93362,1965.0,Australia,English
+93647,1960.0,Australia,English
+93802,1970.0,Australia,English
+93892,1970.0,Australia,English
+93907,1960.0,Great Britain,English
+94102,1970.0,Australia,English
+94187,1975.0,Australia,English
+94237,1975.0,Australia,English
+94537,1975.0,Great Britain,English
+94732,1960.0,Australia,English
+95047,1975.0,Western Europe,Other
+95202,1970.0,Great Britain,English
+95762,1970.0,Unknown,Unknown
+95772,1970.0,Unknown,Unknown
+95862,1975.0,Australia,English
+95867,1965.0,Australia,English
+95892,1960.0,Australia,English
+95932,1970.0,Asia Pacific,Other
+95962,1955.0,Unknown,Unknown
+96312,1975.0,Australia,English
+96717,1955.0,Australia,English
+96872,1970.0,Australia,English
+97072,1975.0,Australia,English
+97182,1955.0,Australia,English
+97532,1970.0,Australia,English
+97577,1980.0,Australia,English
+97962,1975.0,Australia,English
+98112,1955.0,Australia,English
+98187,1950.0,Australia,English
+98197,1950.0,Australia,English
+98212,1965.0,Australia,English
+98217,1960.0,Unknown,Unknown
+98222,1965.0,Australia,English
+98232,1965.0,Unknown,Unknown
+98257,1965.0,Australia,English
+98432,1975.0,Australia,English
+98732,1980.0,Australia,English
+98757,1970.0,Australia,English
+98987,1975.0,Australia,English
+99052,1970.0,Australia,English
+99072,1960.0,Australia,English
+99617,1980.0,Unknown,Unknown
+99877,1965.0,Australia,English
+100062,1975.0,Unknown,Unknown
+100772,1965.0,Great Britain,English
+101042,1940.0,Australia,English
+101532,1960.0,Australia,English
+101582,1980.0,Australia,English
+101802,1955.0,Unknown,Unknown
+102012,1975.0,Australia,English
+102337,1970.0,Australia,English
+102402,1980.0,Australia,English
+102562,1955.0,Australia,English
+102602,1975.0,Unknown,Unknown
+102762,1970.0,Australia,English
+103002,1965.0,Australia,English
+103187,1940.0,Unknown,Unknown
+103432,1945.0,Australia,English
+103512,1975.0,Australia,English
+103677,1970.0,Asia Pacific,Other
+103747,1970.0,Unknown,Unknown
+103787,1970.0,Western Europe,Other
+103852,1950.0,Australia,English
+104057,1975.0,Australia,English
+104707,1975.0,Australia,English
+105337,1950.0,Australia,English
+105342,1965.0,Australia,English
+105837,1960.0,Unknown,Unknown
+106227,1955.0,Australia,English
+106252,1970.0,Australia,English
+106282,1965.0,Asia Pacific,English
+106357,1950.0,Australia,English
+106802,1975.0,The Americas,Unknown
+107242,1970.0,Great Britain,English
+107262,1970.0,Australia,English
+107567,1965.0,Unknown,Unknown
+107602,1970.0,Australia,English
+107667,1955.0,Australia,English
+107842,1970.0,North America,English
+107862,1975.0,Australia,English
+107987,1960.0,Australia,English
+108162,1975.0,Australia,English
+108502,1975.0,Australia,English
+108847,1945.0,Australia,English
+108962,1950.0,Australia,English
+109052,1980.0,Australia,English
+109207,1970.0,Australia,English
+109222,1950.0,Australia,English
+109672,1950.0,Unknown,Unknown
+110177,1975.0,Australia,English
+110202,1970.0,Australia,English
+110437,1975.0,Australia,English
+110457,1960.0,Australia,English
+110472,1965.0,Australia,English
+110517,1980.0,Australia,English
+110607,1960.0,Unknown,Unknown
+110612,1960.0,Unknown,Unknown
+111122,1970.0,Australia,English
+111192,1965.0,Western Europe,Other
+111197,1970.0,Western Europe,Other
+111402,1965.0,Australia,English
+111407,1945.0,Unknown,Unknown
+111537,1960.0,Western Europe,Other
+111787,1980.0,Australia,English
+112162,1970.0,Australia,English
+112337,1945.0,Australia,English
+112562,1970.0,Australia,English
+112582,1945.0,Unknown,Unknown
+113027,1955.0,Australia,English
+113052,1955.0,Australia,English
+113192,1965.0,Asia Pacific,Other
+113607,1970.0,Great Britain,English
+113732,1950.0,Unknown,Unknown
+113942,1965.0,North America,English
+114202,1980.0,Australia,English
+114227,1975.0,Australia,English
+114547,1965.0,Australia,English
+114552,1955.0,North America,English
+114842,1970.0,Australia,English
+114862,1965.0,Unknown,Unknown
+115007,1970.0,Australia,English
+115217,1975.0,Australia,English
+115247,1960.0,Australia,English
+115252,1950.0,Great Britain,English
+115407,1970.0,Asia Pacific,Other
+115417,1965.0,Western Europe,Other
+115842,1965.0,Unknown,Unknown
+115867,1970.0,Australia,English
+116057,1970.0,Australia,English
+116137,1960.0,Eastern Europe,Other
+116157,1950.0,Unknown,Unknown
+116582,1970.0,Unknown,Unknown
+116727,1970.0,Unknown,Unknown
+117317,1965.0,Australia,English
+117422,1975.0,Australia,English
+117442,1965.0,Australia,English
+117462,1965.0,Great Britain,English
+117502,1975.0,Australia,English
+117737,1980.0,Australia,English
+117972,1965.0,Australia,English
+118007,1960.0,Australia,English
+118727,1960.0,Western Europe,Other
+118747,1980.0,Australia,English
+119282,1975.0,Australia,English
+119287,1955.0,Unknown,Unknown
+119312,1965.0,Australia,English
+119322,1970.0,Asia Pacific,Other
+119372,1970.0,Eastern Europe,Other
+119512,1965.0,Unknown,Unknown
+119757,1945.0,Unknown,Unknown
+119767,1945.0,Unknown,Unknown
+119837,1980.0,Australia,English
+119932,1975.0,North America,English
+119982,1970.0,Australia,English
+120047,1960.0,Australia,English
+120397,1975.0,Asia Pacific,Other
+120797,1970.0,Australia,English
+120892,1950.0,Unknown,Unknown
+120997,1975.0,Australia,English
+121822,1965.0,Australia,English
+121892,1965.0,Australia,English
+122022,1980.0,Australia,English
+122307,1970.0,Unknown,Unknown
+122392,1975.0,Australia,English
+123092,1970.0,Western Europe,Other
+123132,1960.0,Australia,English
+123327,1945.0,Australia,English
+123422,1975.0,Australia,English
+123547,1980.0,Australia,English
+124122,1975.0,Australia,English
+124477,1955.0,Australia,English
+124552,1970.0,Unknown,Unknown
+124577,1965.0,Australia,English
+124692,1975.0,Western Europe,Other
+124722,1975.0,Australia,English
+124832,1970.0,North America,English
+124932,1970.0,Australia,English
+125287,1945.0,Australia,English
+125917,1985.0,Unknown,Unknown
+126007,1970.0,Australia,English
+126162,1970.0,Asia Pacific,Other
+126217,1970.0,Australia,English
+126247,1965.0,Unknown,Unknown
+126907,1955.0,Unknown,Unknown
+126917,1975.0,Australia,English
+126927,1965.0,Australia,English
+126982,1965.0,Australia,English
+127112,1975.0,Unknown,Unknown
+127397,1975.0,Australia,English
+127447,1970.0,Australia,English
+127542,1970.0,Australia,English
+129127,1960.0,Australia,English
+129387,1970.0,Unknown,Unknown
+129467,1955.0,Unknown,Unknown
+129492,1945.0,Australia,English
+129622,1965.0,North America,English
+129752,1965.0,Australia,English
+129757,1975.0,Australia,English
+129782,1975.0,Unknown,Unknown
+129807,1960.0,Australia,English
+130047,1960.0,Unknown,Unknown
+130082,1970.0,Australia,English
+130502,1970.0,Australia,English
+130642,1965.0,Australia,English
+130967,1975.0,Great Britain,English
+131112,1970.0,Australia,English
+131257,1980.0,Australia,English
+131372,1950.0,Australia,English
+131432,1965.0,Australia,English
+131502,1965.0,Asia Pacific,Other
+131527,1975.0,Unknown,Unknown
+131812,1970.0,Australia,English
+131877,1970.0,Australia,English
+132222,1965.0,Western Europe,Other
+132232,1975.0,Australia,English
+132247,1960.0,Australia,English
+132312,1975.0,Unknown,Unknown
+132927,1970.0,Australia,English
+132957,1965.0,Australia,English
+133032,1965.0,Unknown,Unknown
+133432,1960.0,Unknown,Unknown
+133557,1970.0,Australia,English
+133772,1975.0,South Africa,English
+134287,1975.0,Australia,English
+134907,1975.0,Australia,English
+135027,1960.0,Asia Pacific,Other
+135457,1975.0,Western Europe,Other
+135472,1965.0,Australia,English
+135652,1965.0,Asia Pacific,Other
+135662,1970.0,Australia,English
+135862,1975.0,New Zealand,English
+136607,1960.0,Australia,English
+136802,1975.0,Australia,English
+136807,,Australia,English
+137272,1965.0,Australia,English
+137427,1970.0,Great Britain,English
+137507,1965.0,Australia,English
+138547,1980.0,Australia,English
+138567,1980.0,Australia,English
+139212,1980.0,Australia,English
+139532,1950.0,Australia,English
+139852,1965.0,Unknown,Unknown
+139962,1970.0,Australia,English
+140282,1955.0,Australia,English
+140292,1940.0,Australia,English
+140307,1965.0,Western Europe,Other
+140382,1940.0,Australia,English
+140397,1965.0,Unknown,Unknown
+140417,1965.0,Australia,English
+140442,1960.0,Australia,English
+140882,1965.0,Australia,English
+140997,1980.0,Australia,English
+141012,1970.0,Asia Pacific,Other
+141552,1945.0,Unknown,Unknown
+141572,1975.0,Unknown,Unknown
+142182,1970.0,Australia,English
+142352,1980.0,Asia Pacific,Other
+142457,1970.0,Australia,English
+143042,1960.0,Australia,English
+143357,1965.0,Asia Pacific,Other
+143452,1965.0,Australia,English
+143802,1965.0,Australia,English
+143992,1970.0,Australia,English
+144177,1970.0,Australia,English
+144267,1970.0,Australia,English
+144462,1965.0,Australia,English
+144472,1975.0,Asia Pacific,Other
+144477,1965.0,Great Britain,English
+144632,1960.0,Australia,English
+144652,1955.0,Australia,English
+144767,1970.0,Asia Pacific,Other
+145057,1965.0,Australia,English
+145367,1965.0,Australia,English
+145447,1970.0,Great Britain,English
+145732,1965.0,Unknown,Unknown
+145857,1965.0,Eastern Europe,Other
+145977,1970.0,North America,English
+146262,1975.0,Australia,English
+146697,1965.0,Great Britain,English
+146827,1980.0,Australia,English
+146987,1965.0,Great Britain,English
+146992,1970.0,Unknown,Unknown
+147252,1955.0,Australia,English
+147382,1970.0,Western Europe,Other
+147387,1965.0,Eastern Europe,Other
+147502,1970.0,Great Britain,English
+147602,1960.0,Unknown,Unknown
+147677,1965.0,Australia,English
+147697,1965.0,Unknown,Unknown
+147717,1965.0,Great Britain,English
+147722,1970.0,Great Britain,English
+147827,1950.0,North America,English
+147857,1975.0,Australia,English
+148087,1950.0,Australia,English
+148102,1950.0,Australia,English
+148202,1960.0,Australia,English
+148597,1975.0,The Americas,Unknown
+148677,1945.0,Unknown,Unknown
+148837,1960.0,North America,English
+148842,1965.0,Australia,English
+148997,1940.0,Australia,English
+149052,1965.0,Australia,English
+149107,1975.0,Australia,English
+149767,1975.0,Australia,English
+150877,1950.0,Unknown,Unknown
+151217,1945.0,Australia,English
+153252,1970.0,Australia,English
+153637,1970.0,Australia,English
+156692,1970.0,Australia,English
+158617,1975.0,Australia,English
+159607,1955.0,The Americas,Other
+161817,1945.0,Australia,English
+162462,1970.0,Australia,English
+164977,1960.0,Australia,English
+165032,1960.0,Australia,English
+166802,1970.0,Australia,English
+168282,1970.0,Australia,English
+174352,1945.0,Unknown,Unknown
+175512,1975.0,Australia,English
+176127,1975.0,Australia,English
+178022,1975.0,Australia,English
+178232,1945.0,Great Britain,English
+246732,1970.0,Australia,English
+246837,1975.0,North America,English
+246972,1950.0,Australia,English
+247022,1975.0,North America,English
+247072,1960.0,Unknown,Unknown
+247162,1935.0,Australia,English
+251602,1965.0,Unknown,Unknown
+255582,1975.0,Australia,English
+265752,1970.0,Australia,English
+265767,1965.0,Australia,English
+282232,1960.0,Australia,English
+282422,1965.0,Australia,English
+284257,1960.0,Unknown,Unknown
+289377,1975.0,Australia,English
+289542,1970.0,Australia,English
+290727,1950.0,Australia,English
+291112,1960.0,Australia,English
+293502,1975.0,Australia,English
+295532,1955.0,Unknown,Unknown
+296177,1955.0,Australia,English
+296942,1970.0,Unknown,Unknown
+297087,1965.0,Australia,English
+297092,1970.0,Great Britain,English
+297202,1970.0,Australia,English
+297392,1960.0,Middle East and Africa,Unknown
+301472,1950.0,Australia,English
+303472,1975.0,Australia,English
+313557,1975.0,Australia,English
+314067,1960.0,Unknown,Unknown
+314487,1960.0,Australia,English
+314557,1960.0,Australia,English
+314962,1975.0,Australia,English
+315512,1960.0,Australia,English
+315992,1975.0,Australia,English
+322007,1965.0,Unknown,Unknown
+322527,1975.0,Australia,English
+322697,1970.0,Unknown,Unknown
+322847,1960.0,Unknown,Unknown
+323037,1970.0,Australia,English
+323217,1975.0,Australia,English
+324457,1945.0,Unknown,Unknown
+325112,1975.0,Australia,English
+329757,1950.0,Unknown,Unknown
+330592,1965.0,Australia,English
+332337,1975.0,Australia,English
+333727,1965.0,Australia,English
+335382,1955.0,Australia,English
+342122,1965.0,Australia,English
+343842,1975.0,Australia,English
+348432,1970.0,Western Europe,Other
+348477,1970.0,Australia,English
+350047,1975.0,Australia,English
+351122,1950.0,Australia,English
+353007,1980.0,Australia,Other
+357487,1970.0,Australia,English
+358382,1975.0,Australia,English
+359677,1975.0,Australia,English
+359897,1970.0,Unknown,Unknown
+360207,1955.0,Australia,English
+361647,1955.0,Australia,English
+361922,1970.0,Australia,English
+366782,1975.0,Australia,English
+367942,1980.0,Australia,English
+370587,1975.0,Australia,English
+372082,1980.0,Australia,English
+373802,1970.0,Australia,English
+378437,1970.0,Australia,English
+378492,1950.0,Australia,English
+381032,1950.0,Unknown,Unknown
+381382,1955.0,Australia,English
+389577,1965.0,Unknown,Unknown
+393152,1940.0,Australia,English
+393667,1965.0,Unknown,Unknown
+395462,1950.0,Unknown,Unknown
+395587,1960.0,Australia,English
+396332,1965.0,Australia,English
+396842,1965.0,Unknown,Unknown
+397557,1960.0,Australia,English
+397672,1965.0,Australia,English
+398112,1975.0,Great Britain,English
+404712,1955.0,Unknown,Unknown
+405312,1965.0,Australia,English
+408232,1965.0,Australia,English
+412702,1970.0,Australia,English
+415187,1965.0,Australia,English
+415357,1950.0,Australia,English
+416072,1940.0,Australia,English
+419827,1960.0,Unknown,Unknown
+420282,1970.0,Australia,English
+421337,1955.0,Australia,English
+424692,1970.0,Unknown,Unknown
+424987,1970.0,Unknown,Unknown
+431937,1955.0,Australia,English
+438372,1960.0,Australia,English
+444932,1970.0,Asia Pacific,Other
+447447,1965.0,Australia,English
+448227,1960.0,Australia,English
+448982,1970.0,Unknown,Unknown
+449137,1970.0,Australia,English
+449272,1960.0,Australia,English
+475172,1955.0,Australia,English
+482182,1945.0,Australia,English
+487812,1965.0,Western Europe,Other
+487992,1950.0,Asia Pacific,Other
+488307,1900.0,Unknown,Unknown
+488677,1985.0,Australia,English
+488762,1970.0,North America,Other
+488847,1970.0,Unknown,Unknown
+488852,1980.0,Unknown,Unknown
+488857,1965.0,Great Britain,English
+488862,1975.0,Australia,English
+488942,1975.0,Asia Pacific,Other
+489582,1975.0,Great Britain,English
+489907,1960.0,Unknown,Unknown
+490032,1975.0,Australia,English
+490262,1965.0,Western Europe,Other
+491012,1980.0,Unknown,Unknown
+491027,1900.0,Unknown,Unknown
+491302,1955.0,Australia,English
+491307,1955.0,Australia,English
+491312,1960.0,Australia,English
+491322,1955.0,Australia,English
+491327,1965.0,Australia,English
+491582,1975.0,Asia Pacific,Other
+491602,1965.0,Middle East and Africa,Unknown
+491842,1950.0,Unknown,Unknown
+492057,1965.0,Asia Pacific,Other
+492157,1970.0,Asia Pacific,Other
+492162,1955.0,Unknown,Unknown
+492632,1970.0,North America,English
+492977,1975.0,Asia Pacific,Other
+493292,1975.0,Unknown,Unknown
+493297,1965.0,Australia,English
+493302,1975.0,Australia,English
+493317,1970.0,North America,English
+493407,1965.0,Unknown,Unknown
+493657,1960.0,Unknown,Unknown
+493697,1960.0,Asia Pacific,Other
+493767,1965.0,Australia,English
+494072,1975.0,Unknown,Unknown
+494597,1960.0,Unknown,Unknown
+494752,1980.0,Unknown,Unknown
+494852,1965.0,Australia,English
+495142,1975.0,Eastern Europe,Other
+495207,1975.0,Great Britain,English
+495212,1965.0,Australia,English
+495257,1970.0,Unknown,Unknown
+495452,1975.0,Australia,English
+495842,1965.0,Australia,English
+495867,1970.0,Australia,English
+495877,1970.0,Unknown,Unknown
+496437,1950.0,Australia,English
+496907,1965.0,Unknown,Unknown
+497302,1965.0,Australia,English
+497457,1975.0,Asia Pacific,Other
+497677,1980.0,Australia,English
+497802,1955.0,Unknown,Unknown
+497807,1965.0,Unknown,Unknown
+497897,1965.0,Unknown,Unknown
+497907,1970.0,Australia,English
+498357,1970.0,Unknown,Unknown
+498427,1970.0,Great Britain,English
+498647,1970.0,Unknown,Unknown
+498962,1970.0,Unknown,English
+499542,1980.0,Unknown,Unknown
+499572,1960.0,Unknown,Unknown
+499667,1975.0,Western Europe,Other
+500007,1975.0,Asia Pacific,Other
+500012,1975.0,Australia,English
+500027,1975.0,Unknown,English
+500137,1975.0,North America,English
+500142,1975.0,Australia,English
+500157,1970.0,Australia,English
+500167,1955.0,Australia,English
+500177,1980.0,Australia,English
+500182,1970.0,Unknown,Unknown
+500192,1975.0,Unknown,Unknown
+500197,1970.0,Asia Pacific,Other
+500202,1965.0,Unknown,Other
+500247,1970.0,Asia Pacific,Other
+500252,1965.0,Unknown,Other
+500257,1970.0,Unknown,Unknown
+500272,1970.0,Unknown,Unknown
+500307,1960.0,Unknown,Unknown
+500332,1970.0,Asia Pacific,Other
+500367,1965.0,Western Europe,Other
+500382,1970.0,Unknown,Unknown
+500387,1965.0,Unknown,Unknown
+500392,1975.0,Unknown,Unknown
+500412,1970.0,Asia Pacific,Other
+500417,1970.0,Australia,English
+500442,1955.0,Australia,English
+500447,1955.0,Western Europe,Other
+500457,1950.0,Unknown,Unknown
+500462,1975.0,Unknown,Unknown
+500472,1970.0,Western Europe,Other
+573352,1965.0,Unknown,Other
+574367,1960.0,Great Britain,English
+575052,1965.0,Unknown,Unknown
+575977,1960.0,Australia,English
+578662,1980.0,Australia,English
+582352,1970.0,Unknown,Unknown
+584022,1955.0,Australia,English
+585767,1975.0,Australia,English
+585877,1975.0,Western Europe,Other
+585892,1975.0,Unknown,Unknown
+586442,1970.0,Western Europe,Other
+588387,1970.0,Unknown,Unknown
+588877,1970.0,Unknown,Unknown
+589517,1950.0,Unknown,Unknown
+589572,1975.0,Unknown,Unknown
+592577,1975.0,Unknown,Unknown
+592662,1970.0,Unknown,Unknown
+593217,1970.0,Australia,English
+593492,1970.0,Unknown,Unknown
+594827,1975.0,Great Britain,English
+595642,1975.0,Unknown,Unknown
+595677,1960.0,South Africa,English
+595792,1975.0,Unknown,Unknown
+597367,1980.0,Unknown,Unknown
+597827,1965.0,Australia,English
+599277,1975.0,Western Europe,Other
+602087,1975.0,Australia,English
+604692,1975.0,Unknown,Unknown
+605207,1940.0,Great Britain,English
+606322,1975.0,Unknown,Unknown
+606707,1980.0,Unknown,Unknown
+607102,1975.0,Asia Pacific,Other
+608447,1965.0,Unknown,Unknown
+610622,1975.0,Unknown,Unknown
+610882,1975.0,Unknown,Unknown
+612292,1950.0,Unknown,Unknown
+613297,1975.0,Australia,English
+613502,1955.0,Unknown,Unknown
+614142,1980.0,Unknown,Unknown
+615302,1950.0,Unknown,Unknown
+615307,1950.0,Australia,English
+615312,1975.0,Australia,English
+620807,1965.0,North America,English
+621897,1950.0,Unknown,Unknown
+622587,1980.0,Australia,English
+623052,1980.0,Unknown,Unknown
+624752,1970.0,Unknown,Unknown
+625537,1950.0,Unknown,Unknown
+626187,1980.0,Western Europe,Other
+631447,1970.0,Unknown,Unknown
+633697,1975.0,Unknown,Unknown
+633777,1980.0,Unknown,Unknown
+636257,1980.0,Unknown,Unknown
+636347,1975.0,Unknown,Unknown
+636677,1980.0,Australia,English
+636757,1975.0,Australia,English
+636867,1950.0,Australia,English
+636917,1960.0,Unknown,Unknown
+636972,1960.0,Unknown,Unknown
+637272,1960.0,Unknown,Unknown
+637532,1975.0,Unknown,Unknown
+638122,1970.0,Unknown,Unknown
+639457,1975.0,Unknown,Unknown
+639557,1960.0,North America,English
+640757,1950.0,Unknown,Unknown
+641012,1975.0,Unknown,Unknown
+641022,1975.0,Australia,English
+642632,1975.0,Unknown,Unknown
+643862,1980.0,Australia,English
+646977,1980.0,Great Britain,English
+649042,1975.0,Australia,English
+650672,1955.0,Unknown,Unknown
+651722,1970.0,Unknown,Unknown
+651957,1970.0,Unknown,Unknown
+653802,1980.0,Unknown,Unknown
+655457,1970.0,Australia,English
+656157,1945.0,Eastern Europe,Other
+656912,1955.0,Unknown,Unknown
+657727,1955.0,Unknown,Unknown
+657802,1975.0,Unknown,Unknown
+658177,1980.0,Unknown,Unknown
+659387,1950.0,North America,English
+659392,1965.0,Unknown,Unknown
+659757,1960.0,Australia,English
+662597,1970.0,Great Britain,English
+663197,1955.0,Unknown,Unknown
+663347,1955.0,North America,English
+663742,1975.0,Western Europe,Other
+664052,1970.0,Unknown,Unknown
+665642,1960.0,Western Europe,Other
+667512,1975.0,Unknown,Unknown
+668387,1975.0,Western Europe,Other
+670332,1980.0,Unknown,Unknown
+671847,1945.0,Unknown,Unknown
+672142,1965.0,Unknown,Unknown
+675742,1970.0,Unknown,Unknown
+679242,1975.0,Unknown,Unknown
+679342,1975.0,Unknown,Unknown
+680542,1960.0,Unknown,Unknown
+680642,1980.0,Unknown,Unknown
+681742,1970.0,Asia Pacific,Other
+682242,1955.0,Unknown,Unknown
+682342,1960.0,Unknown,Unknown
+682967,1960.0,Unknown,Unknown
+683352,1960.0,Unknown,Unknown
+683547,1945.0,Unknown,Unknown
+683982,1965.0,Asia Pacific,Other
+685327,1970.0,Unknown,Unknown
+685762,1970.0,South Africa,English
+686272,1975.0,Unknown,Unknown
+686402,1975.0,Unknown,Unknown
+686852,1970.0,Unknown,Unknown
+687442,1975.0,Australia,English
+688372,1975.0,Unknown,Unknown
+689337,1975.0,Unknown,Unknown
+690307,1980.0,Great Britain,English
+691177,1970.0,Australia,English
+692407,1960.0,Unknown,Unknown
+693892,1945.0,The Americas,Unknown
+694317,1980.0,Unknown,Unknown
+696062,1980.0,Unknown,Unknown
+696127,1975.0,Unknown,Unknown
+697707,1970.0,Western Europe,Other
+697842,1975.0,Unknown,Unknown
+698007,1940.0,Unknown,Unknown
+699007,1980.0,Unknown,Unknown
+699612,1965.0,Unknown,Unknown
+700027,1970.0,Great Britain,English
+700037,1975.0,Asia Pacific,Other
+700267,1970.0,Unknown,Unknown
+701397,1975.0,Middle East and Africa,Unknown
+701802,1975.0,Australia,English
+703262,1965.0,Asia Pacific,Other
+704062,1945.0,Australia,English
+705382,1975.0,Australia,English
+705672,1975.0,Unknown,Unknown
+708537,1965.0,Unknown,Unknown
+709877,1965.0,Unknown,Other
+710372,1975.0,Unknown,Unknown
+711192,1970.0,Unknown,Unknown
+711207,1970.0,Unknown,Unknown
+712437,1965.0,Asia Pacific,Other
+713112,1975.0,Unknown,Unknown
+713202,1970.0,Unknown,Unknown
+713237,1980.0,Great Britain,English
+713417,1955.0,Unknown,Unknown
+714027,1975.0,Unknown,Unknown
+714712,1970.0,Asia Pacific,Other
+715307,1965.0,Unknown,Unknown
+716572,1980.0,Unknown,Unknown
+717402,1980.0,Asia Pacific,Other
+717907,1980.0,Unknown,Unknown
+717912,1975.0,Unknown,Unknown
+718607,1975.0,The Americas,Other
+719232,1965.0,Unknown,Unknown
+719882,1970.0,Unknown,Unknown
+720017,1960.0,Unknown,Unknown
+720202,1945.0,Australia,English
+720302,1980.0,Unknown,Unknown
+720822,1970.0,New Zealand,English
+722802,1965.0,Asia Pacific,Other
+722852,1975.0,Unknown,Unknown
+723132,1975.0,Unknown,Unknown
+723197,1980.0,Unknown,Unknown
+723252,1985.0,Unknown,Unknown
+724202,1980.0,Unknown,Unknown
+726557,1980.0,Unknown,Unknown
+726582,1980.0,Unknown,Unknown
+726602,1970.0,Unknown,Unknown
+726807,1965.0,Unknown,Unknown
+726872,1950.0,Unknown,Unknown
+727002,1970.0,Unknown,Unknown
+727732,1960.0,Unknown,Unknown
+728002,1975.0,Unknown,Unknown
+729002,1975.0,Asia Pacific,Other
+729307,1975.0,Unknown,Unknown
+730052,1965.0,Unknown,Unknown
+730082,1975.0,Unknown,Unknown
+730092,1975.0,Unknown,Unknown
+730127,1980.0,Australia,English
+730217,1970.0,Unknown,Unknown
+730227,1975.0,Unknown,Unknown
+730232,1970.0,Unknown,Unknown
+730412,1975.0,Western Europe,Other
+730882,1970.0,Unknown,Unknown
+731667,1975.0,Unknown,Unknown
+733502,1975.0,Unknown,Unknown
+733922,1965.0,Unknown,Unknown
+734192,1985.0,Unknown,Unknown
+734322,1965.0,Unknown,Unknown
+734762,1975.0,Unknown,Unknown
+735097,1970.0,Asia Pacific,Other
+735257,1960.0,Australia,English
+735967,1965.0,Western Europe,Other
+736497,1975.0,Unknown,Unknown
+736707,1975.0,Unknown,Unknown
+737247,1975.0,Unknown,Unknown
+738222,1975.0,Unknown,Unknown
+739412,1970.0,Unknown,Unknown
+741312,1950.0,Australia,English
+741512,1975.0,Unknown,Unknown
+741582,1975.0,Great Britain,English
+741847,1975.0,Australia,English
+742402,1975.0,Unknown,Unknown
+744787,1975.0,Unknown,Unknown
+744982,1980.0,Western Europe,Other
+745187,1960.0,Unknown,Unknown
+746152,1950.0,Australia,English
+747267,1965.0,Unknown,Unknown
+748317,1970.0,Unknown,Unknown
+748607,1975.0,Unknown,Unknown
+748657,1970.0,Western Europe,Other
+748777,1975.0,Unknown,Unknown
+749057,1970.0,Unknown,Unknown
+749572,1975.0,Australia,English
+750412,1985.0,Unknown,Unknown
+754067,1975.0,Unknown,Unknown
+754097,1980.0,Unknown,Unknown
+754347,1965.0,Unknown,Unknown
+755517,1975.0,Western Europe,Other
+755897,1970.0,Unknown,Unknown
+758317,1975.0,Unknown,Unknown
+763997,1970.0,Middle East and Africa,Unknown
+764597,1965.0,Unknown,Unknown
+765297,1980.0,Unknown,Unknown
+765697,1980.0,Unknown,Unknown
+766222,1955.0,Australia,English
+770507,1945.0,Unknown,Unknown
+771797,1980.0,Great Britain,English
+772017,1980.0,Unknown,Unknown
+772197,1975.0,Unknown,Unknown
+772497,1970.0,North America,English
+774572,1970.0,Unknown,Unknown
+775402,1975.0,Western Europe,Other
+775597,1975.0,Australia,English
+776122,1975.0,Unknown,Unknown
+778532,1945.0,Unknown,Unknown
+778842,1975.0,Asia Pacific,Other
+779002,1970.0,Unknown,Unknown
+779697,1965.0,Great Britain,English
+780002,1970.0,Unknown,Unknown
+780507,1975.0,Asia Pacific,Other
+781517,1960.0,Unknown,Unknown
+782002,1965.0,Western Europe,Other
+782987,1960.0,Unknown,Unknown
+783297,1975.0,Unknown,Unknown
+783507,1950.0,Unknown,Unknown
+786207,1975.0,Unknown,Unknown
+786382,1980.0,Australia,English
+786512,1950.0,Unknown,Unknown
+786607,1955.0,Australia,English
+789907,1950.0,Unknown,Unknown
+790507,1970.0,Australia,English
+793007,1970.0,Unknown,Unknown
+796792,1955.0,Unknown,Unknown
+799007,1950.0,Unknown,Unknown
+801752,1965.0,Unknown,Unknown
+802167,1975.0,Unknown,Unknown
+803052,1970.0,Unknown,Unknown
+803057,1970.0,Unknown,Unknown
+805252,1975.0,Unknown,Unknown
+805262,1965.0,Unknown,Unknown
+806407,1965.0,Unknown,Unknown
+807667,1965.0,Unknown,Unknown
+808267,1975.0,Australia,English
+808557,1980.0,Unknown,Unknown
+809657,1975.0,Unknown,Unknown
+809672,1965.0,Great Britain,English
+810057,1965.0,Unknown,Unknown
+811982,1960.0,Unknown,Unknown
+812817,1970.0,Unknown,Unknown
+813567,1970.0,Unknown,Unknown
+817367,1980.0,Unknown,Unknown
+820082,1960.0,Unknown,Unknown
+827967,1975.0,Unknown,Unknown
+828772,1950.0,Unknown,Unknown
+836667,1975.0,Unknown,Unknown
+846267,,Unknown,Unknown
+852692,1975.0,Australia,English
+860357,1970.0,Great Britain,English
+862167,1970.0,Unknown,Unknown
+862277,1945.0,Unknown,Unknown
+862297,1960.0,North America,English
+865067,1975.0,Australia,English
+865267,1970.0,Unknown,Unknown
+867367,1980.0,Australia,English
+867827,1960.0,Australia,English
+868722,1965.0,Australia,English
+869497,1975.0,Asia Pacific,Other
+869977,1980.0,Unknown,Unknown
+870077,1980.0,Australia,English
+871907,1975.0,Unknown,Unknown
+872417,1955.0,Unknown,Unknown
+873877,1970.0,Unknown,Unknown
+874432,1955.0,Unknown,Unknown
+874467,1945.0,Unknown,Unknown
+874497,1975.0,Western Europe,Other
+875187,1975.0,Asia Pacific,Other
+876222,1955.0,Asia Pacific,Other
+876787,1970.0,Unknown,Unknown
+877377,1975.0,Unknown,Unknown
+877532,1975.0,Unknown,Unknown
+877652,1980.0,Unknown,Unknown
+877722,1975.0,Unknown,Unknown
+878457,1960.0,Unknown,Unknown
+880477,1950.0,Unknown,Unknown
+882167,1965.0,Unknown,Unknown
+882242,1980.0,Unknown,Unknown
+882472,1970.0,Eastern Europe,Other
+882767,1975.0,Australia,English
+884547,1970.0,Western Europe,Other
+884597,1975.0,Unknown,Unknown
+885372,1975.0,Unknown,Unknown
+885632,1960.0,Australia,English
+885652,1965.0,Great Britain,English
+885657,1975.0,Australia,English
+886577,1970.0,Unknown,Unknown
+887022,1955.0,Unknown,Unknown
+887317,1970.0,Unknown,Unknown
+887552,1960.0,New Zealand,English
+887717,1960.0,Unknown,Unknown
+888547,1945.0,Unknown,Unknown
+888697,1975.0,Great Britain,English
+888932,1980.0,Australia,English
+889197,1975.0,Great Britain,English
+889232,1975.0,Unknown,Unknown
+890212,1945.0,Unknown,Unknown
+890227,1980.0,Unknown,Unknown
+892942,1970.0,Unknown,Unknown
+893852,1970.0,Asia Pacific,Other
+897272,1980.0,Australia,English
+902867,1950.0,Unknown,Unknown
+903612,1955.0,Unknown,Unknown
+904237,1980.0,Western Europe,Other
+905277,1975.0,Unknown,Unknown
+906612,1975.0,Asia Pacific,Other
+906962,1975.0,Unknown,Unknown
+907352,1955.0,Australia,English
+909427,1980.0,The Americas,Unknown
+910772,1970.0,Australia,English
+915007,1955.0,Unknown,Unknown
+915117,1965.0,Unknown,Unknown
+917012,1975.0,Australia,English
+918922,1975.0,Australia,English
+923187,1980.0,Australia,English
+924722,1965.0,North America,English
+928167,1975.0,Unknown,Unknown
+929987,1980.0,Australia,English
+933782,1980.0,Australia,English
+936352,1980.0,Unknown,Unknown
+937957,1975.0,Australia,English
+938787,1970.0,Asia Pacific,Other
+939962,1980.0,Australia,English
+939972,1965.0,Australia,English
+941027,1960.0,Australia,English
+945297,1970.0,Australia,English
+948642,1975.0,Unknown,Unknown
+964887,1975.0,Unknown,Unknown
+996927,1985.0,Unknown,Unknown
+1048967,1960.0,Unknown,Unknown
+1387892,1955.0,Unknown,Unknown
