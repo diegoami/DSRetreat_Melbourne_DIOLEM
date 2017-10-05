@@ -2,6 +2,36 @@ import pandas as pd
 import os.path
 
 
+def add_rfcd_code(main_table, rfcd):
+    # Prepare rfcd and SEO tables for merger
+    rfcd_pivoted = rfcd.pivot(
+        index='id', columns='RFCD.Code', values='RFCD.Percentage').fillna(0)
+    rfcd_pivoted.rename(columns=lambda x: "RFCD_"+str(x), inplace=True)
+    rfcd_pivoted.reset_index(drop=False, inplace=True)
+
+    main_table = main_table.merge(rfcd_pivoted, how='left', on='id').fillna(0)
+    # Set other value to 100 and subtract any percentages appearing in other seo columns
+    main_table['RFCD_OTHER'] = 100-main_table[
+        [x for x in main_table.columns if x.startswith('RFCD') ]].sum(axis=1)
+
+    # main_table.set_index('id', inplace=True)
+    return main_table
+
+
+def add_seo_code(main_table, seo):
+
+    seo_pivoted  = seo.pivot(
+        index='id', columns='SEO.Code', values='SEO.Percentage').fillna(0)
+    seo_pivoted.rename(columns=lambda x: "SEO_"+str(x), inplace=True)
+    seo_pivoted.reset_index(drop=False, inplace=True)
+    main_table = main_table.merge(seo_pivoted, how='left', on='id').fillna(0)
+
+    main_table['SEO_OTHER'] = 100-main_table[
+        [x for x in main_table.columns if x.startswith('SEO') ]].sum(axis=1)
+    # main_table.set_index('id', inplace=True)
+    return main_table
+
+
 def main(dataset='train'):
     base = '../data/'
 
@@ -14,34 +44,16 @@ def main(dataset='train'):
     # load tables
     seo = pd.read_csv(os.path.join(base, seof))
     rfcd = pd.read_csv(os.path.join(base, rfcdf))
-    app_train = pd.read_csv(os.path.join(base, appsf))
+    main_table = pd.read_csv(os.path.join(base, appsf))
 
-    # Prepare rfcd and SEO tables for merger
-    rfcd_pivoted = rfcd.pivot(
-        index='id', columns='RFCD.Code', values='RFCD.Percentage').fillna(0)
-    seo_pivoted  = seo.pivot(
-        index='id', columns='SEO.Code', values='SEO.Percentage').fillna(0)
+    #add rfcd
+    main_table = add_rfcd_code(main_table, rfcd)
 
-    rfcd_pivoted.rename(columns=lambda x: "RFCD_"+str(x), inplace=True)
-    seo_pivoted.rename(columns=lambda x: "SEO_"+str(x), inplace=True)
-
-
-
-    app_rfcd = app_train.join(rfcd_pivoted, how='outer').fillna(0)
-    app_rfcd_seo = app_rfcd.join(seo_pivoted, how='outer').fillna(0)
-
-    # Set other value to 100 and subtract any percentages appearing in other seo columns
-    app_rfcd_seo['RFCD_OTHER'] = 100-app_rfcd_seo[
-        [x for x in app_rfcd_seo.columns if x.startswith('RFCD') ]].sum(axis=1)
-
-    app_rfcd_seo['SEO_OTHER'] = 100-app_rfcd_seo[
-        [x for x in app_rfcd_seo.columns if x.startswith('SEO') ]].sum(axis=1)
-
-    app_rfcd_seo.set_index('id', inplace=True)
-
+    #add seo
+    main_table = add_seo_code(main_table, seo)
 
     # write to file
-    app_rfcd_seo.to_csv(os.path.join(base,writefile))
+    main_table.to_csv(os.path.join(base,writefile))
     print('Complete table was written to {}'.format(writefile))
 
 

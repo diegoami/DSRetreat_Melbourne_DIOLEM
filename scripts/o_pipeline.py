@@ -7,7 +7,7 @@ from scripts.eo_generate_all_tables import main as gen_tab_mod
 
 def main():
     eq = '='*50
-    print(eq + '\ngenerating all the tables'+eq)
+    print(eq + '\ngenerating all the tables\n'+eq+'\n\n')
     gen_tab_mod()
 
 
