@@ -35,13 +35,13 @@ def generate_rfcd_files_raw(input_type):
     df = pd.read_csv('../data/'+input_type+'.csv')
     mdf = post_process(df)
     mdf.to_csv('../data/'+input_type+'_rfcd_raw.csv')
+    print('Generation of raw rcd data on {} done'.format(input_type))
 
 def generate_rfcd_files_mod(input_type):
-
     mdf = pd.read_csv('../data/'+input_type+'_rfcd_raw.csv', index_col=None)
     mdgs = generate_by_substring(mdf, 2)
     mdgs.to_csv('../data/'+input_type+'_rfcd_mod.csv')
-
+    print('Generation of mod rcd data on {} done'.format(input_type))
 
 if __name__ == '__main__':
     generate_rfcd_files_raw('train')

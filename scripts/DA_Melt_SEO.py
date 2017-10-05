@@ -28,24 +28,22 @@ def post_process(df):
     mdf = mdf.set_index(['id', 'SEO.Code']).sort_index()
     return mdf
 
-def generate_seo_files_raw(inputtype):
-    df = pd.read_csv('../data/'+inputtype+'.csv')
-    mdf = post_process(df)
-    mdf.to_csv('../data/'+inputtype+'_seo_raw.csv')
-
-
-
 def generate_by_substring(df, n):
     df['SEO.Code'] = df[['SEO.Code']].applymap(str)
     mdgs = df.groupby(['id', df['SEO.Code'].str[:n]]).sum()
     return mdgs
 
+def generate_seo_files_raw(input_type):
+    df = pd.read_csv('../data/'+input_type+'.csv')
+    mdf = post_process(df)
+    mdf.to_csv('../data/'+input_type+'_seo_raw.csv')
+    print('Generation of raw seo data on {} done'.format(input_type))
 
-def generate_seo_files_mod(inputtype):
-    mdf = pd.read_csv('../data/'+inputtype+'_seo_raw.csv', index_col=None)
+def generate_seo_files_mod(input_type):
+    mdf = pd.read_csv('../data/'+input_type+'_seo_raw.csv', index_col=None)
     mdgs = generate_by_substring(mdf, 2)
-    mdgs.to_csv('../data/'+inputtype+'_seo_mod.csv')
-
+    mdgs.to_csv('../data/'+input_type+'_seo_mod.csv')
+    print('Generation of mod seo data on {} done'.format(input_type))
 
 
 if __name__ == '__main__':
