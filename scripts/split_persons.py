@@ -70,14 +70,14 @@ df_p[['Person.ID']] = df_p[['Person.ID']].astype(int).astype(str)
 df_p[['Dept.No.','Faculty.No.']] = df_p[['Dept.No.','Faculty.No.']].astype(str)
 
 # next columns to work on is the years spend in the uni
-# we rename the column -> implemented by oleg
-# df_p = df_p.rename(columns={'No..of.Years.in.Uni.at.Time.of.Grant': 'years_in_uni'})
+# we rename the column
+df_p = df_p.rename(columns={'No..of.Years.in.Uni.at.Time.of.Grant': 'years_in_uni'})
 # we use a dict to remap the values
 dict_years_in_uni = {'Less than 0': 0.,
-'>=0 to 5': 1.,
-'>5 to 10': 2.,
-'>10 to 15': 3.,
-'more than 15': 4.}
+    '>=0 to 5': 1.,
+    '>5 to 10': 2.,
+    '>10 to 15': 3.,
+    'more than 15': 4.}
 df_p = df_p.replace({'years_in_uni' : dict_years_in_uni})
 
 # we split it in two dataframes: static and dynamic
@@ -98,3 +98,8 @@ df_p_dyn = df_p_dyn.loc[:,~df_p_dyn.columns.isin(['id']) ]
 
 # and write the output
 df_p_dyn.to_csv(  '../data/'+ input_type + '_person_dyn_raw.csv',index = False)
+
+#we extract the roles and save them to a csv file
+roles = df_p.loc[:, ['id', 'Person.ID', 'Roles']]
+
+roles.to_csv(  '../data/'+ input_type + '_roles_raw.csv',index = False)

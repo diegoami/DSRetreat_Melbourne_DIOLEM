@@ -15,3 +15,5 @@ main LEFT JOIN ON main.date = person_var.date
 AND
 roles LEFT JOIN ON roles.person_id = person_var.person_id
 
+
+
