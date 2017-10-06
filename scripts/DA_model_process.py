@@ -43,6 +43,11 @@ def extract(df_train, df_test):
     X_test = df_test[relevant_columns]
     y_test = df_test['granted']
 
+    y_train.fillna(0, inplace=True)
+    y_test.fillna(0, inplace=True)
+    X_train.fillna(0, inplace=True)
+    X_test.fillna(0, inplace=True)
+
     return X_train, y_train, X_test, y_test
 
 def get_random_classifier():
