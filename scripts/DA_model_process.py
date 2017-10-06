@@ -8,8 +8,30 @@ from sklearn.model_selection import cross_val_score
 # from scripts.DA_model_extract import extract, extract_old
 import sys
 from scripts.eo_transport_data import run
-sys.path.append('..')
 import pandas as pd
+import numpy as np
+from sklearn.linear_model import Lasso
+
+def do_lasso(df_train, df_test):
+    def get_best_lasso():
+        return Lasso(alpha=0.0005,max_iter=10000)
+
+    def get_gridsearch_lasso():
+        params = {
+            #"alpha" : [0.0001, 0.0005,0.00005]
+          }
+        gs = GridSearchCV(
+            Lasso() , params, cv=5, scoring='roc_auc', verbose=10)
+        return gs
+
+   # lasso = get_gridsearch_lasso()
+   # test_with_classif(lasso, df_train, df_test)
+
+    bestboost = get_best_lasso()
+
+    test_with_classif(bestboost , df_train, df_test)
+    return bestboost
+
 
 def do_rtree(df_train, df_test):
     def get_best_rtree():
@@ -19,20 +41,18 @@ def do_rtree(df_train, df_test):
         rtparams = {
             #"min_samples_leaf" : (1,2,3)
             #"min_samples_split" : (20,22,24,26,28)
-            "n_estimators" : (10,50,100,500,1000)
+            #"n_estimators" : (10,50,100,500,1000)
         }
         rt = GridSearchCV(
             RandomForestRegressor(min_samples_leaf=1,min_samples_split=26, n_estimators= 50) , rtparams, cv=5, scoring='roc_auc', verbose=10)
         return rt
 
-    rtree = get_gridsearch_rtree()
-    test_with_classif(rtree, df_train, df_test)
+    #rtree = get_gridsearch_rtree()
+    #test_with_classif(rtree, df_train, df_test)
     bestboost = get_best_rtree()
 
     test_with_classif(bestboost , df_train, df_test)
-    #series = pd.Series(bestboost.get_booster().get_fscore())
-    #print(series.sort_values(ascending=False))
-
+    return bestboost
 
 def do_xgboost(df_train, df_test):
     def get_best_xgboost():
@@ -55,13 +75,14 @@ def do_xgboost(df_train, df_test):
                          learning_rate=0.1, n_estimators=500), xgbparams, cv=5, scoring='roc_auc', verbose=10)
         return gs
 
-    xgridboost = get_gridsearch_xgboost()
-    test_with_classif(xgridboost , df_train, df_test)
+    #xgridboost = get_gridsearch_xgboost()
+    #test_with_classif(xgridboost , df_train, df_test)
     bestboost = get_best_xgboost()
 
     test_with_classif(bestboost , df_train, df_test)
     series = pd.Series(bestboost.get_booster().get_fscore())
     print(series.sort_values(ascending=False))
+    return bestboost
 
 def extract(df_train, df_test):
 
@@ -87,16 +108,31 @@ def test_with_classif(classifier, df_train, df_test):
     y_pred = classifier.predict(X_test)
     print_best_parameters(classifier)
     print(roc_auc_score(y_test, y_pred))
+    if (hasattr(classifier, "_coef")):
+        coef = pd.Series(classifier.coef_, index=X_train.columns)
+        print(coef)
+
+def test_with_classifs(classifiers, df_train, df_test):
+
+
+    X_train, y_train, X_test, y_test  = extract(df_train, df_test)
+    y_preds = [classifier.predict(X_test) for classifier in classifiers]
+    y_pred_concat = np.concatenate(y_preds)
+    y_pred_average = y_pred_concat.mean()
+    print(roc_auc_score(y_test, y_pred_average))
 
 
 
 def main(**kwargs):
 
     df_train, df_test = run(**kwargs)
-    do_xgboost(df_train, df_test)
-    do_rtree(df_train, df_test)
+    classifiers = [
+        do_lasso(df_train, df_test),
+        do_xgboost(df_train, df_test),
+        do_rtree(df_train, df_test)
+    ]
 
-
+    #test_with_classifs(classifiers, df_train, df_test)
 if __name__ == "__main__":
 
-    main()
+    main(print_info=False)
