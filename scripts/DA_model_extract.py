@@ -55,9 +55,8 @@ def extract_old(df_train, df_test):
         df_test[cat_column] = df_test[cat_column].astype('category')
         df_test[cat_column] = df_test[cat_column].cat.codes
 
-
-    df_train = df_train.drop('date', axis=1)
-    df_test = df_test.drop('date', axis=1)
+    #    df_train = df_train.drop('date', axis=1)
+#    df_test = df_test.drop('date', axis=1)
 
     df_train.fillna(0, inplace=True)
     df_test.fillna(0, inplace=True)
@@ -70,7 +69,7 @@ def extract_old(df_train, df_test):
 
 
     missing_test_columns = [x for x in relevant_columns if x not in df_test ]
-    print(missing_test_columns)
+  #  print(missing_test_columns)
 
     df_train.reindex(columns=list(df_train.columns)+missing_train_columns)
 

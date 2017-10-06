@@ -41,10 +41,11 @@ def get_gridsearch_xgboost():
         #'min_child_weight' : [1,2,3,4,5],
         #'max_depth' : [1,2,3,4,5]
         #'gamma': [0.38, 0.39, 0.4, 0.41, 0.42]
-        'subsample': [0.75,  0.775, 0.8, 0.825, 0.85],
-        'colsample_bytree': [0.65, 0.675, 0.7, 0.725, 0.75]
+        #'subsample': [0.75,  0.775, 0.8, 0.825, 0.85],
+        #'colsample_bytree': [0.65, 0.675, 0.7, 0.725, 0.75]
+        'reg_alpha': [0.1, 0.5 , 1, 5, 10]
     }
-    gs = GridSearchCV(XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4), xgbparams,cv =5, scoring='roc_auc')
+    gs = GridSearchCV(XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7), xgbparams,cv =5, scoring='roc_auc')
     return gs
 
 
@@ -72,16 +73,16 @@ def main():
     #df_train = pd.read_csv('../data/train_ml.csv', parse_dates=True)
     #df_test = pd.read_csv('../data/test_ml.csv', parse_dates=True)
     df_train, df_test = run()
-    #xgridboost = get_gridsearch_xgboost()
-    #test_with_classif(xgridboost , df_train, df_test)
+    xgridboost = get_gridsearch_xgboost()
+    test_with_classif(xgridboost , df_train, df_test)
     bestboost = get_best_xgboost()
 
     test_with_classif(bestboost , df_train, df_test)
-   # bestclassif = get_classifier_xgboost()
+  #  bestclassif = get_classifier_xgboost()
    # test_with_classif(bestclassif, df_train, df_test)
-   # bestclassif.booster()
-   #  series = pd.Series(bestboost.get_booster().get_fscore())
-   #  print(series.sort_values(ascending=False))
+  #  bestclassif.booster()
+    series = pd.Series(bestboost.get_booster().get_fscore())
+    print(series.sort_values(ascending=False))
 
 
 if __name__ == "__main__":
