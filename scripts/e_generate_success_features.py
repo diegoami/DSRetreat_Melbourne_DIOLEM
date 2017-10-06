@@ -90,9 +90,9 @@ def process(input_type, merge_with = None):
     df_out = df_out.merge(tmp_res, how='left', on='id')
 
     #faculty
-    df_filter = gen_filter_numeric(df_main, 'Dept.No.')
+    df_filter = gen_filter_numeric(df_main, 'Faculty.No.')
     tmp_res = gen_s(df_filter, df_roles, df_main)
-    tmp_res.columns = ['Dept.No.' + '_' + x if x != 'id' else x for x in tmp_res.columns]
+    tmp_res.columns = ['Faculty.No.' + '_' + x if x != 'id' else x for x in tmp_res.columns]
     df_out = df_out.merge(tmp_res, how='left', on='id')
 
     # sponsor
