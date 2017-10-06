@@ -27,7 +27,7 @@ def extract(df_train, df_test):
     df_test.fillna(0, inplace=True)
 
     relevant_columns = [x for x in set(list(df_train.columns)+list(df_test.columns)) if x not in ['id', 'granted']]
-    print(relevant_columns)
+    #print(relevant_columns)
     missing_train_columns = [x for x in relevant_columns if x not in df_train ]
 
 
