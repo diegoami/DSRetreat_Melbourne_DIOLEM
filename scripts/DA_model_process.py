@@ -55,28 +55,31 @@ def do_rtree(df_train, df_test):
     return bestboost
 
 def do_xgboost(df_train, df_test):
+    def get_best_xgboost_first_iter():
+        return XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7,
+                            reg_alpha=0.5, learning_rate=0.1, n_estimators=500)
+
     def get_best_xgboost():
         return XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7,
                             reg_alpha=0.5, learning_rate=0.1, n_estimators=500)
 
     def get_gridsearch_xgboost():
         xgbparams = {
-            # 'min_child_weight' : [1,2,3,4,5],
-            # 'max_depth' : [1,2,3,4,5]
-            # 'gamma': [0.38, 0.39, 0.4, 0.41, 0.42]
-            # 'subsample': [0.75,  0.775, 0.8, 0.825, 0.85],
-            # 'colsample_bytree': [0.65, 0.675, 0.7, 0.725, 0.75]
-            # 'reg_alpha': [0.1, 0.5 , 1, 5, 10]
-            # 'learning_rate' : [0.1 , 0.001, 0.0001],
-            # 'n_estimators': [400, 1500, 5000],
+             'min_child_weight' : [1,2,3,4,5],
+             'max_depth' : [1,2,3,4,5]
+             #'gamma': [0.38, 0.39, 0.4, 0.41, 0.42]
+             #'subsample': [0.75,  0.775, 0.8, 0.825, 0.85],
+             #'colsample_bytree': [0.65, 0.675, 0.7, 0.725, 0.75]
+             #'reg_alpha': [0.1, 0.5 , 1, 5, 10]
+             #'learning_rate' : [0.1 , 0.001, 0.0001],
+             #'n_estimators': [400, 1500, 5000],
         }
         gs = GridSearchCV(
-            XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7, reg_alpha=0.5,
-                         learning_rate=0.1, n_estimators=500), xgbparams, cv=10, scoring='roc_auc', verbose=10)
+            XGBRegressor(), xgbparams, cv=10, scoring='roc_auc', verbose=10)
         return gs
 
-    #xgridboost = get_gridsearch_xgboost()
-    #test_with_classif(xgridboost , df_train, df_test)
+    xgridboost = get_gridsearch_xgboost()
+    test_with_classif(xgridboost , df_train, df_test)
     bestboost = get_best_xgboost()
 
     test_with_classif(bestboost , df_train, df_test)
@@ -129,12 +132,12 @@ def main(**kwargs):
 
     df_train, df_test = run(**kwargs)
     classifiers = [
-        do_lasso(df_train, df_test),
+        #do_lasso(df_train, df_test),
         do_xgboost(df_train, df_test),
-        do_rtree(df_train, df_test)
+       # do_rtree(df_train, df_test)
     ]
 
-    test_with_classifs(classifiers, df_train, df_test)
+    #test_with_classifs(classifiers, df_train, df_test)
 if __name__ == "__main__":
 
     main(print_info=False)
