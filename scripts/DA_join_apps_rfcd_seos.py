@@ -88,6 +88,7 @@ def add_seo_code(main_table, seo):
 def add_externals(main_table, ext):
     main_table = main_table.merge(ext, on='id', how='left')
     main_table.fillna(0, inplace=True)
+
     return main_table
 
 
@@ -138,4 +139,4 @@ def main(dataset='train'):
 
 if __name__ == '__main__':
     main()
-    # main(dataset='test')
+   # main(dataset='test')
