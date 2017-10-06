@@ -33,9 +33,8 @@ def treat_missing_columns(train,test):
     return train, test
 
 
-def run(ds1='train',ds2='test'):
+def run(ds1='train',ds2='test', base='../data/', print_info=True):
     cat_list = ['sponsor', 'grant_category', 'Dept.No.', 'Faculty.No.','month']
-    base = '../data/'
     trainf = ds1+ '_ml.csv'
     testf =  ds2+ '_ml.csv'
 
@@ -50,7 +49,8 @@ def run(ds1='train',ds2='test'):
 
     # train = train.drop('date', axis=1)
     # test = test.drop('date', axis=1)
-    print(train.info())
+    if (print_info):
+        print(train.info())
     return train, test
 
 
