@@ -65,9 +65,9 @@ def test_with_classif(classifier, df_train, df_test):
     print_best_parameters(classifier)
     print(roc_auc_score(y_test, y_pred))
 
-def main():
+def main(**kwargs):
 
-    df_train, df_test = run()
+    df_train, df_test = run(**kwargs)
     xgridboost = get_gridsearch_xgboost()
     test_with_classif(xgridboost , df_train, df_test)
     bestboost = get_best_xgboost()
