@@ -127,9 +127,9 @@ def main(**kwargs):
 
     df_train, df_test = run(**kwargs)
     classifiers = [
-        do_lasso(df_train, df_test),
+       # do_lasso(df_train, df_test),
         do_xgboost(df_train, df_test),
-        do_rtree(df_train, df_test)
+       # do_rtree(df_train, df_test)
     ]
 
     #test_with_classifs(classifiers, df_train, df_test)
