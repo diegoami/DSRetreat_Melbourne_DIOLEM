@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import cross_val_score
-from scripts.DA_model_extract import extract
+from scripts.DA_model_extract import extract, extract_old
 import sys
 from scripts.eo_transport_data import run
 sys.path.append('..')
@@ -50,7 +50,7 @@ def print_best_parameters(classifier):
 
 def test_with_classif(classifier, df_train, df_test):
     print(classifier)
-    X_train, y_train, X_test, y_test  = extract(df_train, df_test)
+    X_train, y_train, X_test, y_test  = extract_old(df_train, df_test)
 
 
     classifier.fit(X=X_train, y=y_train)
@@ -65,8 +65,8 @@ def main():
     #df_train = pd.read_csv('../data/train_ml.csv', parse_dates=True)
     #df_test = pd.read_csv('../data/test_ml.csv', parse_dates=True)
     df_train, df_test = run()
-    xgridboost = get_gridsearch_xgboost()
-    test_with_classif(xgridboost , df_train, df_test)
+    #xgridboost = get_gridsearch_xgboost()
+    #test_with_classif(xgridboost , df_train, df_test)
     bestboost = get_best_xgboost()
 
     test_with_classif(bestboost , df_train, df_test)

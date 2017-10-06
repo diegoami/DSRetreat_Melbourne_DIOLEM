@@ -13,14 +13,31 @@ import pandas as pd
 
 
 def extract(df_train, df_test):
-    X_train = df_train
-    y_train = df_train[['granted']]
-    X_test = df_test
-    y_test = df_test[['granted']]
+    print(df_train.columns)
+    print(df_test.columns)
+    df_train = df_train.drop('date', axis=1)
+    df_test = df_test.drop('date', axis=1)
+    print(df_train.head())
+    print(df_test.head())
+
+    df_train.fillna(0, inplace=True)
+    df_test.fillna(0, inplace=True)
+
+    train_columns = [x for x in df_train.columns if x not in ['id', 'granted']]
+    X_train = df_train.iloc[:,2:]
+    test_columns = [x for x in df_train.columns if x not in ['id', 'granted']]
+
+    y_train = df_train['granted']
+    X_test = df_test.iloc[:,2:]
+    y_test = df_test['granted']
     print(X_train.shape)
     print(y_train.shape)
     print(X_test.shape)
     print(y_test.shape)
+    print(X_train.iloc[:5,:])
+    print(y_train.iloc[:5])
+    print(X_test.iloc[:5, :])
+    print(y_test.iloc[:5])
 
     return X_train, y_train, X_test, y_test
 
