@@ -66,8 +66,8 @@ def do_xgboost(df_train, df_test):
         pass
     def get_gridsearch_xgboost():
         xgbparams = {
-             'min_child_weight' : [1,2,3,4,5],
-             'max_depth' : [1,2,3,4,5]
+             'min_child_weight' : [5,6,7],
+             'max_depth' : [5,6,7]
              #'gamma': [0.38, 0.39, 0.4, 0.41, 0.42]
              #'subsample': [0.75,  0.775, 0.8, 0.825, 0.85],
              #'colsample_bytree': [0.65, 0.675, 0.7, 0.725, 0.75]
@@ -82,14 +82,10 @@ def do_xgboost(df_train, df_test):
     xgridboost = get_gridsearch_xgboost()
     test_with_classif(xgridboost , df_train, df_test)
     bestboost = get_best_xgboost()
-
+    test_with_classif(bestboost, df_train, df_test)
     series = pd.Series(bestboost.get_booster().get_fscore())
     print(series.sort_values(ascending=False))
     return bestboost
-    xgbparams = {
-        'min_child_weight': [1, 2, 3, 4, 5],
-        'max_depth': [1, 2, 3, 4, 5]
-    }
 
     #test_with_classif(XGBRegressor(),xgbparams , df_train, df_test)
 def extract(df_train, df_test):
@@ -155,4 +151,4 @@ def main(**kwargs):
     #test_with_classifs(classifiers, df_train, df_test)
 if __name__ == "__main__":
 
-    main(print_info=False)
+    main(ds1='train',ds2='test',print_info=False)
