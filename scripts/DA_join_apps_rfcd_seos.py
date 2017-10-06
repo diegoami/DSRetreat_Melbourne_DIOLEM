@@ -161,5 +161,7 @@ def main(dataset='train'):
 
 
 if __name__ == '__main__':
-    main()
-    main(dataset='test')
+    trainf = 'train_all'
+    testf  = 'hold'
+    main(dataset = trainf)
+    main(dataset=testf)

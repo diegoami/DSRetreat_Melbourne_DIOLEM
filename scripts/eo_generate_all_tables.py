@@ -16,8 +16,11 @@ from scripts.e_generate_success_features import process as suc_process
 
 def main():
     base = '../data/'
-    trainf = 'train'
-    testf  = 'test'
+    # trainf = 'train'
+    # testf  = 'test'
+
+    trainf = 'train_all'
+    testf  = 'hold'
 
     #generates _apps_raw
     apps_process(trainf)

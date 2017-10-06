@@ -1,0 +1,598 @@
+Person.ID,Year.of.Birth,Country.of.Birth,Home.Language
+357,1960.0,Australia,English
+362,1960.0,Australia,English
+407,1955.0,Australia,English
+522,1965.0,Australia,English
+537,1965.0,Australia,English
+547,1960.0,North America,English
+557,1960.0,Australia,English
+592,1955.0,Australia,English
+612,1960.0,Australia,English
+987,1945.0,Australia,English
+1012,1945.0,Australia,English
+1162,1970.0,Middle East and Africa,Unknown
+1407,1955.0,Australia,English
+1737,1965.0,Australia,English
+1797,1960.0,North America,English
+1812,1955.0,Australia,English
+2232,1955.0,Australia,English
+2712,1965.0,Australia,English
+3182,1965.0,Australia,English
+3362,1970.0,Australia,English
+3687,1945.0,Australia,English
+3692,1945.0,Australia,English
+4102,1955.0,Australia,English
+4222,1960.0,Australia,English
+4992,1960.0,Australia,English
+5222,1940.0,Australia,English
+5232,1955.0,Australia,English
+5852,1950.0,Australia,English
+5882,1955.0,Australia,English
+5967,1955.0,Australia,English
+6012,1955.0,Australia,English
+6192,1935.0,Unknown,Unknown
+6562,1955.0,South Africa,English
+7362,1970.0,Western Europe,Other
+7452,1960.0,North America,English
+7482,1940.0,Australia,English
+7512,1960.0,Australia,English
+7587,1955.0,Australia,English
+7597,1955.0,Eastern Europe,English
+7747,1975.0,Australia,English
+7842,1960.0,Asia Pacific,Other
+7862,1965.0,Australia,English
+7947,1960.0,Asia Pacific,Other
+8012,1960.0,Western Europe,Other
+8062,1960.0,Australia,English
+8732,1965.0,Australia,English
+8772,1965.0,Australia,English
+8867,1960.0,Australia,English
+9107,1965.0,Australia,English
+9217,1945.0,Australia,English
+9342,1950.0,Unknown,Unknown
+9412,1970.0,Australia,English
+9502,1950.0,South Africa,English
+9757,1960.0,Australia,English
+9857,1960.0,Asia Pacific,Other
+10072,1965.0,Unknown,Unknown
+10387,1950.0,Australia,English
+10472,1970.0,Australia,English
+10592,1960.0,Australia,English
+10662,1955.0,Australia,English
+11282,1945.0,Eastern Europe,Other
+11322,1965.0,Australia,English
+11602,1955.0,Western Europe,Other
+11612,1960.0,Australia,English
+11837,1950.0,Australia,English
+11907,1955.0,Australia,Other
+12957,1965.0,Great Britain,English
+13192,1960.0,Western Europe,Other
+13682,1965.0,Western Europe,English
+13812,1975.0,Australia,English
+14187,1955.0,Australia,English
+14512,1975.0,Asia Pacific,Other
+14547,1970.0,Australia,English
+14562,1950.0,Australia,English
+14777,1970.0,Australia,English
+14782,1955.0,Great Britain,English
+15162,1965.0,Australia,English
+15242,1980.0,Asia Pacific,Other
+15472,1965.0,Unknown,Unknown
+15532,1960.0,Unknown,Unknown
+15777,1950.0,Australia,English
+16012,1960.0,North America,English
+16137,1950.0,Australia,English
+16452,1935.0,Unknown,Unknown
+16582,1960.0,Australia,English
+16632,1955.0,Australia,English
+16987,1965.0,Australia,English
+17342,1960.0,Australia,English
+17367,1960.0,Asia Pacific,Other
+17617,1965.0,North America,English
+17707,1965.0,Australia,English
+18377,1960.0,Australia,English
+18732,1970.0,Asia Pacific,English
+18757,1955.0,Asia Pacific,Other
+18832,1975.0,Great Britain,English
+19082,1970.0,Australia,English
+19602,1945.0,Australia,English
+19857,1970.0,Australia,English
+20122,1965.0,Great Britain,English
+20202,1965.0,South Africa,English
+20722,1965.0,Australia,English
+20782,1965.0,Australia,English
+20937,1970.0,Australia,English
+21132,1960.0,Australia,English
+21732,1965.0,Australia,English
+22077,1955.0,Western Europe,Other
+22097,1960.0,Australia,English
+22322,1955.0,Western Europe,Other
+22582,1975.0,Australia,English
+22792,1955.0,Australia,English
+22847,1980.0,Australia,English
+22917,1960.0,Australia,English
+23182,1970.0,Unknown,Unknown
+23312,1975.0,Unknown,Unknown
+23342,1960.0,Australia,English
+23872,1975.0,Australia,English
+23912,1965.0,Australia,English
+23982,1975.0,Australia,English
+24017,1970.0,Australia,English
+24627,1965.0,Asia Pacific,Other
+25117,1970.0,Australia,English
+25207,1970.0,Australia,English
+25217,1965.0,Great Britain,English
+25837,1960.0,Australia,English
+26352,1975.0,Eastern Europe,Other
+26667,1965.0,Australia,English
+26877,1935.0,Australia,English
+26882,1950.0,Australia,English
+26962,1970.0,Great Britain,English
+28342,1960.0,Australia,English
+28412,1960.0,Australia,English
+28502,1970.0,New Zealand,English
+28607,1965.0,Great Britain,English
+28797,1970.0,Australia,English
+28832,1950.0,Unknown,Unknown
+29512,1970.0,North America,English
+29562,1970.0,Australia,English
+29807,1970.0,Australia,English
+30017,1960.0,Australia,English
+30527,1960.0,Australia,English
+30707,1965.0,Middle East and Africa,Unknown
+30977,1950.0,Great Britain,English
+31067,1960.0,Great Britain,English
+31672,1965.0,Australia,English
+31967,1970.0,Australia,English
+31972,1960.0,Australia,English
+32437,1970.0,Australia,English
+32467,1975.0,Great Britain,English
+32822,1960.0,Australia,English
+33247,1950.0,Great Britain,English
+33542,1980.0,Great Britain,English
+33557,1955.0,Australia,English
+34127,1960.0,Australia,English
+34182,1965.0,Australia,English
+34737,1970.0,North America,English
+35512,1970.0,Australia,English
+35602,1965.0,Australia,English
+36242,1965.0,Australia,English
+36252,1960.0,Australia,English
+36402,1975.0,Unknown,Unknown
+36452,1965.0,Australia,English
+36737,1980.0,Australia,English
+36862,1930.0,Australia,English
+39457,1960.0,Australia,English
+39562,1945.0,Great Britain,English
+39807,1975.0,Australia,English
+39832,1975.0,Australia,English
+40697,1965.0,Great Britain,English
+40937,1965.0,Australia,English
+41912,1960.0,Eastern Europe,Other
+42107,1975.0,Australia,English
+43322,1975.0,Australia,English
+44252,1960.0,Australia,English
+44352,1970.0,Australia,English
+44782,1955.0,Western Europe,Other
+45012,1970.0,Australia,English
+45317,1975.0,Australia,English
+45967,1975.0,Australia,English
+46132,1975.0,Australia,English
+47517,1970.0,Australia,English
+48497,1950.0,Unknown,Unknown
+48902,1945.0,Australia,English
+49097,1980.0,Australia,English
+49592,1955.0,Australia,English
+49642,1965.0,Australia,English
+49762,1970.0,Unknown,Unknown
+51502,1975.0,Middle East and Africa,Unknown
+53027,1975.0,Australia,English
+53202,1975.0,Australia,English
+54322,1960.0,Eastern Europe,Other
+54737,1975.0,Australia,English
+55437,1940.0,Great Britain,English
+55677,1980.0,Australia,English
+57272,1975.0,North America,English
+60517,1965.0,Australia,English
+62967,1950.0,Australia,English
+63047,1945.0,Unknown,Unknown
+63232,1960.0,Australia,English
+63437,1940.0,Australia,English
+63452,1950.0,Great Britain,English
+63462,1960.0,Australia,English
+63547,1945.0,Australia,English
+63562,1940.0,Australia,English
+63757,1960.0,Great Britain,English
+63772,1960.0,Australia,English
+64277,1950.0,Australia,English
+64342,1950.0,Australia,English
+64517,1960.0,Australia,English
+64657,1940.0,Great Britain,English
+64662,1955.0,Australia,English
+64727,1945.0,Unknown,Unknown
+64777,1940.0,Australia,English
+64842,1960.0,Australia,English
+64867,1945.0,Australia,English
+65342,1955.0,Great Britain,English
+65387,1965.0,Australia,English
+65712,1950.0,Western Europe,Other
+65767,1970.0,Australia,English
+65977,1950.0,Australia,English
+66007,1955.0,Australia,English
+66092,1960.0,Australia,English
+66192,1950.0,Australia,English
+66482,1960.0,Australia,English
+66487,1960.0,Australia,English
+66532,1945.0,North America,English
+66607,1955.0,Great Britain,English
+66672,1960.0,Australia,English
+66732,1970.0,Australia,English
+66782,1955.0,Australia,English
+66887,1955.0,Australia,English
+67037,1950.0,Eastern Europe,Other
+67097,1960.0,Australia,English
+67152,1955.0,New Zealand,English
+67282,1965.0,Australia,English
+67327,1965.0,Unknown,Unknown
+67412,1960.0,Asia Pacific,English
+67447,1970.0,Great Britain,English
+67537,1955.0,Australia,English
+67647,1965.0,Australia,English
+67842,1965.0,Australia,English
+67882,1950.0,Australia,English
+68202,1935.0,Australia,English
+68252,1960.0,Australia,English
+68377,1955.0,Australia,English
+68382,1950.0,Australia,English
+68437,1950.0,The Americas,Unknown
+68502,1955.0,Australia,English
+68567,1970.0,Great Britain,English
+68732,1950.0,North America,English
+68857,1950.0,Great Britain,English
+69032,1965.0,Australia,English
+69262,1960.0,Australia,English
+69392,1960.0,Unknown,Unknown
+69517,1950.0,Australia,English
+69712,1950.0,Great Britain,English
+69732,1950.0,Australia,English
+69812,1960.0,Australia,English
+70227,1960.0,Australia,English
+70362,1955.0,Unknown,Unknown
+70452,1955.0,Australia,English
+70487,1955.0,Australia,English
+70647,1940.0,Unknown,Unknown
+70652,1940.0,Australia,English
+71727,1955.0,Great Britain,English
+71867,1945.0,Australia,English
+72037,1970.0,Australia,English
+72177,1960.0,Australia,English
+72222,1950.0,Australia,English
+72317,1950.0,Great Britain,English
+72432,1955.0,Australia,English
+72467,1945.0,Australia,English
+72722,1955.0,Australia,English
+72957,1960.0,New Zealand,English
+73017,1960.0,The Americas,Unknown
+73087,1955.0,Australia,English
+73352,1960.0,Australia,English
+73402,1965.0,Great Britain,English
+73422,1960.0,Great Britain,English
+73612,1950.0,Australia,English
+73757,1965.0,Australia,English
+73862,1960.0,Australia,English
+73942,1950.0,Australia,English
+74142,1970.0,Australia,English
+74162,1970.0,Australia,English
+74302,1960.0,Australia,English
+74512,1945.0,Australia,English
+74527,1950.0,Australia,English
+74567,1960.0,Australia,English
+74697,1960.0,North America,English
+74722,1960.0,Australia,English
+74827,1955.0,Australia,English
+74832,1965.0,Australia,English
+74877,1950.0,Great Britain,English
+74957,1950.0,North America,English
+74987,1960.0,Unknown,Unknown
+75377,1955.0,Australia,English
+75412,1950.0,Western Europe,Other
+75572,1940.0,Australia,English
+75662,1950.0,Australia,English
+75747,1970.0,Australia,English
+75822,1970.0,Unknown,Unknown
+75992,1965.0,Asia Pacific,Other
+76022,1965.0,Australia,English
+76237,1960.0,Great Britain,English
+76352,1965.0,Australia,English
+76432,1960.0,Australia,English
+76757,1975.0,Australia,English
+76807,1965.0,Australia,English
+77067,1970.0,Australia,English
+77457,1955.0,Asia Pacific,Other
+77582,1960.0,Australia,English
+77807,1970.0,Australia,English
+77817,1970.0,Australia,English
+77922,1955.0,Asia Pacific,Other
+77987,1960.0,Australia,English
+78562,1955.0,Australia,English
+78762,1960.0,Australia,English
+78817,1950.0,Western Europe,Other
+78827,1950.0,Australia,English
+78887,1960.0,Australia,English
+78922,1955.0,Australia,English
+78967,1955.0,Western Europe,Other
+78977,1945.0,Australia,English
+78992,1945.0,Australia,English
+79022,1945.0,Western Europe,Other
+79142,1940.0,Australia,English
+79192,1950.0,Australia,English
+79217,1955.0,Australia,English
+79247,1950.0,Australia,English
+79612,1950.0,Unknown,Unknown
+79652,1950.0,Asia Pacific,Other
+79712,1955.0,Australia,English
+79802,1950.0,Australia,English
+79837,1950.0,Australia,English
+79977,1935.0,Australia,English
+80037,1950.0,Australia,English
+80187,1945.0,Australia,English
+80197,1950.0,Australia,English
+80412,1955.0,Australia,English
+80477,1950.0,South Africa,English
+80692,1950.0,Australia,English
+80942,1945.0,Australia,English
+80982,1945.0,Unknown,Unknown
+81642,1945.0,Australia,English
+81702,1955.0,New Zealand,English
+81792,1950.0,Australia,English
+82072,1950.0,Australia,English
+82092,1945.0,Australia,English
+82172,1950.0,Great Britain,English
+82312,1950.0,Australia,English
+82442,1955.0,Australia,English
+82502,1960.0,Australia,English
+82512,1955.0,Asia Pacific,Other
+82567,1955.0,Australia,English
+82722,1970.0,Australia,English
+82892,1970.0,Western Europe,Other
+82962,1965.0,Australia,English
+84587,1965.0,Australia,English
+84622,1955.0,Australia,English
+84627,1960.0,Australia,English
+85642,1955.0,Australia,English
+85862,1950.0,Western Europe,Other
+86212,1975.0,Australia,English
+86282,1965.0,Australia,English
+87147,1970.0,Australia,English
+87202,1950.0,Australia,English
+87917,1970.0,Great Britain,English
+88182,1980.0,Australia,English
+89127,1970.0,Australia,English
+89472,1970.0,Australia,English
+89627,1975.0,Australia,English
+90572,1965.0,Australia,English
+90602,1965.0,Australia,English
+90747,1965.0,Australia,English
+91182,1965.0,Australia,English
+92307,1960.0,Australia,English
+92362,1965.0,Western Europe,Other
+93802,1970.0,Australia,English
+95677,1945.0,Australia,English
+95862,1975.0,Australia,English
+95892,1960.0,Australia,English
+98212,1965.0,Australia,English
+100772,1965.0,Great Britain,English
+101532,1960.0,Australia,English
+104107,1970.0,Unknown,Unknown
+104862,1970.0,Unknown,Unknown
+105342,1965.0,Australia,English
+106282,1965.0,Asia Pacific,English
+106357,1950.0,Australia,English
+107242,1970.0,Great Britain,English
+107602,1970.0,Australia,English
+107862,1975.0,Australia,English
+107987,1960.0,Australia,English
+108847,1945.0,Australia,English
+110437,1975.0,Australia,English
+110472,1965.0,Australia,English
+110517,1980.0,Australia,English
+111192,1965.0,Western Europe,Other
+112582,1945.0,Unknown,Unknown
+113192,1965.0,Asia Pacific,Other
+114552,1955.0,North America,English
+115217,1975.0,Australia,English
+117462,1965.0,Great Britain,English
+119282,1975.0,Australia,English
+120047,1960.0,Australia,English
+120397,1975.0,Asia Pacific,Other
+122322,1970.0,Unknown,Unknown
+123092,1970.0,Western Europe,Other
+123547,1980.0,Australia,English
+125287,1945.0,Australia,English
+126907,1955.0,Unknown,Unknown
+127397,1975.0,Australia,English
+127447,1970.0,Australia,English
+129752,1965.0,Australia,English
+130642,1965.0,Australia,English
+131372,1950.0,Australia,English
+131432,1965.0,Australia,English
+132222,1965.0,Western Europe,Other
+132247,1960.0,Australia,English
+132927,1970.0,Australia,English
+132957,1965.0,Australia,English
+134562,1980.0,Unknown,Unknown
+135027,1960.0,Asia Pacific,Other
+135032,1970.0,New Zealand,English
+135202,1975.0,Australia,English
+137542,1965.0,Australia,English
+137552,1975.0,Unknown,Unknown
+138177,1980.0,Australia,English
+138567,1980.0,Australia,English
+139962,1970.0,Australia,English
+140417,1965.0,Australia,English
+140442,1960.0,Australia,English
+142457,1970.0,Australia,English
+143357,1965.0,Asia Pacific,Other
+143992,1970.0,Australia,English
+144177,1970.0,Australia,English
+144267,1970.0,Australia,English
+146697,1965.0,Great Britain,English
+147222,1965.0,Australia,English
+147502,1970.0,Great Britain,English
+147717,1965.0,Great Britain,English
+148087,1950.0,Australia,English
+149107,1975.0,Australia,English
+158617,1975.0,Australia,English
+178022,1975.0,Australia,English
+255582,1975.0,Australia,English
+284367,1960.0,Australia,English
+289542,1970.0,Australia,English
+297392,1960.0,Middle East and Africa,Unknown
+298802,1960.0,Unknown,Unknown
+301472,1950.0,Australia,English
+308557,1975.0,Australia,English
+309397,1960.0,Unknown,Unknown
+315992,1975.0,Australia,English
+357812,1970.0,Australia,English
+359677,1975.0,Australia,English
+366782,1975.0,Australia,English
+381382,1955.0,Australia,English
+398112,1975.0,Great Britain,English
+399777,1950.0,Unknown,Unknown
+408232,1965.0,Australia,English
+415187,1965.0,Australia,English
+421337,1955.0,Australia,English
+444932,1970.0,Asia Pacific,Other
+449137,1970.0,Australia,English
+488307,1900.0,Unknown,Unknown
+488762,1970.0,North America,Other
+491012,1980.0,Unknown,Unknown
+492967,1975.0,Unknown,Unknown
+493697,1960.0,Asia Pacific,Other
+494247,1975.0,Unknown,Unknown
+497907,1970.0,Australia,English
+498427,1970.0,Great Britain,English
+500332,1970.0,Asia Pacific,Other
+500382,1970.0,Unknown,Unknown
+500417,1970.0,Australia,English
+500447,1955.0,Western Europe,Other
+574367,1960.0,Great Britain,English
+575052,1965.0,Unknown,Unknown
+592977,1970.0,Unknown,Unknown
+593217,1970.0,Australia,English
+593492,1970.0,Unknown,Unknown
+599267,1970.0,Australia,English
+604692,1975.0,Unknown,Unknown
+607102,1975.0,Asia Pacific,Other
+608447,1965.0,Unknown,Unknown
+612312,1980.0,Unknown,Unknown
+620592,1980.0,Asia Pacific,Other
+626397,1980.0,Unknown,Unknown
+636257,1980.0,Unknown,Unknown
+636757,1975.0,Australia,English
+636867,1950.0,Australia,English
+641012,1975.0,Unknown,Unknown
+641022,1975.0,Australia,English
+649042,1975.0,Australia,English
+652292,1970.0,Unknown,Unknown
+655457,1970.0,Australia,English
+659757,1960.0,Australia,English
+672142,1965.0,Unknown,Unknown
+675142,1965.0,Unknown,Unknown
+679342,1975.0,Unknown,Unknown
+681742,1970.0,Asia Pacific,Other
+684937,1980.0,Unknown,Unknown
+688972,1980.0,Australia,English
+690307,1980.0,Great Britain,English
+692407,1960.0,Unknown,Unknown
+697707,1970.0,Western Europe,Other
+700027,1970.0,Great Britain,English
+703057,1965.0,Australia,English
+704062,1945.0,Australia,English
+712437,1965.0,Asia Pacific,Other
+713112,1975.0,Unknown,Unknown
+714027,1975.0,Unknown,Unknown
+718607,1975.0,The Americas,Other
+720822,1970.0,New Zealand,English
+726807,1965.0,Unknown,Unknown
+730127,1980.0,Australia,English
+734322,1965.0,Unknown,Unknown
+738222,1975.0,Unknown,Unknown
+741582,1975.0,Great Britain,English
+744352,1975.0,The Americas,Other
+748607,1975.0,Unknown,Unknown
+752162,1960.0,Australia,English
+755517,1975.0,Western Europe,Other
+763997,1970.0,Middle East and Africa,Unknown
+765697,1980.0,Unknown,Unknown
+766222,1955.0,Australia,English
+777602,1955.0,Unknown,Unknown
+778202,1985.0,Unknown,Unknown
+778842,1975.0,Asia Pacific,Other
+786607,1955.0,Australia,English
+790507,1970.0,Australia,English
+801752,1965.0,Unknown,Unknown
+802167,1975.0,Unknown,Unknown
+803052,1970.0,Unknown,Unknown
+805262,1965.0,Unknown,Unknown
+808267,1975.0,Australia,English
+809672,1965.0,Great Britain,English
+813567,1970.0,Unknown,Unknown
+821067,1945.0,Unknown,Unknown
+836667,1975.0,Unknown,Unknown
+860357,1970.0,Great Britain,English
+863682,1960.0,Unknown,Unknown
+868722,1965.0,Australia,English
+870747,1980.0,Unknown,Unknown
+874207,1950.0,Great Britain,English
+874467,1945.0,Unknown,Unknown
+877722,1975.0,Unknown,Unknown
+878457,1960.0,Unknown,Unknown
+884667,1980.0,Unknown,Unknown
+886577,1970.0,Unknown,Unknown
+887317,1970.0,Unknown,Unknown
+888697,1975.0,Great Britain,English
+889197,1975.0,Great Britain,English
+896767,1975.0,Eastern Europe,Other
+897272,1980.0,Australia,English
+906612,1975.0,Asia Pacific,Other
+907227,1970.0,Unknown,Unknown
+908767,1980.0,Unknown,Unknown
+909457,1980.0,Asia Pacific,Other
+910377,1980.0,North America,English
+910772,1970.0,Australia,English
+916022,1975.0,Australia,English
+918527,1960.0,Unknown,Unknown
+918577,1960.0,Unknown,Unknown
+922527,1970.0,Unknown,Unknown
+923187,1980.0,Australia,English
+925237,1965.0,Australia,English
+928167,1975.0,Unknown,Unknown
+933712,1965.0,Great Britain,English
+936352,1980.0,Unknown,Unknown
+938657,1980.0,Unknown,Unknown
+938787,1970.0,Asia Pacific,Other
+938937,1970.0,Asia Pacific,Other
+939957,1975.0,Unknown,Unknown
+941027,1960.0,Australia,English
+941662,1975.0,Asia Pacific,Other
+945297,1970.0,Australia,English
+945737,1965.0,Asia Pacific,Other
+946327,1975.0,Great Britain,English
+950172,1975.0,Unknown,Unknown
+952677,1975.0,Asia Pacific,Other
+953102,1975.0,Unknown,Unknown
+961672,1975.0,Australia,English
+964402,1965.0,Unknown,Unknown
+964907,1970.0,Unknown,Unknown
+971367,1970.0,Unknown,Unknown
+974802,1980.0,Unknown,Unknown
+979487,1980.0,Western Europe,Other
+979492,1975.0,Unknown,Unknown
+982227,1980.0,Unknown,Unknown
+984172,1980.0,Unknown,Unknown
+1081067,1970.0,Unknown,Unknown
+1090867,1980.0,Unknown,Unknown
+1091272,1975.0,Unknown,Unknown
+1092302,1980.0,Unknown,Unknown
+1136582,1975.0,Unknown,Unknown
