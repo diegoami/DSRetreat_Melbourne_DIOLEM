@@ -71,14 +71,14 @@ def extract(df_train, df_test):
 def do_ntw(X_train,y_train, X_test, y_test):
     classifier1 = make_pipeline(
         MinMaxScaler(),
-        XGBRegressor(**{'colsample_bytree': 0.8, 'gamma': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'subsample': 0.7})
+        XGBRegressor(**{'colsample_bytree': 0.8, 'gamma': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'reg_alpha': 0.01, 'subsample': 0.6})
     )
 
     classifier2 = make_pipeline(
         MinMaxScaler(),
         PCA(),
         RandomForestRegressor(
-            **{'max_features': 8, 'min_samples_leaf': 20, 'min_samples_split': 3, 'n_estimators': 200})
+            **{'max_features': 8, 'min_samples_leaf': 26, 'min_samples_split': 4, 'n_estimators': 600, 'n_jobs': -1})
     )
     classifiers = [classifier1, classifier2]
 

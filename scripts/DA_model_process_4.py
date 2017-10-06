@@ -132,3 +132,4 @@ if __name__ == "__main__":
    # main_old(print_info=False)
    #main(print_info=False)
    main(print_info = False)
+   main(ds)
