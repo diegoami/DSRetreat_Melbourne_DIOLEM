@@ -2,6 +2,8 @@ import pandas as pd
 import os.path
 import numpy as np
 
+fill_nans = False
+
 #TODO
 #smarter way to deal with external
 
@@ -68,7 +70,8 @@ def aggregate_people(df_roles, df_p_dyn, df_p_static, df_dates):
 
 def add_agg_people(main_table, aggp):
     main_table = main_table.merge(aggp, on='id', how='left')
-    main_table.fillna(0,inplace = True)
+    if fill_nans:
+        main_table.fillna(0,inplace = True)
     return main_table
 
 
@@ -87,7 +90,8 @@ def add_seo_code(main_table, seo):
 
 def add_externals(main_table, ext):
     main_table = main_table.merge(ext, on='id', how='left')
-    main_table.fillna(0, inplace=True)
+    if fill_nans:
+        main_table.fillna(0, inplace=True)
 
     return main_table
 
@@ -103,6 +107,8 @@ def treat_date(main_table):
 
 
 def main(dataset='train'):
+
+    fill_nans =  True
     base = '../data/'
 
     seof = dataset + '_seo_mod.csv'
@@ -147,7 +153,8 @@ def main(dataset='train'):
 
     #add success
     main_table = main_table.merge(sucs, on='id', how='left')
-    main_table.fillna(0,inplace=True)
+    if fill_nans:
+        main_table.fillna(0,inplace=True)
     # write to file
     main_table.to_csv(os.path.join(base,writefile), index=False)
     print(main_table.info())

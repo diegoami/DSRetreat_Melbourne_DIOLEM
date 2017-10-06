@@ -1,4 +1,4 @@
-id,rfcd_l0_s_count,rfcd_l0_s_rate,rfcd_l1_s_count,rfcd_l1_s_rate,rfcd_l2_s_count,rfcd_l2_s_rate,seo_l0_s_count,seo_l0_s_rate,seo_l1_s_count,seo_l1_s_rate,seo_l2_s_count,seo_l2_s_rate,Dept.No._s_count_x,Dept.No._s_rate_x,Dept.No._s_count_y,Dept.No._s_rate_y,sponsor_s_count,sponsor_s_rate,grant_category_s_count,grant_category_s_rate
+id,rfcd_l0_s_count,rfcd_l0_s_rate,rfcd_l1_s_count,rfcd_l1_s_rate,rfcd_l2_s_count,rfcd_l2_s_rate,seo_l0_s_count,seo_l0_s_rate,seo_l1_s_count,seo_l1_s_rate,seo_l2_s_count,seo_l2_s_rate,Dept.No._s_count,Dept.No._s_rate,Faculty.No._s_count,Faculty.No._s_rate,sponsor_s_count,sponsor_s_rate,grant_category_s_count,grant_category_s_rate
 1,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,
 2,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,
 3,0,,0,,0,,0,,0,,0,,0,,0,,0,,0,
