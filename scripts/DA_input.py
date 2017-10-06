@@ -52,6 +52,7 @@ from sklearn import metrics
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_wine
 from sklearn.pipeline import make_pipeline
+from sklearn import svm
 
 
 from sklearn.decomposition import PCA
@@ -65,33 +66,44 @@ def extract(df_train, df_test):
 
     return X_train, y_train, X_test, y_test
 
-
-
-
 def do_ntw(X_train,y_train, X_test, y_test):
     classifier1 = make_pipeline(
         MinMaxScaler(),
-        XGBRegressor(**{'colsample_bytree': 0.8, 'gamma': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'reg_alpha': 0.01, 'subsample': 0.6})
+        XGBRegressor(**{'colsample_bytree': 0.7, 'gamma': 0.5, 'learning_rate': 0.01, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 1000, 'reg_alpha': 0.01, 'subsample': 0.6}
+)
     )
 
     classifier2 = make_pipeline(
         MinMaxScaler(),
         PCA(),
         RandomForestRegressor(
-            **{'max_features': 8, 'min_samples_leaf': 26, 'min_samples_split': 4, 'n_estimators': 600, 'n_jobs': -1})
+            **{'max_features': 8, 'min_samples_leaf': 25, 'min_samples_split': 5, 'n_estimators': 600, 'n_jobs': -1})
     )
-    classifiers = [classifier1, classifier2]
+
+    classifier3 = make_pipeline(
+        MinMaxScaler(),
+        GradientBoostingRegressor(**{'max_depth': 7, 'max_features': 24, 'min_samples_leaf': 0.07, 'min_samples_split': 2, 'n_estimators': 100}).fit(X_train, y_train)
+
+    )
+    classifier4 = make_pipeline(
+        MinMaxScaler(),
+        # PCA(),
+        svm.SVC(**{'C': 1000.0, 'gamma': 0.01}).fit(X_train, y_train)
+
+    )
+
+    classifiers = [classifier1, classifier2, classifier3, classifier4]
 
     model = Sequential()
-    model.add(Dense(500, input_dim=2, activation='relu'))
-    #   model.add(Dropout(0.5))
-    model.add(Dense(200, activation='relu'))
-    #   model.add(Dropout(0.5))
+    model.add(Dense(500, input_dim=len(classifiers), activation='tanh'))
+    model.add(Dropout(0.5))
+    model.add(Dense(200, activation='tanh'))
+    model.add(Dropout(0.5))
 
     model.add(Dense(1, activation='sigmoid'))
 
     model.compile(loss='binary_crossentropy',
-                  optimizer='rmsprop',
+                  optimizer='adam',
                   metrics=['acc'],
                   )
 

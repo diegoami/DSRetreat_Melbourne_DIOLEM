@@ -23,6 +23,8 @@ from sklearn.datasets import load_wine
 from sklearn.pipeline import make_pipeline
 from sklearn import linear_model, decomposition, datasets
 print(__doc__)
+from sklearn.linear_model import SGDRegressor
+from sklearn import svm
 def extract(df_train, df_test):
 
     y_train = df_train['granted']
@@ -32,45 +34,26 @@ def extract(df_train, df_test):
     return X_train, y_train, X_test, y_test
 
 
-
-
+C_range = np.logspace(-2, 10, 13)
+gamma_range = np.logspace(-9, 3, 13)
+param_grid = dict(gamma=gamma_range, C=C_range)
+#
 param_grid1 = {
-  # 'n_estimators': [200, 400, 800, 1500],
-    'min_samples_split' : [2,3,4,5,6],
-    'min_samples_leaf' : [0.5,0.4,0.3,0.2,0.1,0.05],
-                 'max_depth' : [3,4,5,6],
+#   'alpha' : [0.000001, 0.00001, 0.0001,0.001,0.01,0.1]
 }
 
 
-param_grid2 = {
-  # 'n_estimators': [200, 400, 800, 1500],
-    'min_samples_split' : [2,3],
-    'min_samples_leaf' : [0.15,0.12, 0.1,0.08, 0.05],
-                 'max_depth' : [4,5,6],
-        'max_features' : [5,7,11,15,20],
-}
-
-param_grid3 = {
-  # 'n_estimators': [200, 400, 800, 1500],
-    'min_samples_split' : [2,3,4],
-    'min_samples_leaf' : [0.06,0.08, 0.07],
-                 'max_depth' : [6,7,8],
-        'max_features' : [18,20,22,24],
-    'n_estimators' : [100,500,1000,3000]
-}
-
-n_estimators=1
 def main2(**kwargs):
 
 
     best_roc, best_args = 0, None
     df_train, df_test = run(**kwargs)
     X_train, y_train, X_test, y_test = extract(df_train, df_test)
-    for args in iter_param_grid(param_grid3):  # tried 5,6,7,8,9
+    for args in iter_param_grid(param_grid):  # tried 5,6,7,8,9
 
         classifier = make_pipeline(
             MinMaxScaler(),
-            GradientBoostingRegressor(**args).fit(X_train, y_train)
+            svm.SVC(**args).fit(X_train, y_train)
 
         )
         classifier.fit(X_train, y_train)

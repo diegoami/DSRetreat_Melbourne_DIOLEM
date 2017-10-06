@@ -80,13 +80,23 @@ param_grid3 = {
     'max_features' : [7,8,9],
     'n_jobs' : [-1]
 }
+
+param_grid6 = {
+    'n_estimators': [ 600, 800, 1000],
+    'min_samples_leaf': [25, 26, 27, 30],
+    'min_samples_split': [ 3, 4, 5],
+    'max_features' : [8,11],
+    'n_jobs' : [-1]
+}
+# 0.72616648003 {'max_features': 8, 'min_samples_leaf': 25, 'min_samples_split': 5, 'n_estimators': 600, 'n_jobs': -1}
+
 def main2(**kwargs):
 
 
     best_roc, best_args = 0, None
     df_train, df_test = run(**kwargs)
     X_train, y_train, X_test, y_test = extract(df_train, df_test)
-    for args in iter_param_grid(param_grid3):  # tried 5,6,7,8,9
+    for args in iter_param_grid(param_grid6):  # tried 5,6,7,8,9
 
         classifier = make_pipeline(
             MinMaxScaler(),
@@ -101,6 +111,7 @@ def main2(**kwargs):
             best_roc, best_args = rs, args
     print("=== BEST PARAMETERS ===")
     print(best_roc, best_args)
+    return classifier
 
 # NO PCA 0.681083026716 {'max_features': 8, 'min_samples_leaf': 20, 'min_samples_split': 3, 'n_estimators': 200, 'n_jobs': -1}
 
@@ -125,22 +136,9 @@ def iter_param_grid(p):
         #test_with_classifs(classifiers, df_train, df_test)
 if __name__ == "__main__":
 
-    main2(print_info=False)
-
-"""
-
-
-    estimator = GridSearchCV(RandomForestClassifier(), param_grid=param_grid, cv=5, verbose=10, scoring='roc_auc')
-    pipeline = make_pipeline(
-        StandardScaler(),
-        estimator
-    )
-
-    pipeline.fit(X=X_train, y=y_train)
-
-    y_pred = pipeline.predict(X_test)
-    print(roc_auc_score(y_test, y_pred))
-    best_parameters = estimator.best_estimator_.get_params()
-    for param_name in sorted(best_parameters.keys()):
-        print("\t%s: %r" % (param_name, best_parameters[param_name]))
-"""
+   classifier = main2(print_info=False)
+   df_train_all, df_hold = run(ds1='train_all', ds2='hold')
+   X_train, y_train, X_test, y_test = extract(df_train_all, df_hold )
+   y_pred = classifier.predict(X_test)
+   rs = roc_auc_score(y_test, y_pred)
+   print(rs)

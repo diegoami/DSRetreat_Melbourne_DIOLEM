@@ -88,11 +88,48 @@ xgbparams4 = {
 
         }
 
+xgbparams5 = {
+             'min_child_weight' : [3],
+             'max_depth' : [3],
+             'gamma': [0.3, 0.4],
+             'subsample': [0.6],
+             'colsample_bytree': [ 0.8],
+             'reg_alpha': [0.01 ],
+            'learning_rate' : [0.1, 0.01, 0.001]
+
+        }
+
+xgbparams6 = {
+             'min_child_weight' : [3],
+             'max_depth' : [3],
+             'gamma': [ 0.4, 0.5],
+             'subsample': [0.6],
+             'colsample_bytree': [ 0.8],
+             'reg_alpha': [0.01 ],
+            'learning_rate' : [ 0.01],
+            'n_estimators' : [100,500,1000,5000]
+
+
+        }
+
+xgbparams7 = {
+             'min_child_weight' : [2,3,4],
+             'max_depth' : [2,3,4],
+             'gamma': [ 0.4, 0.5, 0.6],
+             'subsample': [0.5,0.6,0.7],
+             'colsample_bytree': [ 0.7,0.8,0.9],
+             'reg_alpha': [0.01 ],
+            'learning_rate' : [ 0.01,0.001],
+            'n_estimators' : [1000,2000,3000]
+
+
+        }
+
 def main(**kwargs):
     best_roc, best_args = 0, None
     df_train, df_test = run(**kwargs)
     X_train, y_train, X_test, y_test = extract(df_train, df_test)
-    for args in iter_param_grid(xgbparams4):  # tried 5,6,7,8,9
+    for args in iter_param_grid(xgbparams7):  # tried 5,6,7,8,9
 
         classifier = make_pipeline(
            MinMaxScaler(),
@@ -107,6 +144,7 @@ def main(**kwargs):
             best_roc, best_args = rs, args
     print("=== BEST PARAMETERS ===")
     print(best_roc, best_args)
+    return classifier
 
 
 
@@ -131,5 +169,9 @@ if __name__ == "__main__":
 
    # main_old(print_info=False)
    #main(print_info=False)
-   main(print_info = False)
-   main(ds)
+   classifier = main(print_info = False)
+   df_train_all, df_hold = run(ds1='train_all', ds2='hold')
+   X_train, y_train, X_test, y_test = extract(df_train_all, df_hold )
+   y_pred = classifier.predict(X_test)
+   rs = roc_auc_score(y_test, y_pred)
+   print(rs)
