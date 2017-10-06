@@ -34,7 +34,7 @@ def get_classifier_xgboost():
 
 
 def get_best_xgboost():
-    return XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7)
+    return XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7, reg_alpha = 0.5)
 
 def get_gridsearch_xgboost():
     xgbparams = {
@@ -43,9 +43,13 @@ def get_gridsearch_xgboost():
         #'gamma': [0.38, 0.39, 0.4, 0.41, 0.42]
         #'subsample': [0.75,  0.775, 0.8, 0.825, 0.85],
         #'colsample_bytree': [0.65, 0.675, 0.7, 0.725, 0.75]
-        'reg_alpha': [0.1, 0.5 , 1, 5, 10]
+        #'reg_alpha': [0.1, 0.5 , 1, 5, 10]
+        #'reg_alpha': [0.1, 0.5 , 1, 5, 10]
+        'learning_rate' : [0.1 , 0.001, 0.0001],
+        'n_estimators': [400, 1500, 5000],
+
     }
-    gs = GridSearchCV(XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7), xgbparams,cv =5, scoring='roc_auc')
+    gs = GridSearchCV(XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7, reg_alpha = 0.5 ), xgbparams,cv =5, scoring='roc_auc', verbose = 10)
     return gs
 
 
