@@ -7,7 +7,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import cross_val_score
 from scripts.DA_model_extract import extract
 import sys
-
+#from scripts.eo_transport_data import run
 sys.path.append('..')
 import pandas as pd
 
@@ -27,17 +27,17 @@ def get_classifier_xgboost():
 
 
 def get_best_xgboost():
-    return XGBRegressor(max_depth=2, min_child_weight=2, gamma=0)
+    return XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7)
 
 def get_gridsearch_xgboost():
     xgbparams = {
-        # min_child_weight = (1,2,3)
-        # max_depth= (1,2,3)
-        #'gamma': [i / 10.0 for i in range(0, 5)]
-        'subsample': [i / 10.0 for i in range(6, 10)],
-        'colsample_bytree': [i / 10.0 for i in range(6, 10)]
+        #'min_child_weight' : [1,2,3,4,5],
+        #'max_depth' : [1,2,3,4,5]
+        #'gamma': [0.38, 0.39, 0.4, 0.41, 0.42]
+        'subsample': [0.75,  0.775, 0.8, 0.825, 0.85],
+        'colsample_bytree': [0.65, 0.675, 0.7, 0.725, 0.75]
     }
-    gs = GridSearchCV(XGBRegressor(max_depth=2, min_child_weight=2, gamma=0), xgbparams,cv =5, scoring='roc_auc')
+    gs = GridSearchCV(XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4), xgbparams,cv =5, scoring='roc_auc')
     return gs
 
 
@@ -63,8 +63,8 @@ def main():
 
     df_train = pd.read_csv('../data/train_ml.csv', parse_dates=True)
     df_test = pd.read_csv('../data/test_ml.csv', parse_dates=True)
-    #xgridboost = get_gridsearch_xgboost()
-    #test_with_classif(xgridboost , df_train, df_test)
+    xgridboost = get_gridsearch_xgboost()
+    test_with_classif(xgridboost , df_train, df_test)
     bestboost = get_best_xgboost()
 
     test_with_classif(bestboost , df_train, df_test)

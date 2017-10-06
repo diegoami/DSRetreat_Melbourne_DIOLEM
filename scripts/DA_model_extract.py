@@ -13,7 +13,7 @@ import pandas as pd
 
 
 def extract(df_train, df_test):
-    cat_columns = ['sponsor', 'grant_category']
+    cat_columns = ['sponsor', 'grant_category', 'Dept.No.', 'Faculty.No.']
     for cat_column in cat_columns:
         df_train[cat_column] = df_train[cat_column].astype('category')
         df_train[cat_column] = df_train[cat_column].cat.codes
