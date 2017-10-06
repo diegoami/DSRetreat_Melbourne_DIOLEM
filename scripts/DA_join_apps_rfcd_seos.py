@@ -107,8 +107,6 @@ def treat_date(main_table):
 
 
 def main(dataset='train'):
-
-    fill_nans =  True
     base = '../data/'
 
     seof = dataset + '_seo_mod.csv'
@@ -132,7 +130,7 @@ def main(dataset='train'):
     persond = pd.read_csv(os.path.join(base, persondf), parse_dates=['date'])
     persons = pd.read_csv(os.path.join(base, personsf))
     sucs = pd.read_csv(os.path.join(base, sucsf))
-
+    print(sucs.info())
     main_table = pd.read_csv(os.path.join(base, appsf), parse_dates=['date'])
     dates = main_table[['id','date']]
     person_agg = aggregate_people(role, persond, persons, dates)
@@ -154,6 +152,7 @@ def main(dataset='train'):
     #add success
     main_table = main_table.merge(sucs, on='id', how='left')
     if fill_nans:
+        print('Foo')
         main_table.fillna(0,inplace=True)
     # write to file
     main_table.to_csv(os.path.join(base,writefile), index=False)
