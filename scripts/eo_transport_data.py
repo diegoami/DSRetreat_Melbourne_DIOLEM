@@ -26,6 +26,9 @@ def treat_missing_columns(train,test):
 
     train.fillna(0, inplace=True)
     test.fillna(0, inplace=True)
+
+    train.sort_index(axis=1, inplace=True)
+    test.sort_index(axis=1, inplace=True)
     return train, test
 
 
@@ -44,8 +47,8 @@ def run(ds1='train',ds2='test'):
 
     train, test = treat_missing_columns(train, test)
 
-    train = train.drop('date', axis=1)
-    test = test.drop('date', axis=1)
+    # train = train.drop('date', axis=1)
+    # test = test.drop('date', axis=1)
     print(train.head(),test.head())
     return train, test
 
