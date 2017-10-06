@@ -92,6 +92,15 @@ def add_externals(main_table, ext):
     return main_table
 
 
+def treat_date(main_table):
+    # get the month
+    main_table['month'] = main_table['date'].dt.month
+
+    # get the timediff in days from 2005 - 01 - 01
+    main_table['date'] = (main_table['date'] - pd.Timestamp('2005-01-01')).dt.days
+    return main_table
+
+
 def main(dataset='train'):
     base = '../data/'
 
@@ -131,8 +140,9 @@ def main(dataset='train'):
     #add agg
     main_table = add_agg_people(main_table, person_agg)
 
+    main_table = treat_date(main_table)
     # write to file
-    main_table.to_csv(os.path.join(base,writefile))
+    main_table.to_csv(os.path.join(base,writefile), index=False)
     print(main_table.head())
     print('Complete table was written to {}'.format(writefile))
 
