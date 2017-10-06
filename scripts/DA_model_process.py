@@ -11,6 +11,7 @@ from scripts.eo_transport_data import run
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import Lasso
+from matplotlib import pyplot as plt
 
 def do_lasso(df_train, df_test):
     def get_best_lasso():
@@ -55,15 +56,23 @@ def do_rtree(df_train, df_test):
     return bestboost
 
 def do_xgboost(df_train, df_test):
-    def get_best_xgboost_first_iter():
-        return XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7,
-                            reg_alpha=0.5, learning_rate=0.1, n_estimators=500)
+    def get_best_xgboost1():
+        return XGBRegressor(min_child_weight=3, max_depth=4,  gamma=0.1, subsample=1, colsample_bytree=0.7,
+                            reg_alpha=0.5, learning_rate=0.1, n_estimators=2000)
 
-    def get_best_xgboost():
-        return XGBRegressor(max_depth=6, min_child_weight=7,  gamma=0.4, subsample=0.7, colsample_bytree = 0.5)
+    def get_best_xgboost2():
+        return XGBRegressor(min_child_weight=7, max_depth=6,
+                            gamma=0.4, subsample=0.7,
+                            colsample_bytree = 0.7, learning_rate=0.1, reg_alpha=0.9, n_estimators=2000)
 
-    def get_gridsearch_xgboost_manual():
-        pass
+    def get_best_xgboost3():
+        return XGBRegressor(max_depth=2, min_child_weight=2, gamma=0.8, subsample=0.4, colsample_bytree=0.7,
+                            learning_rate= 0.0095, reg_alpha=0.3, n_estimators=2000,scale_pos_weight=1)
+
+    def get_best_xgboost4():
+        return XGBRegressor(max_depth=2, min_child_weight=3, gamma=0.6, subsample=0.4, colsample_bytree=0.7,
+                            learning_rate=0.0095, reg_alpha=0.3, n_estimators=2000, scale_pos_weight=1)
+
     def get_gridsearch_xgboost():
         xgbparams = {
              #'min_child_weight' : [7,8,9],
@@ -80,13 +89,16 @@ def do_xgboost(df_train, df_test):
         return gs
 
 
-    xgridboost = get_gridsearch_xgboost()
-    test_with_classif(xgridboost , df_train, df_test)
-    bestboost = get_best_xgboost()
-    test_with_classif(bestboost, df_train, df_test)
-    series = pd.Series(bestboost.get_booster().get_fscore())
-    print(series.sort_values(ascending=False))
-    return bestboost
+    #xgridboost = get_gridsearch_xgboost()
+    #test_with_classif(xgridboost , df_train, df_test)
+    for bestboost in [
+        get_best_xgboost1(),
+        get_best_xgboost2(),
+        get_best_xgboost3(), get_best_xgboost4()]:
+        test_with_classif(bestboost, df_train, df_test)
+        series = pd.Series(bestboost.get_booster().get_fscore())
+        print(series.sort_values(ascending=False))
+        series.plot(kind='bar', title='Feature Importances')
 
     #test_with_classif(XGBRegressor(),xgbparams , df_train, df_test)
 def extract(df_train, df_test):
@@ -151,6 +163,10 @@ def main(**kwargs):
 
     #test_with_classifs(classifiers, df_train, df_test)
 if __name__ == "__main__":
-
+    print(" ===== RESULTS ON TEST ===========")
     main(ds1='train',ds2='test',print_info=False)
+    print(" ===== RESULTS ON HOLD ===========")
+
+    main(ds1='train_all', ds2='hold', print_info=False)
+
 
