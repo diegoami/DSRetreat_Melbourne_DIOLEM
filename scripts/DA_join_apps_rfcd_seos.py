@@ -139,4 +139,4 @@ def main(dataset='train'):
 
 if __name__ == '__main__':
     main()
-   # main(dataset='test')
+    main(dataset='test')
