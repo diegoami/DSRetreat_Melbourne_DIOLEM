@@ -72,7 +72,7 @@ def do_xgboost(df_train, df_test):
         }
         gs = GridSearchCV(
             XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7, reg_alpha=0.5,
-                         learning_rate=0.1, n_estimators=500), xgbparams, cv=5, scoring='roc_auc', verbose=10)
+                         learning_rate=0.1, n_estimators=500), xgbparams, cv=10, scoring='roc_auc', verbose=10)
         return gs
 
     #xgridboost = get_gridsearch_xgboost()
@@ -117,8 +117,10 @@ def test_with_classifs(classifiers, df_train, df_test):
 
     X_train, y_train, X_test, y_test  = extract(df_train, df_test)
     y_preds = [classifier.predict(X_test) for classifier in classifiers]
-    y_pred_concat = np.concatenate(y_preds)
-    y_pred_average = y_pred_concat.mean()
+    y_pred_concat = np.vstack(y_preds)
+    print(y_pred_concat.shape)
+    y_pred_average = y_pred_concat.T.mean(axis=1)
+    print(y_pred_average.shape, y_test.shape)
     print(roc_auc_score(y_test, y_pred_average))
 
 
@@ -127,12 +129,12 @@ def main(**kwargs):
 
     df_train, df_test = run(**kwargs)
     classifiers = [
-       # do_lasso(df_train, df_test),
+        do_lasso(df_train, df_test),
         do_xgboost(df_train, df_test),
-       # do_rtree(df_train, df_test)
+        do_rtree(df_train, df_test)
     ]
 
-    #test_with_classifs(classifiers, df_train, df_test)
+    test_with_classifs(classifiers, df_train, df_test)
 if __name__ == "__main__":
 
     main(print_info=False)
