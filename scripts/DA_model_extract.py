@@ -13,6 +13,23 @@ import pandas as pd
 
 
 def extract(df_train, df_test):
+    X_train = df_train
+    y_train = df_train[['granted']]
+    X_test = df_test
+    y_test = df_test[['granted']]
+    print(X_train.shape)
+    print(y_train.shape)
+    print(X_test.shape)
+    print(y_test.shape)
+
+    return X_train, y_train, X_test, y_test
+
+
+
+
+
+
+def extract_old(df_train, df_test):
     cat_columns = ['sponsor', 'grant_category', 'Dept.No.', 'Faculty.No.']
     for cat_column in cat_columns:
         df_train[cat_column] = df_train[cat_column].astype('category')
