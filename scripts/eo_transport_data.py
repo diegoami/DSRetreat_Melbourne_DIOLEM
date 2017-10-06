@@ -38,6 +38,7 @@ def run(ds1='train',ds2='test'):
     train = pd.read_csv(os.path.join(base, trainf), low_memory=False, parse_dates=['date'])
     test = pd.read_csv(os.path.join(base, testf), low_memory=False, parse_dates=['date'])
     print(train.head(),test.head())
+
     train = set_categories(train,cat_list)
     test = set_categories(test, cat_list)
 
