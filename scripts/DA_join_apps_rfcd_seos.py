@@ -109,6 +109,7 @@ def main(dataset='train'):
     rfcdf = dataset + '_rfcd_mod.csv'
     appsf = dataset + '_apps_mod.csv'
     extf   = dataset + '_externals_raw.csv'
+    sucsf = dataset + '_success_features.csv'
 
     rolef = dataset +'_role_mod.csv'
     persondf = dataset + '_person_dyn_mod.csv'
@@ -124,6 +125,7 @@ def main(dataset='train'):
     role = pd.read_csv(os.path.join(base, rolef))
     persond = pd.read_csv(os.path.join(base, persondf), parse_dates=['date'])
     persons = pd.read_csv(os.path.join(base, personsf))
+    sucs = pd.read_csv(os.path.join(base, sucsf))
 
     main_table = pd.read_csv(os.path.join(base, appsf), parse_dates=['date'])
     dates = main_table[['id','date']]
@@ -142,6 +144,10 @@ def main(dataset='train'):
     main_table = add_agg_people(main_table, person_agg)
 
     main_table = treat_date(main_table)
+
+    #add success
+    main_table = main_table.merge(sucs, on='id', how='left')
+    main_table.fillna(0,inplace=True)
     # write to file
     main_table.to_csv(os.path.join(base,writefile), index=False)
     print(main_table.info())

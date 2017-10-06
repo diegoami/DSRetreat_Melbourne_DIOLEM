@@ -10,6 +10,7 @@ from scripts.DA_Melt_Rfcd import generate_rfcd_files_raw  as rfcd_raw_process
 from scripts.DA_Melt_SEO import generate_seo_files_mod  as seo_mod_process
 from scripts.DA_Melt_SEO import generate_seo_files_raw  as seo_raw_process
 from scripts.e_mod_roles import process  as role_mod_process
+from scripts.e_generate_success_features import process as suc_process
 
 
 
@@ -57,6 +58,10 @@ def main():
     #add generation of SEO_mod
     seo_mod_process(trainf)
     seo_mod_process(testf)
+
+    #add success rate
+    suc_process(trainf)
+    suc_process(testf, merge_with = trainf)
 
     print('Finished generating all raw and mod tables !!!')
 

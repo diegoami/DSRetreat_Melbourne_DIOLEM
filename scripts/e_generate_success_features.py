@@ -54,10 +54,15 @@ def gen_filter_numeric(df_main, col_name):
     return df_filter
 
 
-def process(input_type):
+def process(input_type, merge_with = None):
     # we also need the combination (id,date)
     df_main = pd.read_csv('../data/' + input_type + '.csv', low_memory=False, parse_dates=['date'])
     df_roles = pd.read_csv('../data/' + input_type + '_role_mod.csv', low_memory=False)
+
+    if merge_with:
+        keep_key = df_main.loc[:,['id']].drop_duplicates()
+        df_main.append(pd.read_csv( '../data/'+ merge_with + '.csv',low_memory=False, parse_dates=['date']))
+        df_roles.append(pd.read_csv('../data/' + merge_with + '_role_mod.csv', low_memory=False))
 
     #we create an df that has only the id coloumn
     df_out = df_main.loc[:,['id']]
@@ -101,6 +106,9 @@ def process(input_type):
     tmp_res = gen_s(df_filter, df_roles, df_main)
     tmp_res.columns = ['grant_category' + '_' + x if x != 'id' else x for x in tmp_res.columns]
     df_out = df_out.merge(tmp_res, how='left', on='id')
+
+    if merge_with:
+        df_out.merge(keep_key, how='inner', on=['id'])
 
     filename = '../data/' + input_type + '_success_features.csv'
     df_out.to_csv(filename, index=False)
