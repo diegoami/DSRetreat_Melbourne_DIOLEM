@@ -8,7 +8,8 @@ def fix():
 
 def set_categories(data, cat_list):
     for l in cat_list:
-        data[l] = data[l].astype('category')
+        # print(l)
+        data[l] = pd.Categorical(data[l])
         data[l] = data[l].cat.codes
     return data
 
@@ -38,9 +39,9 @@ def run(ds1='train',ds2='test'):
     trainf = ds1+ '_ml.csv'
     testf =  ds2+ '_ml.csv'
 
-    train = pd.read_csv(os.path.join(base, trainf), low_memory=False, parse_dates=['date'])
-    test = pd.read_csv(os.path.join(base, testf), low_memory=False, parse_dates=['date'])
-    print(train.head(),test.head())
+    train = pd.read_csv(os.path.join(base, trainf), low_memory=False)
+    test = pd.read_csv(os.path.join(base, testf), low_memory=False)
+    # print(train.head(),test.head())
 
     train = set_categories(train,cat_list)
     test = set_categories(test, cat_list)
@@ -49,7 +50,7 @@ def run(ds1='train',ds2='test'):
 
     # train = train.drop('date', axis=1)
     # test = test.drop('date', axis=1)
-    print(train.head(),test.head())
+    print(train.info())
     return train, test
 
 

@@ -94,10 +94,11 @@ def add_externals(main_table, ext):
 
 def treat_date(main_table):
     # get the month
-    main_table['month'] = main_table['date'].dt.month
+    main_table['month'] = main_table['date'].dt.month.astype(int)
 
     # get the timediff in days from 2005 - 01 - 01
     main_table['date'] = (main_table['date'] - pd.Timestamp('2005-01-01')).dt.days
+    main_table['date'] = main_table['date'].astype(int)
     return main_table
 
 
@@ -143,7 +144,7 @@ def main(dataset='train'):
     main_table = treat_date(main_table)
     # write to file
     main_table.to_csv(os.path.join(base,writefile), index=False)
-    print(main_table.head())
+    print(main_table.info())
     print('Complete table was written to {}'.format(writefile))
 
 

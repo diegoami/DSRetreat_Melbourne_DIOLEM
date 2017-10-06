@@ -5,13 +5,20 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import cross_val_score
-from scripts.DA_model_extract import extract, extract_old
+# from scripts.DA_model_extract import extract, extract_old
 import sys
 from scripts.eo_transport_data import run
 sys.path.append('..')
 import pandas as pd
 
+def extract(df_train, df_test):
 
+    y_train = df_train['granted']
+    y_test = df_test['granted']
+    X_train = df_train.drop(['granted', 'id'],axis=1)
+    X_test = df_test.drop(['granted', 'id'],axis=1)
+
+    return X_train, y_train, X_test, y_test
 
 def get_random_classifier():
     return RandomForestClassifier(n_estimators=200)
@@ -49,16 +56,16 @@ def print_best_parameters(classifier):
 
 
 def test_with_classif(classifier, df_train, df_test):
-    print(classifier)
-    X_train, y_train, X_test, y_test  = extract_old(df_train, df_test)
-
-
+    # print(classifier)
+    X_train, y_train, X_test, y_test  = extract(df_train, df_test)
+    # print(X_train.info())
+    # print(y_train.name)
     classifier.fit(X=X_train, y=y_train)
     y_pred = classifier.predict(X_test)
     print_best_parameters(classifier)
     print(roc_auc_score(y_test, y_pred))
     #scores = cross_val_score(classifier, X_train, y_train, cv=5)
-    #print(scores)
+    # print(scores)
 
 def main():
 
@@ -73,8 +80,8 @@ def main():
    # bestclassif = get_classifier_xgboost()
    # test_with_classif(bestclassif, df_train, df_test)
    # bestclassif.booster()
-    series = pd.Series(bestboost.get_booster().get_fscore())
-    print(series.sort_values(ascending=False))
+   #  series = pd.Series(bestboost.get_booster().get_fscore())
+   #  print(series.sort_values(ascending=False))
 
 
 if __name__ == "__main__":
