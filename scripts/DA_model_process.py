@@ -11,6 +11,58 @@ from scripts.eo_transport_data import run
 sys.path.append('..')
 import pandas as pd
 
+def do_rtree(df_train, df_test):
+    def get_best_rtree():
+        return RandomForestRegressor(min_samples_leaf=1,min_samples_split=26, n_estimators= 50)
+
+    def get_gridsearch_rtree():
+        rtparams = {
+            #"min_samples_leaf" : (1,2,3)
+            #"min_samples_split" : (20,22,24,26,28)
+            "n_estimators" : (10,50,100,500,1000)
+        }
+        rt = GridSearchCV(
+            RandomForestRegressor(min_samples_leaf=1,min_samples_split=26, n_estimators= 50) , rtparams, cv=5, scoring='roc_auc', verbose=10)
+        return rt
+
+    rtree = get_gridsearch_rtree()
+    test_with_classif(rtree, df_train, df_test)
+    bestboost = get_best_rtree()
+
+    test_with_classif(bestboost , df_train, df_test)
+    #series = pd.Series(bestboost.get_booster().get_fscore())
+    #print(series.sort_values(ascending=False))
+
+
+def do_xgboost(df_train, df_test):
+    def get_best_xgboost():
+        return XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7,
+                            reg_alpha=0.5, learning_rate=0.1, n_estimators=500)
+
+    def get_gridsearch_xgboost():
+        xgbparams = {
+            # 'min_child_weight' : [1,2,3,4,5],
+            # 'max_depth' : [1,2,3,4,5]
+            # 'gamma': [0.38, 0.39, 0.4, 0.41, 0.42]
+            # 'subsample': [0.75,  0.775, 0.8, 0.825, 0.85],
+            # 'colsample_bytree': [0.65, 0.675, 0.7, 0.725, 0.75]
+            # 'reg_alpha': [0.1, 0.5 , 1, 5, 10]
+            # 'learning_rate' : [0.1 , 0.001, 0.0001],
+            # 'n_estimators': [400, 1500, 5000],
+        }
+        gs = GridSearchCV(
+            XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7, reg_alpha=0.5,
+                         learning_rate=0.1, n_estimators=500), xgbparams, cv=5, scoring='roc_auc', verbose=10)
+        return gs
+
+    xgridboost = get_gridsearch_xgboost()
+    test_with_classif(xgridboost , df_train, df_test)
+    bestboost = get_best_xgboost()
+
+    test_with_classif(bestboost , df_train, df_test)
+    series = pd.Series(bestboost.get_booster().get_fscore())
+    print(series.sort_values(ascending=False))
+
 def extract(df_train, df_test):
 
     y_train = df_train['granted']
@@ -21,35 +73,6 @@ def extract(df_train, df_test):
     return X_train, y_train, X_test, y_test
 
 
-
-def get_random_classifier():
-    return RandomForestClassifier(n_estimators=200)
-
-
-def get_random_regressor():
-    return RandomForestRegressor(n_estimators=200)
-
-
-
-def get_classifier_xgboost():
-    return XGBClassifier(max_depth=2, min_child_weight=2, gamma=0),
-
-
-def get_best_xgboost():
-    return XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7)
-
-def get_gridsearch_xgboost():
-    xgbparams = {
-        #'min_child_weight' : [1,2,3,4,5],
-        #'max_depth' : [1,2,3,4,5]
-        #'gamma': [0.38, 0.39, 0.4, 0.41, 0.42]
-        'subsample': [0.75,  0.775, 0.8, 0.825, 0.85],
-        'colsample_bytree': [0.65, 0.675, 0.7, 0.725, 0.75]
-    }
-    gs = GridSearchCV(XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4), xgbparams,cv =5, scoring='roc_auc')
-    return gs
-
-
 def print_best_parameters(classifier):
     if hasattr(classifier, "best_estimator_"):
         best_parameters = classifier.best_estimator_.get_params()
@@ -58,32 +81,20 @@ def print_best_parameters(classifier):
 
 
 def test_with_classif(classifier, df_train, df_test):
-    # print(classifier)
+
     X_train, y_train, X_test, y_test  = extract(df_train, df_test)
-    # print(X_train.info())
-    # print(y_train.name)
     classifier.fit(X=X_train, y=y_train)
     y_pred = classifier.predict(X_test)
     print_best_parameters(classifier)
     print(roc_auc_score(y_test, y_pred))
-    #scores = cross_val_score(classifier, X_train, y_train, cv=5)
-    # print(scores)
 
-def main():
 
-    #df_train = pd.read_csv('../data/train_ml.csv', parse_dates=True)
-    #df_test = pd.read_csv('../data/test_ml.csv', parse_dates=True)
-    df_train, df_test = run()
-    xgridboost = get_gridsearch_xgboost()
-    test_with_classif(xgridboost , df_train, df_test)
-    bestboost = get_best_xgboost()
 
-    test_with_classif(bestboost , df_train, df_test)
-   # bestclassif = get_classifier_xgboost()
-   # test_with_classif(bestclassif, df_train, df_test)
-   # bestclassif.booster()
-   #  series = pd.Series(bestboost.get_booster().get_fscore())
-   #  print(series.sort_values(ascending=False))
+def main(**kwargs):
+
+    df_train, df_test = run(**kwargs)
+    do_xgboost(df_train, df_test)
+    do_rtree(df_train, df_test)
 
 
 if __name__ == "__main__":
