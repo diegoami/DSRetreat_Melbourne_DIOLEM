@@ -76,9 +76,9 @@ def main(**kwargs):
                   metrics=['acc'])
 
     model.fit(X_train, y_train,
-              epochs=100,
-              batch_size=32)
-    score = model.evaluate(X_test, y_test, batch_size=32)
+              epochs=200,
+              batch_size=256)
+    score = model.evaluate(X_test, y_test)
     print(score)
 
 
