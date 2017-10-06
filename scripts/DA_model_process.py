@@ -60,9 +60,10 @@ def do_xgboost(df_train, df_test):
                             reg_alpha=0.5, learning_rate=0.1, n_estimators=500)
 
     def get_best_xgboost():
-        return XGBRegressor(max_depth=4, min_child_weight=4, gamma=0.4, subsample=0.8, colsample_bytree=0.7,
-                            reg_alpha=0.5, learning_rate=0.1, n_estimators=500)
+        return XGBRegressor(max_depth=5, min_child_weight=5)
 
+    def get_gridsearch_xgboost_manual():
+        pass
     def get_gridsearch_xgboost():
         xgbparams = {
              'min_child_weight' : [1,2,3,4,5],
@@ -82,11 +83,15 @@ def do_xgboost(df_train, df_test):
     test_with_classif(xgridboost , df_train, df_test)
     bestboost = get_best_xgboost()
 
-    test_with_classif(bestboost , df_train, df_test)
     series = pd.Series(bestboost.get_booster().get_fscore())
     print(series.sort_values(ascending=False))
     return bestboost
+    xgbparams = {
+        'min_child_weight': [1, 2, 3, 4, 5],
+        'max_depth': [1, 2, 3, 4, 5]
+    }
 
+    #test_with_classif(XGBRegressor(),xgbparams , df_train, df_test)
 def extract(df_train, df_test):
 
     y_train = df_train['granted']
@@ -104,16 +109,26 @@ def print_best_parameters(classifier):
             print("\t%s: %r" % (param_name, best_parameters[param_name]))
 
 
+
+
 def test_with_classif(classifier, df_train, df_test):
 
     X_train, y_train, X_test, y_test  = extract(df_train, df_test)
     classifier.fit(X=X_train, y=y_train)
+
     y_pred = classifier.predict(X_test)
     print_best_parameters(classifier)
     print(roc_auc_score(y_test, y_pred))
     if (hasattr(classifier, "_coef")):
         coef = pd.Series(classifier.coef_, index=X_train.columns)
         print(coef)
+
+
+def test_with_classif_manual(classifier, parameters,df_train, df_test):
+
+    X_train, y_train, X_test, y_test  = extract(df_train, df_test)
+    #for 'min_child_weight' in [1, 2, 3, 4, 5]:
+    #print([score(y_test, roc_auc_score(**args).fit(X_train, y_train).predict(X_test)) for args in parameters])
 
 def test_with_classifs(classifiers, df_train, df_test):
 
