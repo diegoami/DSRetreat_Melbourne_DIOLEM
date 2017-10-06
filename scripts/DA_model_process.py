@@ -60,24 +60,25 @@ def do_xgboost(df_train, df_test):
                             reg_alpha=0.5, learning_rate=0.1, n_estimators=500)
 
     def get_best_xgboost():
-        return XGBRegressor(max_depth=5, min_child_weight=5)
+        return XGBRegressor(max_depth=6, min_child_weight=7,  gamma=0.4, subsample=0.7, colsample_bytree = 0.5)
 
     def get_gridsearch_xgboost_manual():
         pass
     def get_gridsearch_xgboost():
         xgbparams = {
-             'min_child_weight' : [5,6,7],
-             'max_depth' : [5,6,7]
-             #'gamma': [0.38, 0.39, 0.4, 0.41, 0.42]
-             #'subsample': [0.75,  0.775, 0.8, 0.825, 0.85],
-             #'colsample_bytree': [0.65, 0.675, 0.7, 0.725, 0.75]
-             #'reg_alpha': [0.1, 0.5 , 1, 5, 10]
+             #'min_child_weight' : [7,8,9],
+             #'max_depth' : [5,6,7]
+             #'gamma': [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+             #'subsample': [0.5,  0.6, 0.7, 0.8, 0.9, 1],
+             #'colsample_bytree': [0.5, 0.6, 0.7, 0.8, 0.9]
+             'reg_alpha': [0.1, 0.01 , 1, 10, 100]
              #'learning_rate' : [0.1 , 0.001, 0.0001],
              #'n_estimators': [400, 1500, 5000],
         }
         gs = GridSearchCV(
-            XGBRegressor(), xgbparams, cv=10, scoring='roc_auc', verbose=10)
+            XGBRegressor(max_depth=6, min_child_weight=7, gamma=0.4, subsample=0.7, colsample_bytree = 0.5), xgbparams, cv=5, scoring='roc_auc', verbose=10)
         return gs
+
 
     xgridboost = get_gridsearch_xgboost()
     test_with_classif(xgridboost , df_train, df_test)
@@ -152,3 +153,4 @@ def main(**kwargs):
 if __name__ == "__main__":
 
     main(ds1='train',ds2='test',print_info=False)
+
