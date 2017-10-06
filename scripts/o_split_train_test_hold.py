@@ -18,10 +18,9 @@ def main():
     ftest = 'training2_ids.csv'
     fhold = 'testing_ids.csv'
     savetrain = 'train.csv'
+    savetrain_all = 'train_all.csv'
     savetest = 'test.csv'
     savehold = 'hold.csv'
-
-
 
     df = pd.read_csv(os.path.join(base, fdata), low_memory=False)
     id_test = pd.read_csv(os.path.join(base, ftest), low_memory=False)
@@ -40,17 +39,25 @@ def main():
     #generate training (hold test removed)
     train = df.copy()
     drop_ids = np.r_[id_test.values.flatten(), id_hold.values.flatten()]
+    drop_ids_tt =  id_hold.values.flatten()
+
+    mask = train['id'].isin(drop_ids_tt)
+    train_all = train.copy()
+    train_all.drop(
+        (train_all.loc[mask, 'id']).index, axis=0,inplace = True)
+
     mask = train['id'].isin(drop_ids)
     train.drop(
         (train.loc[mask, 'id']).index, axis=0, inplace=True)
 
-    print('size of test data: {}\nsize of hold data: {}\nsize of train data: {}'.format(
-        test.shape, hold.shape, train.shape))
+    print('size of test data: {}\nsize of hold data: {}\n size of train data: {}\n size of train_all data:{}'.format(
+        test.shape, hold.shape, train.shape, train_all.shape))
 
     #Save everything
     base = '../data/'
 
     train.to_csv(os.path.join(base, savetrain), index=False)
+    train_all.to_csv(os.path.join(base, savetrain_all), index=False)
     test.to_csv(os.path.join(base, savetest), index=False)
     hold.to_csv(os.path.join(base, savehold), index=False)
 
