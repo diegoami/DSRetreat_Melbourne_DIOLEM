@@ -13,20 +13,32 @@ import pandas as pd
 
 
 
-
 def get_random_classifier():
     return RandomForestClassifier(n_estimators=200)
+
 
 def get_random_regressor():
     return RandomForestRegressor(n_estimators=200)
 
 
-def get_regressor_xgboost():
-    return XGBRegressor(max_depth=3, min_child_weight=1)
+
+def get_classifier_xgboost():
+    return XGBClassifier(max_depth=2, min_child_weight=2, gamma=0),
 
 
-def get_regressor_xgboost2():
-    return XGBRegressor(max_depth=5, min_child_weight=3)
+def get_best_xgboost():
+    return XGBRegressor(max_depth=2, min_child_weight=2, gamma=0)
+
+def get_gridsearch_xgboost():
+    xgbparams = {
+        # min_child_weight = (1,2,3)
+        # max_depth= (1,2,3)
+        #'gamma': [i / 10.0 for i in range(0, 5)]
+        'subsample': [i / 10.0 for i in range(6, 10)],
+        'colsample_bytree': [i / 10.0 for i in range(6, 10)]
+    }
+    gs = GridSearchCV(XGBRegressor(max_depth=2, min_child_weight=2, gamma=0), xgbparams,cv =5, scoring='roc_auc')
+    return gs
 
 
 def print_best_parameters(classifier):
@@ -42,18 +54,27 @@ def test_with_classif(classifier, df_train, df_test):
 
     classifier.fit(X=X_train, y=y_train)
     y_pred = classifier.predict(X_test)
-    # print(accuracy_score(y_test, y_pred))
     print_best_parameters(classifier)
     print(roc_auc_score(y_test, y_pred))
-    scores = cross_val_score(classifier, X_train, y_train, cv=5)
-    print(scores)
+    #scores = cross_val_score(classifier, X_train, y_train, cv=5)
+    #print(scores)
 
-if __name__ == "__main__":
+def main():
 
     df_train = pd.read_csv('../data/train_ml.csv', parse_dates=True)
     df_test = pd.read_csv('../data/test_ml.csv', parse_dates=True)
+    #xgridboost = get_gridsearch_xgboost()
+    #test_with_classif(xgridboost , df_train, df_test)
+    bestboost = get_best_xgboost()
 
-    test_with_classif(get_regressor_xgboost2(), df_train, df_test)
+    test_with_classif(bestboost , df_train, df_test)
+   # bestclassif = get_classifier_xgboost()
+   # test_with_classif(bestclassif, df_train, df_test)
+   # bestclassif.booster()
+    series = pd.Series(bestboost.get_booster().get_fscore())
+    print(series.sort_values(ascending=False))
 
-    test_with_classif(get_regressor_xgboost(),df_train, df_test)
-    test_with_classif(get_random_regressor(),df_train, df_test)
+
+if __name__ == "__main__":
+
+    main()
